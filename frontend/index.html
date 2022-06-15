@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Single Page App</title>
+    <link rel="stylesheet" href="static/css/index.css">
+</head>
+<body>
+    <nav class="nav">
+        <a href="/" class="nav__link" data-link>Главная</a>
+        <ul id="myUL">
+            <li><a href="/projects" class="caret" data-link>Проекты</a>
+                <ul class="nested">
+                    <li><a href="/project_1" class="nav__link" data-link>Проект №1</a></li>
+                    <li><a href="/project_2" class="nav__link" data-link>Проект №2</a></li>
+                </ul>
+            </li>
+            <li><a href="/samples" class="caret" data-link>Шаблоны</a>
+                <ul class="nested">
+                    <li><a href="/sample_1" class="nav__link" data-link>Шаблон №1</a></li>
+                    <li><a href="/sample_2" class="nav__link" data-link>Шаблон №2</a></li>
+                </ul>
+            </li>
+            <li><a href="/reports" class="caret" data-link>Отчёты</a>
+                <ul class="nested">
+                    <li><a href="/report_1" class="nav__link" data-link>Отчёт №1</a></li>
+                    <li><a href="/report_2" class="nav__link" data-link>Отчёт №2</a></li>
+                </ul>
+            </li>
+            <li><a href="/library" class="nav__link" data-link>Библиотека</a></li>
+            <li><a href="/different" class="nav__link" data-link>Разное</a></li>
+        </ul>
+
+    </nav>
+    <div id="app"></div>
+    <script type="module" src="static/js/index.js"></script>
+    <script>
+        var toggler = document.getElementsByClassName("caret");
+        var i;
+
+        for (i = 0; i < toggler.length; i++) {
+            toggler[i].addEventListener("click", function() {
+                this.parentElement.querySelector(".nested").classList.toggle("active");
+                this.classList.toggle("caret-down");
+            });
+        }
+    </script>
+
+</body>
+</html>
