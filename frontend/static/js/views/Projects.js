@@ -4,7 +4,7 @@ import AbstractView from "./AbstractView.js";
 export default class extends AbstractView {
     constructor(params) {
         super(params);
-        this.setTitle("Main");
+        this.setTitle("Projects");
     }
 
     async getHtml() {
@@ -15,12 +15,11 @@ export default class extends AbstractView {
 }
 
 *, *:before, *:after {
-  box-sizing: border-box;
+  box-sizing: inherit;
 }
 
-
 .carousel {
-  min-width: 400px;
+  min-width: 900px;
   max-width: 1236px;
   margin-left: auto;
   margin-right: auto;
@@ -248,38 +247,7 @@ export default class extends AbstractView {
   
 }
 
-
-.file-container{
-
-  color: #fff;
-  display: flex;
-  font-family: Helvetica;
-  font-weight: 30;
-  align-items: start;
-  justify-content: start;
-  text-transform: uppercase;
-  font-size: 13px;
-  width: 444px;
-  height: 69px;
-  background: #FFFFFF;
-  box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.03);
-  border-radius: 10px;
-  margin: 8px 15px 8px 20px;
-  gap: 21.48px;
-}
-
-.file-name{
-width: 189.31px;
-font-family: Helvetica;
-height: 22px;
-font-style: normal;
-font-size: 13px;
-line-height: 22px;
-color: #000000;
-
-}
-
-.link {
+.nav__link {
     display: block;
     padding: 12px 18px;
     text-decoration: none;
@@ -374,7 +342,7 @@ color: #000000;
 
 
 </style>
-         <h1> Экосистема офиса</h1>
+         
          <div class='demo-container'>
       <div class='carousel'>
         <input checked='checked' class='carousel__activator' id='carousel-slide-activator-1' name='carousel' type='radio'>
@@ -402,37 +370,37 @@ color: #000000;
           <div class='carousel__track'>
             <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
               <div class='demo-content'>
-                <a href="/" class="link" data-link>Главная</a>
+                <a href="/" class="nav__link" data-link>Главная</a>
               </div>
             </div>
             <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
-              <img src="sirius.jpg" alt="">
               <div class='demo-content'>
-                <a href="/projects" class="link" data-link>Проекты</a>
+              
+                <a href="/projects" class="nav__link" data-link>Проекты</a>
               </div>
             </div>
             <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
               <div class='demo-content' >
               
-                <a href="/samples" class="link" data-link>Шаблоны</a>
+                <a href="/samples" class="nav__link" data-link>Шаблоны</a>
               </div>
             </div>
             <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
               <div class='demo-content'>
               
-              <a href="/reports" class="link" data-link>Отчёты</a>   
+              <a href="/reports" class="nav__link" data-link>Отчёты</a>   
               </div>
             </div>
             <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
               <div class='demo-content'>
              
-                 <a href="/library" class="link" data-link>Библиотека</a>
+                 <a href="/library" class="nav__link" data-link>Библиотека</a>
               </div>
             </div>
             <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
               <div class='demo-content'>
                
-               <a href="/different" class="link" data-link>Разное</a>
+               <a href="/different" class="nav__link" data-link>Разное</a>
               </div>
             </div>
 <!--            <div class='carousel__item carousel__item&#45;&#45;mobile-in-1 carousel__item&#45;&#45;tablet-in-2 carousel__item&#45;&#45;desktop-in-3'>-->
@@ -443,31 +411,11 @@ color: #000000;
           </div>
         </div>
       </div>
-    </div>
-    
-    
-    <div class='files-container'>
-   <p>Файлы</p>
-   
-    <div class="file-container">
-    <img src="Property%201=DOC.png" alt="">
-   <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Файл №1</a>
-    </div>
-   
-   <div class="file-container">
-    <img src="LINK.png" alt="">
-   <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Файл №2</a>
-    </div>
-    
-    <div class="file-container">
-    <img src="PPTX.png" alt="">
-   <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Файл №3</a>
-    </div>
-   
-   
+      
     </div>
    
         `;
     }
 }
+
 
