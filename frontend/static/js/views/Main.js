@@ -19,6 +19,8 @@ export default class extends AbstractView {
 }
 
 
+
+
 .carousel {
   min-width: 400px;
   max-width: 1236px;
@@ -236,7 +238,7 @@ export default class extends AbstractView {
 .demo-content {
   color: #fff;
   display: flex;
-  font-family: Helvetica;
+  font-family: 'Quicksand', sans-serif;
   font-weight: 30;
   align-items: center;
   justify-content: center;
@@ -253,30 +255,78 @@ export default class extends AbstractView {
 
   color: #fff;
   display: flex;
-  font-family: Helvetica;
+  font-family: 'Quicksand', sans-serif;
   font-weight: 30;
-  align-items: start;
   justify-content: start;
   text-transform: uppercase;
   font-size: 13px;
-  width: 444px;
+  max-width: 444px;
+  min-width: 200px;
   height: 69px;
   background: #FFFFFF;
   box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.03);
   border-radius: 10px;
-  margin: 8px 15px 8px 20px;
+  margin: 8px 15px 8px 0px;
   gap: 21.48px;
+  align-items: flex-start;
 }
+
+.file-container-right{
+  color: #fff;
+  display: flex;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 30;
+  justify-content: start;
+  text-transform: uppercase;
+  font-size: 13px;
+  max-width: 444px;
+  min-width: 200px;
+  height: 69px;
+  background: #FFFFFF;
+  box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.03);
+  border-radius: 10px;
+  margin: 8px 15px 8px 0px;
+  gap: 21.48px;
+  align-items: flex-start;
+}
+
+
+
+.img{
+width: 28px;
+height: 29.75px;
+margin:18px 0px 15px 10px;
+
+}
+
+.column {
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    height: 300px; /* Should be removed. Only for demonstration */ 
+}
+
+/* Clear floats after the columns */
+.row:after {
+    box-sizing: border-box;
+    content: "";
+    display: table;
+    clear: both;
+}
+
 
 .file-name{
 width: 189.31px;
-font-family: Helvetica;
+font-family: 'Quicksand', sans-serif;
 height: 22px;
 font-style: normal;
 font-size: 13px;
 line-height: 22px;
 color: #000000;
-
+align-items: flex-start;
+margin:20px 10px 15px 0px;
+text-decoration: none;
+font-weight: 500;
 }
 
 .link {
@@ -446,26 +496,48 @@ color: #000000;
     </div>
     
     
-    <div class='files-container'>
-   <p>Файлы</p>
-   
+ <div class='files-container'>
+    <p style="font-style: normal; font-weight: 700; font-size: 24px; line-height: 29px; color: #000000;">Файлы</p>
+<div class="row">
+
+  <div class="column">
     <div class="file-container">
-    <img src="Property%201=DOC.png" alt="">
-   <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Файл №1</a>
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=DOC.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Файл №1</a>
     </div>
    
-   <div class="file-container">
-    <img src="LINK.png" alt="">
-   <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Файл №2</a>
+    <div class="file-container">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/LINK.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Файл №2</a>
     </div>
     
     <div class="file-container">
-    <img src="PPTX.png" alt="">
-   <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Файл №3</a>
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/PPTX.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Файл №3</a>
+    </div>
+  </div>
+  
+  
+  <div class="column">
+    <div class="file-container-right">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=DOC.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Файл №4</a>
     </div>
    
-   
+    <div class="file-container-right">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/LINK.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Файл №5</a>
     </div>
+    
+    <div class="file-container-right">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/PPTX.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Файл №6</a>
+    </div>
+  </div>
+  
+</div>
+   
+ </div>
    
         `;
     }
