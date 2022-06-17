@@ -1,16 +1,13 @@
 import AbstractView from "./AbstractView.js";
-
-
 export default class extends AbstractView {
     constructor(params) {
         super(params);
-        this.setTitle("Projects");
+        this.setTitle("Reports");
     }
 
     async getHtml() {
         return `
-       
-                <style>
+         <style>
          html {
   box-sizing: border-box;
 }
@@ -18,9 +15,6 @@ export default class extends AbstractView {
 *, *:before, *:after {
   box-sizing: border-box;
 }
-
-
-
 
 .carousel {
   min-width: 400px;
@@ -403,6 +397,9 @@ font-weight: 500;
   .carousel__item--tablet-in-3 {
     width: 30%;
   }
+    .demo-content {
+  height: 150px;
+}
 }
 @media screen and (max-width: 650px) {
   .carousel__track {
@@ -421,11 +418,15 @@ font-weight: 500;
   .carousel__item--mobile-in-3 {
     width: 30%;
   }
+  
+  .demo-content {
+  height: 150px;
 }
 
-
+  
+}
 </style>
-         <h1> Проекты</h1>
+         <h1> Отчёты</h1>
          <div class='demo-container'>
       <div class='carousel'>
         <input checked='checked' class='carousel__activator' id='carousel-slide-activator-1' name='carousel' type='radio'>
@@ -540,9 +541,6 @@ font-weight: 500;
    
  </div>
    
-       
         `;
     }
 }
-
-

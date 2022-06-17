@@ -1,6 +1,4 @@
 import AbstractView from "./AbstractView.js";
-
-
 export default class extends AbstractView {
     constructor(params) {
         super(params);
@@ -17,9 +15,6 @@ export default class extends AbstractView {
 *, *:before, *:after {
   box-sizing: border-box;
 }
-
-
-
 
 .carousel {
   min-width: 400px;
@@ -402,6 +397,9 @@ font-weight: 500;
   .carousel__item--tablet-in-3 {
     width: 30%;
   }
+    .demo-content {
+  height: 150px;
+}
 }
 @media screen and (max-width: 650px) {
   .carousel__track {
@@ -420,9 +418,13 @@ font-weight: 500;
   .carousel__item--mobile-in-3 {
     width: 30%;
   }
+  
+  .demo-content {
+  height: 150px;
 }
 
-
+  
+}
 </style>
          <h1> Экосистема офиса</h1>
          <div class='demo-container'>
@@ -452,6 +454,7 @@ font-weight: 500;
           <div class='carousel__track'>
             <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
               <div class='demo-content'>
+              
                 <a href="/" class="link" data-link>Главная</a>
               </div>
             </div>

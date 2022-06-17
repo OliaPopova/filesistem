@@ -8,18 +8,20 @@ export default class extends AbstractView {
 
     async getHtml() {
         return `
-         
-         <style>
+                  <style>
          html {
   box-sizing: border-box;
 }
 
 *, *:before, *:after {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
+
+
+
 .carousel {
-  min-width: 900px;
+  min-width: 400px;
   max-width: 1236px;
   margin-left: auto;
   margin-right: auto;
@@ -235,43 +237,131 @@ export default class extends AbstractView {
 .demo-content {
   color: #fff;
   display: flex;
-  font-family: Helvetica;
-  font-weight: 100;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 30;
   align-items: center;
   justify-content: center;
   text-transform: uppercase;
-  border-radius: 3px;
-  font-size: 56px;
+  border-radius: 11px;
+  font-size: 13px;
   height: 250px;
   width: 100%;
+  
+}
+
+
+.file-container{
+
+  color: #fff;
+  display: flex;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 30;
+  justify-content: start;
+  text-transform: uppercase;
+  font-size: 13px;
+  max-width: 444px;
+  min-width: 200px;
+  height: 69px;
+  background: #FFFFFF;
+  box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.03);
+  border-radius: 10px;
+  margin: 8px 15px 8px 0px;
+  gap: 21.48px;
+  align-items: flex-start;
+}
+
+.file-container-right{
+  color: #fff;
+  display: flex;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 30;
+  justify-content: start;
+  text-transform: uppercase;
+  font-size: 13px;
+  max-width: 444px;
+  min-width: 200px;
+  height: 69px;
+  background: #FFFFFF;
+  box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.03);
+  border-radius: 10px;
+  margin: 8px 15px 8px 0px;
+  gap: 21.48px;
+  align-items: flex-start;
+}
+
+
+
+.img{
+width: 28px;
+height: 29.75px;
+margin:18px 0px 15px 10px;
+
+}
+
+.column {
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    height: 300px; /* Should be removed. Only for demonstration */ 
+}
+
+/* Clear floats after the columns */
+.row:after {
+    box-sizing: border-box;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.file-name{
+width: 189.31px;
+font-family: 'Quicksand', sans-serif;
+height: 22px;
+font-style: normal;
+font-size: 13px;
+line-height: 22px;
+color: #000000;
+align-items: flex-start;
+margin:20px 10px 15px 0px;
+text-decoration: none;
+font-weight: 500;
+}
+
+.link {
+    display: block;
+    padding: 12px 18px;
+    text-decoration: none;
+    color: #7A7A7A;
+    font-weight: 500;
 }
 
 .carousel__item:nth-child(1) .demo-content {
-  background-color: #216485;
+  background: linear-gradient(72.92deg, rgba(240, 84, 84, 0.75) 11.68%, rgba(88, 104, 160, 0.75) 96%);
 }
 
 .carousel__item:nth-child(2) .demo-content {
-  background-color: #3692b6;
+  background: linear-gradient(72.92deg, rgba(240, 84, 84, 0.75) 11.68%, rgba(88, 104, 160, 0.75) 96%);
 }
 
 .carousel__item:nth-child(3) .demo-content {
-  background-color: #6fccc9;
+  background: linear-gradient(72.92deg, rgba(240, 84, 84, 0.75) 11.68%, rgba(88, 104, 160, 0.75) 96%);
 }
 
 .carousel__item:nth-child(4) .demo-content {
-  background-color: #a6e3cf;
+  background: linear-gradient(72.92deg, rgba(240, 84, 84, 0.75) 11.68%, rgba(88, 104, 160, 0.75) 96%);
 }
 
 .carousel__item:nth-child(5) .demo-content {
-  background-color: #aff0be;
+  background: linear-gradient(72.92deg, rgba(240, 84, 84, 0.75) 11.68%, rgba(88, 104, 160, 0.75) 96%);
 }
 
 .carousel__item:nth-child(6) .demo-content {
-  background-color: #527059;
+  background: linear-gradient(72.92deg, rgba(240, 84, 84, 0.75) 11.68%, rgba(88, 104, 160, 0.75) 96%);
 }
 
 .carousel__item:nth-child(7) .demo-content {
-  background-color: #243127;
+  background: linear-gradient(72.92deg, rgba(240, 84, 84, 0.75) 11.68%, rgba(88, 104, 160, 0.75) 96%);
 }
 
 @media screen and (max-width: 1023px) {
@@ -331,8 +421,9 @@ export default class extends AbstractView {
   }
 }
 
+
 </style>
-         
+         <h1> Разное</h1>
          <div class='demo-container'>
       <div class='carousel'>
         <input checked='checked' class='carousel__activator' id='carousel-slide-activator-1' name='carousel' type='radio'>
@@ -340,65 +431,113 @@ export default class extends AbstractView {
         <input class='carousel__activator' id='carousel-slide-activator-3' name='carousel' type='radio'>
         <div class='carousel__controls'>
           <label class='carousel__control carousel__control--forward' for='carousel-slide-activator-2'>
-            👉
+            ▶
           </label>
         </div>
         <div class='carousel__controls'>
           <label class='carousel__control carousel__control--backward' for='carousel-slide-activator-1'>
-            👈
+           ◀
           </label>
           <label class='carousel__control carousel__control--forward' for='carousel-slide-activator-3'>
-            👉
+            ▶
           </label>
         </div>
         <div class='carousel__controls'>
           <label class='carousel__control carousel__control--backward' for='carousel-slide-activator-2'>
-            👈
+            ◀
           </label>
         </div>
         <div class='carousel__screen'>
           <div class='carousel__track'>
             <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
               <div class='demo-content'>
-                a
+                <a href="/" class="link" data-link>Главная</a>
+              </div>
+            </div>
+            <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
+              <img src="sirius.jpg" alt="">
+              <div class='demo-content'>
+                <a href="/projects" class="link" data-link>Проекты</a>
+              </div>
+            </div>
+            <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
+              <div class='demo-content' >
+              
+                <a href="/samples" class="link" data-link>Шаблоны</a>
               </div>
             </div>
             <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
               <div class='demo-content'>
-                b
+              
+              <a href="/reports" class="link" data-link>Отчёты</a>   
               </div>
             </div>
             <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
               <div class='demo-content'>
-                c
+             
+                 <a href="/library" class="link" data-link>Библиотека</a>
               </div>
             </div>
             <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
               <div class='demo-content'>
-                d
+               
+               <a href="/different" class="link" data-link>Разное</a>
               </div>
             </div>
-            <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
-              <div class='demo-content'>
-                e
-              </div>
-            </div>
-            <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
-              <div class='demo-content'>
-                f
-              </div>
-            </div>
-            <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
-              <div class='demo-content'>
-                <li><a href="/different" class="nav__link" data-link>Разное</a></li>
-              </div>
-            </div>
+<!--            <div class='carousel__item carousel__item&#45;&#45;mobile-in-1 carousel__item&#45;&#45;tablet-in-2 carousel__item&#45;&#45;desktop-in-3'>-->
+<!--              <div class='demo-content'>-->
+<!--     можно добавить слайдеры           -->
+<!--              </div>-->
+<!--            </div>-->
           </div>
         </div>
       </div>
     </div>
-         
-         
+    
+    
+ <div class='files-container'>
+    <p style="font-style: normal; font-weight: 700; font-size: 24px; line-height: 29px; color: #000000;">Файлы</p>
+<div class="row">
+
+  <div class="column">
+    <div class="file-container">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=DOC.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Файл №1</a>
+    </div>
+   
+    <div class="file-container">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/LINK.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Файл №2</a>
+    </div>
+    
+    <div class="file-container">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/PPTX.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Файл №3</a>
+    </div>
+  </div>
+  
+  
+  <div class="column">
+    <div class="file-container-right">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=DOC.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Файл №4</a>
+    </div>
+   
+    <div class="file-container-right">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/LINK.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Файл №5</a>
+    </div>
+    
+    <div class="file-container-right">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/PPTX.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Файл №6</a>
+    </div>
+  </div>
+  
+</div>
+   
+ </div>
+       
         `;
     }
 }
