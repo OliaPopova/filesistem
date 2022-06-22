@@ -1,4 +1,8 @@
 
+#myUL-right{
+    display: none;
+}
+
 body {
     --nav-width: 200px;
     margin: 0 0 0 var(--nav-width);
@@ -25,12 +29,6 @@ body {
     font-weight: 500;
 }
 
-
-
-
-#myUL-right{
-    display: none;
-}
 
 .nav__link:hover {
     background: #E2EAFF;
@@ -140,7 +138,7 @@ transform: rotate(90deg);
         user-select: none;
     }
 
-    .caret-right ::before {
+    .caret-right::before {
         content: "\25B6";
         color: #7A7A7A;
         display: inline-block;
@@ -149,8 +147,8 @@ transform: rotate(90deg);
 
     .caret-right-down::before {
         -ms-transform: rotate(90deg); /* IE 9 */
-        -webkit-transform: rotate(90deg); /* Safari */
-    ' transform: rotate(90 deg);
+        -webkit-transform: rotate(90deg); /* Safari */'
+    transform: rotate(90deg);
     }
 
     /**
