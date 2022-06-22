@@ -40,11 +40,9 @@
 
 
 
-<nav class="nav-left">
-    <label for="nav-toggle" class="nav-toggle" onclick></label>
-
-    <ul id="myUL-left">
-        <li><a href="/" class="nav__link" data-link>Главная</a></li>
+<nav class="nav">
+    <a href="/" class="nav__link" data-link>Главная</a>
+    <ul id="myUL">
         <li><a href="/projects" class="caret" data-link>Проекты</a>
             <ul class="nested">
                 <li><a href="/project_1" class="nav__link" data-link>Проект №1</a></li>
@@ -68,21 +66,20 @@
     </ul>
 
 </nav>
+<div id="app"></div>
+<script type="module" src="static/js/index.js"></script>
+<script>
+    var toggler = document.getElementsByClassName("caret");
+    var i;
 
+    for (i = 0; i < toggler.length; i++) {
+        toggler[i].addEventListener("click", function() {
+            this.parentElement.querySelector(".nested").classList.toggle("active");
+            this.classList.toggle("caret-down");
+        });
+    }
+</script>
 
-    <div id="app"></div>
-    <script type="module" src="static/js/index.js"></script>
-    <script>
-        var toggler = document.getElementsByClassName("caret");
-        var i;
-
-        for (i = 0; i < toggler.length; i++) {
-            toggler[i].addEventListener("click", function() {
-                this.parentElement.querySelector(".nested").classList.toggle("active");
-                this.classList.toggle("caret-down");
-            });
-        }
-    </script>
     <script>
 
         var toggler = document.getElementsByClassName("caret-right");
