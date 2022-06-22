@@ -233,6 +233,7 @@ export default class extends AbstractView {
 .demo-content {
   color: #fff;
   display: flex;
+  position: relative;
   font-family: 'Quicksand', sans-serif;
   font-weight: 30;
   align-items: center;
@@ -242,6 +243,7 @@ export default class extends AbstractView {
   font-size: 13px;
   height: 250px;
   width: 100%;
+  
   
 }
 
@@ -330,6 +332,9 @@ font-weight: 500;
     text-decoration: none;
     color: #7A7A7A;
     font-weight: 500;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
 }
 
 .carousel__item:nth-child(1) .demo-content {
@@ -401,7 +406,7 @@ font-weight: 500;
   height: 150px;
 }
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 600px) {
   .carousel__track {
     padding-left: 0;
     padding-right: 0;
@@ -421,6 +426,9 @@ font-weight: 500;
   
   .demo-content {
   height: 150px;
+  
+  
+  
 }
 
   
@@ -459,8 +467,8 @@ font-weight: 500;
               </div>
             </div>
             <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
-              <img src="sirius.jpg" alt="">
               <div class='demo-content'>
+<!--                <img src="https://github.com/OliaPopova/filesistem/blob/main/Sirius.png?raw=true" alt="" style="">-->
                 <a href="/projects" class="link" data-link>Проекты</a>
               </div>
             </div>

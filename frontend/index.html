@@ -8,32 +8,68 @@
     <link rel="stylesheet" href="static/css/index.css">
 </head>
 <body>
-    <nav class="nav">
-        <a href="/" class="nav__link" data-link>Главная</a>
-        <ul id="myUL">
-            <li><a href="/projects" class="caret" data-link>Проекты</a>
+<input type="checkbox" id="nav-toggle" hidden>
+    <nav class="nav-right">
+        <label for="nav-toggle" class="nav-toggle" onclick></label>
+        <ul id="myUL-right">
+            <li><a href="/" class="nav__link-right" data-link>Главная</a></li>
+            <li><a href="/projects" class="caret-right" data-link>Проекты</a>
                 <ul class="nested">
-                    <li><a href="/project_1" class="nav__link" data-link>Проект №1</a></li>
-                    <li><a href="/project_2" class="nav__link" data-link>Проект №2</a></li>
+                    <li><a href="/project_1" class="nav__link-right" data-link>Проект №1</a></li>
+                    <li><a href="/project_2" class="nav__link-right" data-link>Проект №2</a></li>
                 </ul>
             </li>
-            <li><a href="/samples" class="caret" data-link>Шаблоны</a>
+            <li><a href="/samples" class="caret-right" data-link>Шаблоны</a>
                 <ul class="nested">
-                    <li><a href="/sample_1" class="nav__link" data-link>Шаблон №1</a></li>
-                    <li><a href="/sample_2" class="nav__link" data-link>Шаблон №2</a></li>
+                    <li><a href="/sample_1" class="nav__link-right" data-link>Шаблон №1</a></li>
+                    <li><a href="/sample_2" class="nav__link-right" data-link>Шаблон №2</a></li>
                 </ul>
             </li>
-            <li><a href="/reports" class="caret" data-link>Отчёты</a>
+            <li><a href="/reports" class="caret-right" data-link>Отчёты</a>
                 <ul class="nested">
-                    <li><a href="/report_1" class="nav__link" data-link>Отчёт №1</a></li>
-                    <li><a href="/report_2" class="nav__link" data-link>Отчёт №2</a></li>
+                    <li><a href="/report_1" class="nav__link-right" data-link>Отчёт №1</a></li>
+                    <li><a href="/report_2" class="nav__link-right" data-link>Отчёт №2</a></li>
                 </ul>
             </li>
-            <li><a href="/library" class="nav__link" data-link>Библиотека</a></li>
-            <li><a href="/different" class="nav__link" data-link>Разное</a></li>
+            <li><a href="/library" class="nav__link-right" data-link>Библиотека</a></li>
+            <li><a href="/different" class="nav__link-right" data-link>Разное</a></li>
         </ul>
-
     </nav>
+    <div class="mask-content"></div>
+
+
+
+
+<nav class="nav-left">
+    <label for="nav-toggle" class="nav-toggle" onclick></label>
+
+    <ul id="myUL-left">
+        <li><a href="/" class="nav__link" data-link>Главная</a></li>
+        <li><a href="/projects" class="caret" data-link>Проекты</a>
+            <ul class="nested">
+                <li><a href="/project_1" class="nav__link" data-link>Проект №1</a></li>
+                <li><a href="/project_2" class="nav__link" data-link>Проект №2</a></li>
+            </ul>
+        </li>
+        <li><a href="/samples" class="caret" data-link>Шаблоны</a>
+            <ul class="nested">
+                <li><a href="/sample_1" class="nav__link" data-link>Шаблон №1</a></li>
+                <li><a href="/sample_2" class="nav__link" data-link>Шаблон №2</a></li>
+            </ul>
+        </li>
+        <li><a href="/reports" class="caret" data-link>Отчёты</a>
+            <ul class="nested">
+                <li><a href="/report_1" class="nav__link" data-link>Отчёт №1</a></li>
+                <li><a href="/report_2" class="nav__link" data-link>Отчёт №2</a></li>
+            </ul>
+        </li>
+        <li><a href="/library" class="nav__link" data-link>Библиотека</a></li>
+        <li><a href="/different" class="nav__link" data-link>Разное</a></li>
+    </ul>
+
+</nav>
+
+
     <div id="app"></div>
     <script type="module" src="static/js/index.js"></script>
     <script>
@@ -44,6 +80,18 @@
             toggler[i].addEventListener("click", function() {
                 this.parentElement.querySelector(".nested").classList.toggle("active");
                 this.classList.toggle("caret-down");
+            });
+        }
+    </script>
+    <script>
+
+        var toggler = document.getElementsByClassName("caret-right");
+        var i;
+
+        for (i = 0; i < toggler.length; i++) {
+            toggler[i].addEventListener("click", function() {
+                this.parentElement.querySelector(".nested").classList.toggle("active");
+                this.classList.toggle("caret-right-down");
             });
         }
     </script>
