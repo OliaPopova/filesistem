@@ -206,6 +206,7 @@ export default class extends AbstractView {
   padding-right: 16px;
   vertical-align: top;
   white-space: normal;
+  box-sizing: border-box;
 }
 
 .carousel__item--desktop-in-1 {
@@ -218,6 +219,7 @@ export default class extends AbstractView {
 
 .carousel__item--desktop-in-3 {
   width: 33.3333333333%;
+  
 }
 
 .carousel__item--desktop-in-4 {
@@ -243,7 +245,7 @@ export default class extends AbstractView {
   font-size: 13px;
   height: 250px;
   width: 100%;
-  
+  box-sizing: border-box;
   
 }
 
@@ -387,8 +389,8 @@ font-weight: 500;
   .carousel__track {
     overflow-x: auto;
     width: auto;
-    padding-left: 48px;
-    padding-right: 48px;
+    /*padding-left: 48px;*/
+    /*padding-right: 48px;*/
   }
 
   .carousel__item--tablet-in-1 {
@@ -403,7 +405,8 @@ font-weight: 500;
     width: 30%;
   }
     .demo-content {
-  height: 150px;
+  height: 200px;
+  width: 90%;
 }
 }
 @media screen and (max-width: 600px) {
@@ -413,7 +416,7 @@ font-weight: 500;
   }
 
   .carousel__item--mobile-in-1 {
-    width: 90%;
+    width: 50%;
   }
 
   .carousel__item--mobile-in-2 {
@@ -426,9 +429,8 @@ font-weight: 500;
   
   .demo-content {
   height: 150px;
-  
-  
-  
+  width: 85%;
+    
 }
 
   
@@ -496,6 +498,16 @@ font-weight: 500;
                <a href="/different" class="link" data-link>Разное</a>
               </div>
             </div>
+            
+            <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
+              <div class='demo-content'>
+               
+               <a href="/№" class="link" data-link>Документы</a>
+              </div>
+            </div>
+            
+            
+            
 <!--            <div class='carousel__item carousel__item&#45;&#45;mobile-in-1 carousel__item&#45;&#45;tablet-in-2 carousel__item&#45;&#45;desktop-in-3'>-->
 <!--              <div class='demo-content'>-->
 <!--     можно добавить слайдеры           -->
