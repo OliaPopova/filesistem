@@ -1,4 +1,19 @@
 
+#myUL-right{
+    display: none;
+}
+
+.img-icon{
+    width: 12.8px;
+    height: 16px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    z-index: 0;
+    margin: 4px 3px 0 2px;
+}
+
+
 body {
     --nav-width: 200px;
     margin: 0 0 0 var(--nav-width);
@@ -26,13 +41,11 @@ body {
 }
 
 
-
-
-#myUL-right{
-    display: none;
+.nav__link:hover {
+    background: #E2EAFF;
 }
 
-.nav__link:hover {
+.caret:hover {
     background: #E2EAFF;
 }
 
@@ -75,17 +88,11 @@ ul, #myUL {
 }
 
 .caret::before {
-    content: "\25B6";
     color: #7A7A7A;
     display: inline-block;
     margin-right: 6px;
 }
 
-.caret-down::before {
-    -ms-transform: rotate(90deg); /* IE 9 */
-    -webkit-transform: rotate(90deg); /* Safari */'
-transform: rotate(90deg);
-}
 
 .nested {
     display: none;
@@ -98,13 +105,18 @@ transform: rotate(90deg);
 
 @media screen and (max-width: 480px) {
 
+    #myUL-right {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    ul, #myUL-right {
+        list-style-type: none;
+    }
     .nav {
         display: none;
     }
 
-    #myUL-right{
-        display: block;
-    }
 
     .nav__link-right {
         display: block;
@@ -140,37 +152,32 @@ transform: rotate(90deg);
         user-select: none;
     }
 
-    .caret-right ::before {
-        content: "\25B6";
+
+    .caret-right::before {
         color: #7A7A7A;
         display: inline-block;
         margin-right: 6px;
     }
-
-    .caret-right-down::before {
-        -ms-transform: rotate(90deg); /* IE 9 */
-        -webkit-transform: rotate(90deg); /* Safari */'
-        transform: rotate(90deg);
+    .caret-right:hover {
+        background: #E2EAFF;
     }
+
     /**
      * Переключаемая боковая панель навигации
      * выдвигающаяся справа
      */
-
     .nav-right {
         /*  ширна произвольная, не стесняйтесь экспериментировать */
-        width: 320px;
-        min-width: 320px;
+        width: var(--nav-width);
         /* фиксируем и выставляем высоту панели на максимум */
-        height: 100%;
+
+        height: 100vh;
         position: fixed;
         top: 0;
         bottom: 0;
         margin: 0;
         /* сдвигаем (прячем) панель относительно правого края страницы */
         right: -320px;
-        /* внутренние отступы */
-        padding: 15px 20px;
         /* плавный переход смещения панели */
         -webkit-transition: right 0.3s;
         -moz-transition: right 0.3s;
@@ -186,7 +193,6 @@ transform: rotate(90deg);
      * Кнопка переключения панели
      * тег <label>
      */
-
     .nav-toggle {
         /* абсолютно позиционируем */
         position: absolute;
@@ -196,10 +202,6 @@ transform: rotate(90deg);
         top: 1em;
         /* внутренние отступы */
         padding: 0.5em;
-        /* определяем цвет фона переключателя
-         * чаще вчего в соответствии с цветом фона панели
-        */
-        background: inherit;
         /* цвет текста */
         color: black;
         /* вид курсора */
@@ -209,17 +211,12 @@ transform: rotate(90deg);
         line-height: 1;
         /* всегда поверх других элементов страницы */
         z-index: 2001;
-        /* анимируем цвет текста при наведении */
-        -webkit-transition: color .25s ease-in-out;
-        -moz-transition: color .25s ease-in-out;
-        transition: color .25s ease-in-out;
     }
 
 
     /* определяем текст кнопки
      * символ Unicode (TRIGRAM FOR HEAVEN)
     */
-
     .nav-toggle:after {
         content: '\2630';
         text-decoration: none;
@@ -227,7 +224,6 @@ transform: rotate(90deg);
 
 
     /* цвет текста при наведении */
-
     .nav-toggle:hover {
         color: #f4f4f4;
     }
@@ -238,7 +234,6 @@ transform: rotate(90deg);
      * невидим и недоступен :)
      * имя селектора атрибут флажка
      */
-
     [id='nav-toggle'] {
         position: absolute;
         display: none;
@@ -250,7 +245,6 @@ transform: rotate(90deg);
      * при просмотре на мобильных устройствах
      * когда навигация раскрыта, распологаем внутри панели
     */
-
     [id='nav-toggle']:checked ~ .nav-right > .nav-toggle {
         left: auto;
         right: 2px;
@@ -262,12 +256,11 @@ transform: rotate(90deg);
      * Когда флажок установлен, открывается панель
      * используем псевдокласс:checked
      */
-
     [id='nav-toggle']:checked ~ .nav-right {
         right: 0;
-        box-shadow:-4px 0px 20px 0px rgba(0,0,0, 0.5);
-        -moz-box-shadow:-4px 0px 20px 0px rgba(0,0,0, 0.5);
-        -webkit-box-shadow:-4px 0px 20px 0px rgba(0,0,0, 0.5);
+        box-shadow: -4px 0px 20px 0px rgba(0, 0, 0, 0.5);
+        -moz-box-shadow: -4px 0px 20px 0px rgba(0, 0, 0, 0.5);
+        -webkit-box-shadow: -4px 0px 20px 0px rgba(0, 0, 0, 0.5);
         overflow-y: auto;
     }
 
@@ -277,7 +270,6 @@ transform: rotate(90deg);
      * на размер ширины панели,
      * фишка необязательная, на любителя
     */
-
     [id='nav-toggle']:checked ~ main > article {
         -webkit-transform: translateX(-320px);
         -moz-transform: translateX(-320px);
@@ -290,18 +282,15 @@ transform: rotate(90deg);
      * привычный крестик (MULTIPLICATION X),
      * вы можете испльзовать любой другой значок
     */
-
     [id='nav-toggle']:checked ~ .nav-right > .nav-toggle:after {
         content: '\2715';
     }
-
 
 
     /**
      * позаботьтимся о средних и маленьких экранах
      * мобильных устройств
      */
-
     @media screen and (min-width: 320px) {
         html,
         body {
@@ -316,6 +305,7 @@ transform: rotate(90deg);
             margin: 0;
             overflow-x: hidden;
         }
+
         .nav-right {
             width: 100%;
             box-shadow: none
@@ -327,8 +317,6 @@ transform: rotate(90deg);
      * спорная такая фича, если оно вам надо
      * просто раскомментируйте
     */
-
-
     .mask-content {
         display: block;
         position: fixed;
@@ -350,6 +338,5 @@ transform: rotate(90deg);
     }
 
 
-
-
 }
+

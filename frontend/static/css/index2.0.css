@@ -3,6 +3,17 @@
     display: none;
 }
 
+.img-icon{
+    width: 12.8px;
+    height: 16px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    z-index: 0;
+    margin: 4px 3px 0 2px;
+}
+
+
 body {
     --nav-width: 200px;
     margin: 0 0 0 var(--nav-width);
@@ -31,6 +42,10 @@ body {
 
 
 .nav__link:hover {
+    background: #E2EAFF;
+}
+
+.caret:hover {
     background: #E2EAFF;
 }
 
@@ -73,17 +88,11 @@ ul, #myUL {
 }
 
 .caret::before {
-    content: "\25B6";
     color: #7A7A7A;
     display: inline-block;
     margin-right: 6px;
 }
 
-.caret-down::before {
-    -ms-transform: rotate(90deg); /* IE 9 */
-    -webkit-transform: rotate(90deg); /* Safari */'
-transform: rotate(90deg);
-}
 
 .nested {
     display: none;
@@ -96,13 +105,18 @@ transform: rotate(90deg);
 
 @media screen and (max-width: 480px) {
 
+    #myUL-right {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    ul, #myUL-right {
+        list-style-type: none;
+    }
     .nav {
         display: none;
     }
 
-    #myUL-right {
-        display: block;
-    }
 
     .nav__link-right {
         display: block;
@@ -138,17 +152,14 @@ transform: rotate(90deg);
         user-select: none;
     }
 
+
     .caret-right::before {
-        content: "\25B6";
         color: #7A7A7A;
         display: inline-block;
         margin-right: 6px;
     }
-
-    .caret-right-down::before {
-        -ms-transform: rotate(90deg); /* IE 9 */
-        -webkit-transform: rotate(90deg); /* Safari */'
-    transform: rotate(90deg);
+    .caret-right:hover {
+        background: #E2EAFF;
     }
 
     /**
@@ -157,18 +168,16 @@ transform: rotate(90deg);
      */
     .nav-right {
         /*  ширна произвольная, не стесняйтесь экспериментировать */
-        width: 320px;
-        min-width: 320px;
+        width: var(--nav-width);
         /* фиксируем и выставляем высоту панели на максимум */
-        height: 100%;
+
+        height: 100vh;
         position: fixed;
         top: 0;
         bottom: 0;
         margin: 0;
         /* сдвигаем (прячем) панель относительно правого края страницы */
         right: -320px;
-        /* внутренние отступы */
-        padding: 15px 20px;
         /* плавный переход смещения панели */
         -webkit-transition: right 0.3s;
         -moz-transition: right 0.3s;
@@ -193,12 +202,7 @@ transform: rotate(90deg);
         top: 1em;
         /* внутренние отступы */
         padding: 0.5em;
-        /* определяем цвет фона переключателя
-         * чаще вчего в соответствии с цветом фона панели
-        */
-        background: inherit;
-        /* цвет текста */
-        color: black;
+
         /* вид курсора */
         cursor: pointer;
         /* размер шрифта */
@@ -206,12 +210,12 @@ transform: rotate(90deg);
         line-height: 1;
         /* всегда поверх других элементов страницы */
         z-index: 2001;
-        /* анимируем цвет текста при наведении */
-        -webkit-transition: color .25s ease-in-out;
-        -moz-transition: color .25s ease-in-out;
-        transition: color .25s ease-in-out;
+        color: #BBBBBB;
     }
 
+    label {
+        cursor: default;
+    }
 
     /* определяем текст кнопки
      * символ Unicode (TRIGRAM FOR HEAVEN)
@@ -219,12 +223,13 @@ transform: rotate(90deg);
     .nav-toggle:after {
         content: '\2630';
         text-decoration: none;
+        color: #BBBBBB;
     }
 
 
     /* цвет текста при наведении */
     .nav-toggle:hover {
-        color: #f4f4f4;
+        color: #BBBBBB;
     }
 
 
@@ -283,6 +288,8 @@ transform: rotate(90deg);
     */
     [id='nav-toggle']:checked ~ .nav-right > .nav-toggle:after {
         content: '\2715';
+        width: 28px;
+        height: 23.8px;
     }
 
 
