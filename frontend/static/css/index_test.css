@@ -202,7 +202,8 @@ ul, #myUL {
         top: 1em;
         /* внутренние отступы */
         padding: 0.5em;
-
+        /* цвет текста */
+        color: black;
         /* вид курсора */
         cursor: pointer;
         /* размер шрифта */
@@ -210,12 +211,8 @@ ul, #myUL {
         line-height: 1;
         /* всегда поверх других элементов страницы */
         z-index: 2001;
-        color: #BBBBBB;
     }
 
-    label {
-        cursor: default;
-    }
 
     /* определяем текст кнопки
      * символ Unicode (TRIGRAM FOR HEAVEN)
@@ -223,13 +220,12 @@ ul, #myUL {
     .nav-toggle:after {
         content: '\2630';
         text-decoration: none;
-        color: #BBBBBB;
     }
 
 
     /* цвет текста при наведении */
     .nav-toggle:hover {
-        color: #BBBBBB;
+        color: #f4f4f4;
     }
 
 
@@ -288,8 +284,6 @@ ul, #myUL {
     */
     [id='nav-toggle']:checked ~ .nav-right > .nav-toggle:after {
         content: '\2715';
-        width: 28px;
-        height: 23.8px;
     }
 
 

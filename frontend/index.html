@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Single Page App</title>
-    <link rel="stylesheet" href="static/css/index2.0.css">
+    <link rel="stylesheet" href="static/css/index.css">
 </head>
 <body>
 <input type="checkbox" id="nav-toggle" hidden>
     <nav class="nav-right">
         <label for="nav-toggle" class="nav-toggle" onclick ></label>
         <ul id="myUL-right">
+            <input type="text" id="mySearch-right" onkeyup="myFunction_right()" placeholder="Поиск.." >
             <li><a href="/" class="nav__link-right" data-link style="font-size: 25px">Главная</a></li>
             <li><a href="/projects" class="caret-right" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/Vector%20(1).png?raw=true" alt="">Проекты</a>
                 <ul class="nested">
@@ -41,6 +42,7 @@
 
 
 <nav class="nav">
+    <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Поиск.." >
     <a href="/" class="nav__link" data-link style="font-size: 25px">Главная</a>
     <ul id="myUL">
         <li><a href="/projects" class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/Vector%20(1).png?raw=true" alt="">Проекты</a>
@@ -92,6 +94,47 @@
             });
         }
     </script>
+
+
+
+<script>
+    function myFunction() {
+        var input, filter, ul, li, a, i;
+        input = document.getElementById("mySearch");
+        filter = input.value.toUpperCase();
+        ul = document.getElementById("myUL");
+        li = ul.getElementsByTagName("li");
+        for (i = 0; i < li.length; i++) {
+            a = li[i].getElementsByTagName("a")[0];
+            if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                li[i].style.display = "";
+            } else {
+                li[i].style.display = "none";
+            }
+        }
+    }
+</script>
+
+<script>
+    function myFunction_right() {
+        var input, filter, ul, li, a, i;
+        input = document.getElementById("mySearch-right");
+        filter = input.value.toUpperCase();
+        ul = document.getElementById("myUL-right");
+        li = ul.getElementsByTagName("li");
+        for (i = 0; i < li.length; i++) {
+            a = li[i].getElementsByTagName("a")[0];
+            if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                li[i].style.display = "";
+            } else {
+                li[i].style.display = "none";
+            }
+        }
+    }
+</script>
+
+
+
 
 </body>
 </html>

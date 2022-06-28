@@ -29,7 +29,7 @@ body {
     width: var(--nav-width);
     height: 100vh;
     background: #FFFFFF;
-    box-shadow: 1px 0px 20px;
+    /*box-shadow: 1px 0px 20px;*/
 }
 
 .nav__link {
@@ -103,6 +103,16 @@ ul, #myUL {
 }
 
 
+/* Стиль поля поиска */
+#mySearch {
+    width: 100%;
+    font-size: 18px;
+    padding: 11px;
+    border: 1px solid #ddd;
+}
+
+
+
 @media screen and (max-width: 480px) {
 
     #myUL-right {
@@ -116,7 +126,13 @@ ul, #myUL {
     .nav {
         display: none;
     }
-
+    #mySearch-right {
+        width: 100%;
+        font-size: 18px;
+        padding:11px;
+        margin: 60px 0 0 0;
+        border: 1px solid #ddd;
+    }
 
     .nav__link-right {
         display: block;
@@ -202,8 +218,7 @@ ul, #myUL {
         top: 1em;
         /* внутренние отступы */
         padding: 0.5em;
-        /* цвет текста */
-        color: black;
+
         /* вид курсора */
         cursor: pointer;
         /* размер шрифта */
@@ -211,8 +226,12 @@ ul, #myUL {
         line-height: 1;
         /* всегда поверх других элементов страницы */
         z-index: 2001;
+        color: #BBBBBB;
     }
 
+    label {
+        cursor: default;
+    }
 
     /* определяем текст кнопки
      * символ Unicode (TRIGRAM FOR HEAVEN)
@@ -220,12 +239,13 @@ ul, #myUL {
     .nav-toggle:after {
         content: '\2630';
         text-decoration: none;
+        color: #BBBBBB;
     }
 
 
     /* цвет текста при наведении */
     .nav-toggle:hover {
-        color: #f4f4f4;
+        color: #BBBBBB;
     }
 
 
@@ -284,6 +304,8 @@ ul, #myUL {
     */
     [id='nav-toggle']:checked ~ .nav-right > .nav-toggle:after {
         content: '\2715';
+        width: 28px;
+        height: 23.8px;
     }
 
 
