@@ -337,14 +337,21 @@ font-weight: 500;
 
 .link {
     display: block;
-    padding: 12px 18px;
+    padding: 200px 18px 12px 18px;
     text-decoration: none;
-    color: #7A7A7A;
-    font-weight: 500;
+    color: white;
+    font-size: 20px;
+    font-weight: 1000;
     position: absolute;
-    bottom: 8px;
-    left: 16px;
+    width: 100%; /* Ширина слоя */
+    height: 100%; /* Высота слоя */
+    vertical-align:bottom;
+    
 }
+
+     
+
+
 
 .carousel__item:nth-child(1) .demo-content {
   background: linear-gradient(72.92deg, rgba(240, 84, 84, 0.75) 11.68%, rgba(88, 104, 160, 0.75) 96%);
@@ -379,6 +386,9 @@ display: none;
 }
 
 @media screen and (max-width: 1023px) {
+
+
+
   .carousel {
     padding-left: 0;
     padding-right: 0;
@@ -419,6 +429,22 @@ display: none;
   height: 200px;
   width: 90%;
 }
+
+.link {
+    display: block;
+    padding: 150px 18px 12px 18px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 1000;
+    position: absolute;
+    width: 100%; /* Ширина слоя */
+    height: 100%; /* Высота слоя */
+    vertical-align:bottom;
+    
+}
+
+
 }
 
 
@@ -431,19 +457,74 @@ display: none;
 display: block;
 }
 
-/* Clear floats after the columns */
+.link {
+    display: block;
+    padding: 160px 18px 12px 18px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 1000;
+    position: absolute;
+    width: 100%; /* Ширина слоя */
+    height: 100%; /* Высота слоя */
+    vertical-align:bottom;
+    
+}
 
+}
+
+
+@media screen and (max-width: 815px) {
+
+.link {
+    display: block;
+    padding: 160px 18px 12px 18px;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 1000;
+    position: absolute;
+    width: 100%; /* Ширина слоя */
+    height: 100%; /* Высота слоя */
+    vertical-align:bottom;}
+    
 }
 @media screen and (max-width: 745px) {
 
 .demo-content{
  height: 160px;
 }
+
+.link {
+    display: block;
+    padding: 120px 18px 12px 18px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 1000;
+    position: absolute;
+    width: 100%; /* Ширина слоя */
+    height: 100%; /* Высота слоя */
+    vertical-align:bottom;
+    
+}
 }
 
-
-
 @media screen and (max-width: 630px) {
+
+.link {
+    display: block;
+    padding: 120px 18px 12px 18px;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 1000;
+    position: absolute;
+    width: 100%; /* Ширина слоя */
+    height: 100%; /* Высота слоя */
+    vertical-align:bottom;}
+    
+
 .file-container-right{
   color: #fff;
   display: flex;
@@ -486,6 +567,21 @@ display: block;
 
 
 @media screen and (max-width: 600px) {
+
+.link {
+    display: block;
+    padding: 110px 18px 12px 18px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 1000;
+    position: absolute;
+    width: 100%; /* Ширина слоя */
+    height: 100%; /* Высота слоя */
+    vertical-align:bottom;
+    
+}
+
   .carousel__track {
     padding-left: 0;
     padding-right: 0;
@@ -601,17 +697,17 @@ display: block;
   <div class="column">
     <div class="file-container">
         <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=DOC.png?raw=true" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Годовой отчёт</a>
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~6o0G3" class="file-name">НТИ справка</a>
     </div>
    
     <div class="file-container">
-        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/LINK.png?raw=true" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Шаблон</a>
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/PPTX.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~0FkYS" class="file-name">Итоги мониторинга МРГ НТИ</a>
     </div>
     
     <div class="file-container">
-        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/PPTX.png?raw=true" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Проект</a>
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=XLS.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Топ 11 прорывных НТИ</a>
     </div>
   </div>
   
@@ -672,7 +768,10 @@ display: block;
     
     
   </div>
-   
+  
+  
+  <a href="https://docviewer.yandex.ru/?url=https://proektnyyofis-ru.bitrix24.ru/~pHLab" target='_blank' class='yaviewer'>Просмотреть</a>
+  
         `;
     }
 }
