@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Single Page App</title>
     <link rel="stylesheet" href="static/css/index.css">
+
 </head>
 <body>
 <input type="checkbox" id="nav-toggle" hidden>
@@ -15,44 +15,524 @@
             <input type="text" id="mySearch-right" onkeyup="myFunction_right()" placeholder="Поиск.." >
             <li><a href="/" class="nav__link-right" data-link style="font-size: 25px">Главная</a></li>
 
+                <li><a  id='projects-right' href="/reports" class="caret-right" data-link>Проекты </a>
+                    <ul class="nested">
 
-            <li><a class="caret-right" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/Vector%20(1).png?raw=true" alt="">Проекты</a>
-                <ul class="nested">
+                        <li><a  class="folder-right" data-link>Управление НТР </a>
+
+                            <ul class="nested">
+
+                                <li><a  class="folder-right" data-link>Научная экспертиза </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>Научные журналы </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>Оценка результативности науки </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>Фронтиры и приоритеты СНТР (анализ разрывов технологических цепочек) </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>ИИ для управления НТР </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>Озеро данных вузов (вкл. программы развития) </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>Гомеостаз </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+
+                        </li>
 
 
-                    <li><a  class="caret-right" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект НТИ</a>
-                        <ul class="nested">
-                            <li><a  class="nav__link-right" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                            <li><a  class="nav__link-right" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
-                        </ul>
-                    </li>
+                        <li><a  class="folder-right" data-link>Кадры </a>
+
+                            <ul class="nested">
+
+                                <li><a  class="folder-right" data-link>Десятилетие науки и технологий </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>Развитие научного туризма и волонтерства </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>Модель научной аттестации </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>«Зелёный» коридор для ученых </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>Кадровый проект для науки и высшего образования </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>Эндаумент-фонды </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>РЦТ вузов и НО </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
 
 
-                    <li><a  class="nav__link-right" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект №2</a></li>
-                </ul>
-            </li>
+                            </ul>
+
+                        </li>
+                        <li><a  class="folder-right" data-link>Инфраструктура и сервисы </a>
+
+                            <ul class="nested">
+
+                                <li><a  class="folder-right" data-link>Кампусы </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>Приборная база </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>ЦКП и УНУ </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>Мегасайенс </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>НИКС и суперкомпьютеры </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>Домен «Наука и инновации» </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>Домен «Образование» </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>Суперсервис </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>Научный флот </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>Капремонт вузов и научных организаций </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+
+                        </li>
 
 
+                        <li><a  class="folder-right" data-link>Инструменты поддержки </a>
 
-            <li><a href="/samples" class="caret-right" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/Vector%20(2).png?raw=true" alt="">Шаблоны</a>
-                <ul class="nested">
-                    <li><a  class="nav__link-right" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Шаблон №1</a></li>
-                    <li><a  class="nav__link-right" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Шаблон №2</a></li>
-                </ul>
-            </li>
+                            <ul class="nested">
+
+                                <li><a  class="folder-right" data-link>Научно-образовательные центры </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>Приоритет-2030 </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>Приоритет-2030 для научных организаций </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>Инжиниринговые центры </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>НЦМУ математика </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>НЦМУ приоритеты СНТР </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>НЦМУ геномные </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>ФНТП Климат </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>ФНТП Сельское хозяйство </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>ФНТП Генетика </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>Комплексная научно-техническая программа </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>ВИП ГЗ Климат </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>ВИП ГЗ Новая энергетика </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>ВИП ГЗ технологическая платформа оперативного реагирования на инфекционные заболевания </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>Интеграция бизнеса и науки в рамках АПК </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>Национальная технологическая инициатива (НТИ) </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>218-ПП (интеграция производства и науки) </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>Научные лаборатории (в т.ч. Молодежные) </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>Региональные научные фонды </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>Институты инновационного развития </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>Университетское технопредпринимательство </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>Отечественное научное приборостроение </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>Центры трансфера технологий </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>НЦФМ </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+
+                        </li>
+
+                        <li><a  class="folder-right" data-link>Спецпроекты </a>
+                            <ul class="nested">
+
+                                <li><a  class="folder-right" data-link>Российская Дарпа </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>СИРИУС </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>Водородная энергетика (совместно с Минэнерго) </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>Цифровые двойники (в т.ч. научных установок) </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>Бор-нейтронно захватная терапия </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>Химпрепарат и вакцины </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>Ботанический сад Газпрома </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>Лицей в Крыму </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>ИТ кадры и инструменты крипты </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>Микроэлектроника </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>Станкин и станкостроение </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>Передовые инженерные школы </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>Российский центр научной информации </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a  class="folder-right" data-link>Авиастроение </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+
+                        </li>
+
+                        <li><a  class="folder-right" data-link>Международная деятельность </a>
+
+                            <ul class="nested">
+
+                                <li><a  class="folder-right" data-link>Международные научные и образовательные проекты </a>
+                                    <ul class="nested">
+                                        <li><a  class="nav__link-right" data-link>Проект....</a></li>
+                                        <li><a  class="nav__link-right" data-link>Проект ..........</a></li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+
+                        </li>
+
+                    </ul>
+                </li>
 
 
-            <li><a  class="caret-right" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/Vector%20(3).png?raw=true" alt="">Отчёты</a>
-                <ul class="nested">
-                    <li><a  class="nav__link-right" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Отчёт №1</a></li>
-                    <li><a  class="nav__link-right" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Отчёт №2</a></li>
-                </ul>
-            </li>
-            <li><a href="/library" class="nav__link-right" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/Vector%20(4).png?raw=true" alt="">Библиотека</a></li>
-            <li><a href="/different" class="nav__link-right" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/Vector%20(5).png?raw=true" alt="">Разное</a></li>
-        </ul>
+                <li><a  id='samples-right' href="/samples" class="caret-right" data-link>Шаблоны </a>
+                    <ul class="nested">
+                        <li><a  class="nav__link-right" data-link>Шаблон №1</a></li>
+                        <li><a  class="nav__link-right" data-link>Шаблон №2</a></li>
+                    </ul>
+                </li>
+                <li><a id='reports-right' href="/reports" class="caret-right" data-link>Отчёты </a>
+                    <ul class="nested">
+                        <li><a  class="nav__link-right" data-link>Отчёт №1</a></li>
+                        <li><a  class="nav__link-right" data-link>Отчёт №2</a></li>
+                    </ul>
+                </li>
+                <li><a id='lib-right' href="/library" class="nav__link-right" data-link>Библиотека</a></li>
+                <li><a id='dif-right' href="/different" class="nav__link-right" data-link>Разное</a></li>
+            </ul>
     </nav>
     <div class="mask-content"></div>
+
+
+
+
 
 
 
@@ -61,59 +541,59 @@
     <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Поиск.." >
     <a href="/" class="nav__link" data-link style="font-size: 25px">Главная</a>
     <ul id="myUL">
-        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/Vector%20(1).png?raw=true" alt="">Проекты</a>
+        <li><a  id='projects' href="/projects" class="caret" data-link>Проекты </a>
             <ul class="nested">
 
-                <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Управление НТР</a>
+                <li><a  class="folder" data-link>Управление НТР </a>
 
                     <ul class="nested">
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Научная экспертиза</a>
+                        <li><a  class="folder" data-link>Научная экспертиза </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Научные журналы</a>
+                        <li><a  class="folder" data-link>Научные журналы </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Оценка результативности науки</a>
+                        <li><a  class="folder" data-link>Оценка результативности науки </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Фронтиры и приоритеты СНТР (анализ разрывов технологических цепочек)</a>
+                        <li><a  class="folder" data-link>Фронтиры и приоритеты СНТР (анализ разрывов технологических цепочек) </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">ИИ для управления НТР</a>
+                        <li><a  class="folder" data-link>ИИ для управления НТР </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Озеро данных вузов (вкл. программы развития)</a>
+                        <li><a  class="folder" data-link>Озеро данных вузов (вкл. программы развития) </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Гомеостаз</a>
+                        <li><a  class="folder" data-link>Гомеостаз </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
@@ -122,56 +602,56 @@
                 </li>
 
 
-                <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Кадры</a>
+                <li><a  class="folder" data-link>Кадры </a>
 
                     <ul class="nested">
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Десятилетие науки и технологий</a>
+                        <li><a  class="folder" data-link>Десятилетие науки и технологий </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Развитие научного туризма и волонтерства</a>
+                        <li><a  class="folder" data-link>Развитие научного туризма и волонтерства </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Модель научной аттестации</a>
+                        <li><a  class="folder" data-link>Модель научной аттестации </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link-" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">«Зелёный» коридор для ученых</a>
+                        <li><a  class="folder" data-link>«Зелёный» коридор для ученых </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Кадровый проект для науки и высшего образования</a>
+                        <li><a  class="folder" data-link>Кадровый проект для науки и высшего образования </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Эндаумент-фонды</a>
+                        <li><a  class="folder" data-link>Эндаумент-фонды </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">РЦТ вузов и НО</a>
+                        <li><a  class="folder" data-link>РЦТ вузов и НО </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
@@ -179,77 +659,77 @@
                     </ul>
 
                 </li>
-                <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Инфраструктура и сервисы</a>
+                <li><a  class="folder" data-link>Инфраструктура и сервисы </a>
 
                     <ul class="nested">
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Кампусы</a>
+                        <li><a  class="folder" data-link>Кампусы </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link-" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Приборная база</a>
+                        <li><a  class="folder" data-link>Приборная база </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">ЦКП и УНУ</a>
+                        <li><a  class="folder" data-link>ЦКП и УНУ </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Мегасайенс</a>
+                        <li><a  class="folder" data-link>Мегасайенс </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">НИКС и суперкомпьютеры</a>
+                        <li><a  class="folder" data-link>НИКС и суперкомпьютеры </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Домен «Наука и инновации»</a>
+                        <li><a  class="folder" data-link>Домен «Наука и инновации» </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Домен «Образование»</a>
+                        <li><a  class="folder" data-link>Домен «Образование» </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Суперсервис</a>
+                        <li><a  class="folder" data-link>Суперсервис </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Научный флот</a>
+                        <li><a  class="folder" data-link>Научный флот </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Капремонт вузов и научных организаций</a>
+                        <li><a  class="folder" data-link>Капремонт вузов и научных организаций </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
@@ -258,175 +738,175 @@
                 </li>
 
 
-                <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Инструменты поддержки</a>
+                <li><a  class="folder" data-link>Инструменты поддержки </a>
 
                     <ul class="nested">
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Научно-образовательные центры</a>
+                        <li><a  class="folder" data-link>Научно-образовательные центры </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Приоритет-2030</a>
+                        <li><a  class="folder" data-link>Приоритет-2030 </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Приоритет-2030 для научных организаций</a>
+                        <li><a  class="folder" data-link>Приоритет-2030 для научных организаций </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Инжиниринговые центры</a>
+                        <li><a  class="folder" data-link>Инжиниринговые центры </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">НЦМУ математика</a>
+                        <li><a  class="folder" data-link>НЦМУ математика </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">НЦМУ приоритеты СНТР</a>
+                        <li><a  class="folder" data-link>НЦМУ приоритеты СНТР </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">НЦМУ геномные</a>
+                        <li><a  class="folder" data-link>НЦМУ геномные </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">ФНТП Климат</a>
+                        <li><a  class="folder" data-link>ФНТП Климат </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">ФНТП Сельское хозяйство</a>
+                        <li><a  class="folder" data-link>ФНТП Сельское хозяйство </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">ФНТП Генетика</a>
+                        <li><a  class="folder" data-link>ФНТП Генетика </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Комплексная научно-техническая программа</a>
+                        <li><a  class="folder" data-link>Комплексная научно-техническая программа </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">ВИП ГЗ Климат</a>
+                        <li><a  class="folder" data-link>ВИП ГЗ Климат </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">ВИП ГЗ Новая энергетика</a>
+                        <li><a  class="folder" data-link>ВИП ГЗ Новая энергетика </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">ВИП ГЗ технологическая платформа оперативного реагирования на инфекционные заболевания</a>
+                        <li><a  class="folder" data-link>ВИП ГЗ технологическая платформа оперативного реагирования на инфекционные заболевания </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Интеграция бизнеса и науки в рамках АПК</a>
+                        <li><a  class="folder" data-link>Интеграция бизнеса и науки в рамках АПК </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Национальная технологическая инициатива (НТИ)</a>
+                        <li><a  class="folder" data-link>Национальная технологическая инициатива (НТИ) </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">218-ПП (интеграция производства и науки)</a>
+                        <li><a  class="folder" data-link>218-ПП (интеграция производства и науки) </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Научные лаборатории (в т.ч. Молодежные)</a>
+                        <li><a  class="folder" data-link>Научные лаборатории (в т.ч. Молодежные) </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Региональные научные фонды</a>
+                        <li><a  class="folder" data-link>Региональные научные фонды </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Институты инновационного развития</a>
+                        <li><a  class="folder" data-link>Институты инновационного развития </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Университетское технопредпринимательство</a>
+                        <li><a  class="folder" data-link>Университетское технопредпринимательство </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Отечественное научное приборостроение</a>
+                        <li><a  class="folder" data-link>Отечественное научное приборостроение </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Центры трансфера технологий</a>
+                        <li><a  class="folder" data-link>Центры трансфера технологий </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">НЦФМ</a>
+                        <li><a  class="folder" data-link>НЦФМ </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
@@ -434,106 +914,104 @@
 
                 </li>
 
-                <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Спецпроекты</a>
-
+                <li><a  class="folder" data-link>Спецпроекты </a>
                     <ul class="nested">
 
-
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Российская Дарпа</a>
+                        <li><a  class="folder" data-link>Российская Дарпа </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">СИРИУС</a>
+                        <li><a  class="folder" data-link>СИРИУС </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Водородная энергетика (совместно с Минэнерго)</a>
+                        <li><a  class="folder" data-link>Водородная энергетика (совместно с Минэнерго) </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Цифровые двойники (в т.ч. научных установок)</a>
+                        <li><a  class="folder" data-link>Цифровые двойники (в т.ч. научных установок) </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Бор-нейтронно захватная терапия</a>
+                        <li><a  class="folder" data-link>Бор-нейтронно захватная терапия </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Химпрепарат и вакцины</a>
+                        <li><a  class="folder" data-link>Химпрепарат и вакцины </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Ботанический сад Газпрома</a>
+                        <li><a  class="folder" data-link>Ботанический сад Газпрома </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Лицей в Крыму</a>
+                        <li><a  class="folder" data-link>Лицей в Крыму </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">ИТ кадры и инструменты крипты</a>
+                        <li><a  class="folder" data-link>ИТ кадры и инструменты крипты </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Микроэлектроника</a>
+                        <li><a  class="folder" data-link>Микроэлектроника </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Станкин и станкостроение</a>
+                        <li><a  class="folder" data-link>Станкин и станкостроение </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Передовые инженерные школы</a>
+                        <li><a  class="folder" data-link>Передовые инженерные школы </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Российский центр научной информации</a>
+                        <li><a  class="folder" data-link>Российский центр научной информации </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Авиастроение</a>
+                        <li><a  class="folder" data-link>Авиастроение </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
@@ -541,14 +1019,14 @@
 
                 </li>
 
-                <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Международная деятельность</a>
+                <li><a  class="folder" data-link>Международная деятельность </a>
 
                     <ul class="nested">
 
-                        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Международные научные и образовательные проекты</a>
+                        <li><a  class="folder" data-link>Международные научные и образовательные проекты </a>
                             <ul class="nested">
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект....</a></li>
-                                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Проект ..........</a></li>
+                                <li><a  class="nav__link" data-link>Проект....</a></li>
+                                <li><a  class="nav__link" data-link>Проект ..........</a></li>
                             </ul>
                         </li>
 
@@ -560,20 +1038,20 @@
         </li>
 
 
-        <li><a  class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/Vector%20(2).png?raw=true" alt="">Шаблоны</a>
+        <li><a  id='samples' href="/samples" class="caret" data-link>Шаблоны </a>
             <ul class="nested">
-                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Шаблон №1</a></li>
-                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Шаблон №2</a></li>
+                <li><a  class="nav__link" data-link>Шаблон №1</a></li>
+                <li><a  class="nav__link" data-link>Шаблон №2</a></li>
             </ul>
         </li>
-        <li><a href="/reports" class="caret" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/Vector%20(3).png?raw=true" alt="">Отчёты</a>
+        <li><a id='reports' href="/reports" class="caret" data-link>Отчёты </a>
             <ul class="nested">
-                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Отчёт №1</a></li>
-                <li><a  class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/folder.png?raw=true" alt="">Отчёт №2</a></li>
+                <li><a  class="nav__link" data-link>Отчёт №1</a></li>
+                <li><a  class="nav__link" data-link>Отчёт №2</a></li>
             </ul>
         </li>
-        <li><a href="/library" class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/Vector%20(4).png?raw=true" alt="">Библиотека</a></li>
-        <li><a href="/different" class="nav__link" data-link><img class = "img-icon" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/Vector%20(5).png?raw=true" alt="">Разное</a></li>
+        <li><a id='lib' href="/library" class="nav__link" data-link>Библиотека </a></li>
+        <li><a id='dif' href="/different" class="nav__link" data-link>Разное </a></li>
     </ul>
 
 </nav>
@@ -591,19 +1069,47 @@
     }
 </script>
 
-    <script>
+<script type="module" src="static/js/index.js"></script>
 
-        var toggler = document.getElementsByClassName("caret-right");
-        var i;
+<script>
+    var toggler = document.getElementsByClassName("folder");
+    var i;
 
-        for (i = 0; i < toggler.length; i++) {
-            toggler[i].addEventListener("click", function() {
-                this.parentElement.querySelector(".nested").classList.toggle("active");
-                this.classList.toggle("caret-right-down");
-            });
-        }
-    </script>
+    for (i = 0; i < toggler.length; i++) {
+        toggler[i].addEventListener("click", function() {
+            this.parentElement.querySelector(".nested").classList.toggle("active");
+            this.classList.toggle("folder-down");
+        });
+    }
+</script>
 
+
+
+<script>
+
+    var toggler = document.getElementsByClassName("caret-right");
+    var i;
+
+    for (i = 0; i < toggler.length; i++) {
+        toggler[i].addEventListener("click", function() {
+            this.parentElement.querySelector(".nested").classList.toggle("active");
+            this.classList.toggle("caret-right-down");
+        });
+    }
+</script>
+
+<script>
+
+    var toggler = document.getElementsByClassName("folder-right");
+    var i;
+
+    for (i = 0; i < toggler.length; i++) {
+        toggler[i].addEventListener("click", function() {
+            this.parentElement.querySelector(".nested").classList.toggle("active");
+            this.classList.toggle("folder-right-down");
+        });
+    }
+</script>
 
 
 <script>
@@ -641,9 +1147,6 @@
         }
     }
 </script>
-
-
-
 
 </body>
 </html>

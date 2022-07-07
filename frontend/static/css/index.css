@@ -11,9 +11,134 @@
     flex-grow: 0;
     z-index: 0;
     margin: 4px 3px 0 2px;
+
 }
 
 a.caret.caret-down{
+    color: #3E6DEE;
+}
+
+a.folder.folder-down{
+    color: #3E6DEE;
+}
+
+
+#reports a:visited, a:focus {
+    color: #3E6DEE;
+}
+
+
+
+#projects.caret.caret-down::before{
+    content: url("https://raw.githubusercontent.com/OliaPopova/filesistem/68ab06ac42b1ab78f52c39b0a2ab0b794a7fbcd7/frontend/projectsblue.svg");
+    display: inline-block;
+    margin-right: 6px;
+}
+#projects.caret::before{
+    content: url("https://raw.githubusercontent.com/OliaPopova/filesistem/68ab06ac42b1ab78f52c39b0a2ab0b794a7fbcd7/frontend/projects.svg");
+    display: inline-block;
+    margin-right: 6px;
+}
+
+#samples.caret.caret-down::before{
+    content: url("https://raw.githubusercontent.com/OliaPopova/filesistem/68ab06ac42b1ab78f52c39b0a2ab0b794a7fbcd7/frontend/samplesblue.svg");
+    display: inline-block;
+    margin-right: 6px;
+}
+#samples.caret::before{
+    content: url("https://raw.githubusercontent.com/OliaPopova/filesistem/68ab06ac42b1ab78f52c39b0a2ab0b794a7fbcd7/frontend/samples.svg");
+    display: inline-block;
+    margin-right: 6px;
+}
+
+#lib.caret.caret-down::before{
+    content: url("https://raw.githubusercontent.com/OliaPopova/filesistem/68ab06ac42b1ab78f52c39b0a2ab0b794a7fbcd7/frontend/libblue.svg");
+    display: inline-block;
+    margin-right: 6px;
+}
+#lib.caret::before{
+    content: url("https://raw.githubusercontent.com/OliaPopova/filesistem/68ab06ac42b1ab78f52c39b0a2ab0b794a7fbcd7/frontend/lib.svg");
+    display: inline-block;
+    margin-right: 6px;
+}
+
+#dif.caret.caret-down::before{
+    content: url("https://raw.githubusercontent.com/OliaPopova/filesistem/293606d67cce72f763154967fff2952fe508179a/frontend/difblue.svg");
+    display: inline-block;
+    margin-right: 6px;
+}
+#dif.caret::before{
+    content: url("https://raw.githubusercontent.com/OliaPopova/filesistem/293606d67cce72f763154967fff2952fe508179a/frontend/dif.svg");
+    display: inline-block;
+    margin-right: 6px;
+}
+
+#reports.caret.caret-down::before{
+    content: url("https://raw.githubusercontent.com/OliaPopova/filesistem/68ab06ac42b1ab78f52c39b0a2ab0b794a7fbcd7/frontend/reportsblue.svg");
+    display: inline-block;
+    margin-right: 6px;
+}
+#reports.caret::before{
+    content: url("https://raw.githubusercontent.com/OliaPopova/filesistem/68ab06ac42b1ab78f52c39b0a2ab0b794a7fbcd7/frontend/reports.svg");
+    display: inline-block;
+    margin-right: 6px;
+}
+
+.folder.folder-down::before{
+    content: url("https://raw.githubusercontent.com/OliaPopova/filesistem/293606d67cce72f763154967fff2952fe508179a/frontend/folderblue.svg");
+    display: inline-block;
+    margin-right: 6px;
+}
+.folder::before{
+    content: url("https://raw.githubusercontent.com/OliaPopova/filesistem/68ab06ac42b1ab78f52c39b0a2ab0b794a7fbcd7/frontend/folder.svg");
+    display: inline-block;
+    margin-right: 6px;
+}
+
+
+
+
+.caret {
+    cursor: pointer;
+    -webkit-user-select: none; /* Safari 3.1+ */
+    -moz-user-select: none; /* Firefox 2+ */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none;
+}
+.folder {
+    cursor: pointer;
+    -webkit-user-select: none; /* Safari 3.1+ */
+    -moz-user-select: none; /* Firefox 2+ */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none;
+}
+
+
+
+.caret::after {
+    content: "\276F";
+    color: #A6A6A6;
+    display: inline-block;
+    margin-right: 6px;
+}
+.folder::after {
+    content: "\276F";
+    color: #A6A6A6;
+    display: inline-block;
+    margin-right: 6px;
+}
+
+.caret-down::after {
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari */'
+    transform: rotate(90deg);
+    color: #3E6DEE;
+}
+
+.folder-down::after {
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari */'
+    transform: rotate(90deg);
     color: #3E6DEE;
 }
 
@@ -59,6 +184,10 @@ body {
     background: #E2EAFF;
 }
 
+.folder:hover {
+    background: #E2EAFF;
+}
+
 #app {
     margin: 2em;
     line-height: 1.5;
@@ -66,6 +195,14 @@ body {
 }
 
 a.caret {
+    line-height: 1.5;
+    display: block;
+    padding: 12px 18px;
+    text-decoration: none;
+    color: #7A7A7A;
+    font-weight: 500;
+}
+a.folder {
     line-height: 1.5;
     display: block;
     padding: 12px 18px;
@@ -97,7 +234,21 @@ ul, #myUL {
     user-select: none;
 }
 
+.folder {
+    cursor: pointer;
+    -webkit-user-select: none; /* Safari 3.1+ */
+    -moz-user-select: none; /* Firefox 2+ */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none;
+}
+
 .caret::before {
+    color: #7A7A7A;
+    display: inline-block;
+    margin-right: 6px;
+}
+
+.folder::before {
     color: #7A7A7A;
     display: inline-block;
     margin-right: 6px;
@@ -124,6 +275,153 @@ ul, #myUL {
 
 
 @media screen and (max-width: 480px) {
+
+    a.caret-right.caret-right-down{
+        color: #3E6DEE;
+    }
+
+    a.folder-right.folder-right-down{
+        color: #3E6DEE;
+    }
+
+
+    #reports-right a:visited, a:focus {
+        color: #3E6DEE;
+    }
+
+
+    #projects-right.caret-right.caret-right-down::before{
+        content: url("https://raw.githubusercontent.com/OliaPopova/filesistem/68ab06ac42b1ab78f52c39b0a2ab0b794a7fbcd7/frontend/projectsblue.svg");
+        display: inline-block;
+        margin-right: 6px;
+    }
+    #projects-right.caret-right::before{
+        content: url("https://raw.githubusercontent.com/OliaPopova/filesistem/68ab06ac42b1ab78f52c39b0a2ab0b794a7fbcd7/frontend/projects.svg");
+        display: inline-block;
+        margin-right: 6px;
+    }
+
+    #samples-right.caret-right.caret-right-down::before{
+        content: url("https://raw.githubusercontent.com/OliaPopova/filesistem/68ab06ac42b1ab78f52c39b0a2ab0b794a7fbcd7/frontend/samplesblue.svg");
+        display: inline-block;
+        margin-right: 6px;
+    }
+    #samples-right.caret-right::before{
+        content: url("https://raw.githubusercontent.com/OliaPopova/filesistem/68ab06ac42b1ab78f52c39b0a2ab0b794a7fbcd7/frontend/samples.svg");
+        display: inline-block;
+        margin-right: 6px;
+    }
+
+    #lib-right.caret-right.caret-right-down::before{
+        content: url("https://raw.githubusercontent.com/OliaPopova/filesistem/68ab06ac42b1ab78f52c39b0a2ab0b794a7fbcd7/frontend/libblue.svg");
+        display: inline-block;
+        margin-right: 6px;
+    }
+    #lib-right.caret-right::before{
+        content: url("https://raw.githubusercontent.com/OliaPopova/filesistem/68ab06ac42b1ab78f52c39b0a2ab0b794a7fbcd7/frontend/lib.svg");
+        display: inline-block;
+        margin-right: 6px;
+    }
+
+    #dif-right.caret-right.caret-right-down::before{
+        content: url("https://raw.githubusercontent.com/OliaPopova/filesistem/293606d67cce72f763154967fff2952fe508179a/frontend/difblue.svg");
+        display: inline-block;
+        margin-right: 6px;
+    }
+    #dif-right.caret-right::before{
+        content: url("https://raw.githubusercontent.com/OliaPopova/filesistem/293606d67cce72f763154967fff2952fe508179a/frontend/dif.svg");
+        display: inline-block;
+        margin-right: 6px;
+    }
+
+    #reports-right.caret-right.caret-right-down::before{
+        content: url("https://raw.githubusercontent.com/OliaPopova/filesistem/68ab06ac42b1ab78f52c39b0a2ab0b794a7fbcd7/frontend/reportsblue.svg");
+        display: inline-block;
+        margin-right: 6px;
+    }
+    #reports-right.caret-right::before{
+        content: url("https://raw.githubusercontent.com/OliaPopova/filesistem/68ab06ac42b1ab78f52c39b0a2ab0b794a7fbcd7/frontend/reports.svg");
+        display: inline-block;
+        margin-right: 6px;
+    }
+
+    .folder-right.folder-right-down::before{
+        content: url("https://raw.githubusercontent.com/OliaPopova/filesistem/293606d67cce72f763154967fff2952fe508179a/frontend/folderblue.svg");
+        display: inline-block;
+        margin-right: 6px;
+    }
+    .folder-right::before{
+        content: url("https://raw.githubusercontent.com/OliaPopova/filesistem/68ab06ac42b1ab78f52c39b0a2ab0b794a7fbcd7/frontend/folder.svg");
+        display: inline-block;
+        margin-right: 6px;
+    }
+
+
+    .folder-right {
+        cursor: pointer;
+        -webkit-user-select: none; /* Safari 3.1+ */
+        -moz-user-select: none; /* Firefox 2+ */
+        -ms-user-select: none; /* IE 10+ */
+        user-select: none;
+    }
+
+    .caret-right::after {
+        content: "\276F";
+        color: #A6A6A6;
+        display: inline-block;
+        margin-right: 6px;
+    }
+
+    .folder-right::after {
+        content: "\276F";
+        color: #A6A6A6;
+        display: inline-block;
+        margin-right: 6px;
+    }
+
+    .folder-right-down::after {
+        -ms-transform: rotate(90deg); /* IE 9 */
+        -webkit-transform: rotate(90deg); /* Safari */'
+        transform: rotate(90deg);
+        color: #3E6DEE;
+    }
+
+    .caret-right-down::after {
+        -ms-transform: rotate(90deg); /* IE 9 */
+        -webkit-transform: rotate(90deg); /* Safari */'
+        transform: rotate(90deg);
+        color: #3E6DEE;
+    }
+
+    .folder-right:hover {
+        background: #E2EAFF;
+    }
+
+    a.folder-right {
+        line-height: 1.5;
+        display: block;
+        padding: 12px 18px;
+        text-decoration: none;
+        color: #7A7A7A;
+        font-weight: 500;
+    }
+
+    .folder-right {
+        cursor: pointer;
+        -webkit-user-select: none; /* Safari 3.1+ */
+        -moz-user-select: none; /* Firefox 2+ */
+        -ms-user-select: none; /* IE 10+ */
+        user-select: none;
+    }
+
+    .folder-right::before {
+        color: #7A7A7A;
+        display: inline-block;
+        margin-right: 6px;
+    }
+
+
+
 
     #myUL-right {
         display: block;
@@ -165,12 +463,28 @@ ul, #myUL {
         font-weight: 500;
     }
 
+    a.folder-right {
+        line-height: 1.5;
+        display: block;
+        padding: 12px 18px;
+        text-decoration: none;
+        color: #7A7A7A;
+        font-weight: 500;
+    }
+
     a {
         color: #7A7A7A;
         line-height: 1.5;
     }
 
     .caret-right {
+        cursor: pointer;
+        -webkit-user-select: none; /* Safari 3.1+ */
+        -moz-user-select: none; /* Firefox 2+ */
+        -ms-user-select: none; /* IE 10+ */
+        user-select: none;
+    }
+    .folder-right {
         cursor: pointer;
         -webkit-user-select: none; /* Safari 3.1+ */
         -moz-user-select: none; /* Firefox 2+ */
@@ -184,7 +498,16 @@ ul, #myUL {
         display: inline-block;
         margin-right: 6px;
     }
+    .folder-right::before {
+        color: #7A7A7A;
+        display: inline-block;
+        margin-right: 6px;
+    }
+
     .caret-right:hover {
+        background: #E2EAFF;
+    }
+    .folder-right:hover {
         background: #E2EAFF;
     }
 
@@ -223,7 +546,7 @@ ul, #myUL {
         /* абсолютно позиционируем */
         position: absolute;
         /* относительно правого края панели */
-        right: 320px;
+        right: 360px;
         /* отступ от верхнего края панели */
         top: 1em;
         /* внутренние отступы */
@@ -237,6 +560,7 @@ ul, #myUL {
         /* всегда поверх других элементов страницы */
         z-index: 2001;
         color: #BBBBBB;
+
     }
 
     label {
@@ -247,10 +571,19 @@ ul, #myUL {
      * символ Unicode (TRIGRAM FOR HEAVEN)
     */
     .nav-toggle:after {
-        content: '\2630';
-        text-decoration: none;
-        color: #BBBBBB;
+        /*content: '\2630';*/
+        /*text-decoration: none;*/
+        /*color: #BBBBBB;*/
+        content: '';
+        background-image: url(https://raw.githubusercontent.com/OliaPopova/filesistem/e9a4b23f48a03d730c0c8ee192bb9de69ba36e13/frontend/nav.svg);
+        width: 28px;
+        height: 23.8px;
+        position: absolute;
+        background-size: cover;
     }
+
+
+
 
 
     /* цвет текста при наведении */
@@ -277,8 +610,8 @@ ul, #myUL {
     */
     [id='nav-toggle']:checked ~ .nav-right > .nav-toggle {
         left: auto;
-        right: 2px;
-        top: 1em;
+        top: 7px;
+        right: 20px;
     }
 
 
@@ -313,9 +646,13 @@ ul, #myUL {
      * вы можете испльзовать любой другой значок
     */
     [id='nav-toggle']:checked ~ .nav-right > .nav-toggle:after {
-        content: '\2715';
-        width: 28px;
-        height: 23.8px;
+        content: '';
+        background-image: url(https://raw.githubusercontent.com/OliaPopova/filesistem/b6b070a10dd09dba15cd8ed5683394ac8b59701e/frontend/navclose.svg);
+        width: 100%;
+        height:100%;
+        position: absolute;
+        background-size: cover;
+
     }
 
 

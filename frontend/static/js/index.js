@@ -52,6 +52,27 @@ const router = async () => {
     const view = new match.route.view(getParams(match));
 
     document.querySelector("#app").innerHTML = await view.getHtml();
+
+    // здесь создаем объект-обертку, дабы не загрязнять глобальное пространство имен
+    var loader = loader || {}
+
+// теперь добавляем нашу функцию в этот объект
+// uri - полный адрес к удаленному JS файлу
+
+    loader.importJS = function( uri ) {
+        // создаем новый тег script
+        let script = document.createElement('script');
+        // получаем ссылку на тег head документа
+        let body   = document.getElementsByTagName('body')[0];
+        // устанавливаем тип и uri
+        script.type = 'text/javascript';
+        script.src  = uri;
+        // загружаем скрипт в тег head
+        body.appendChild(script);
+    }
+
+    loader.importJS()
+
 };
 
 window.addEventListener("popstate", router);

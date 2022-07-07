@@ -7,7 +7,7 @@ export default class extends AbstractView {
 
     async getHtml() {
         return `
-         <style>
+        <style>
 html {
   box-sizing: border-box;
 }
@@ -26,6 +26,9 @@ html {
   padding-right: 48px;
   position: relative;
 }
+
+
+
 
 .carousel__activator {
   display: none;
@@ -208,27 +211,34 @@ html {
   vertical-align: top;
   white-space: normal;
   box-sizing: border-box;
+ 
+   
 }
 
 .carousel__item--desktop-in-1 {
   width: 100%;
+  border-radius: 15px;
 }
 
 .carousel__item--desktop-in-2 {
   width: 50%;
+  border-radius: 15px;
 }
 
 .carousel__item--desktop-in-3 {
   width: 33.3333333333%;
+  border-radius: 15px;
   
 }
 
 .carousel__item--desktop-in-4 {
   width: 25%;
+  border-radius: 15px;
 }
 
 .carousel__item--desktop-in-5 {
   width: 20%;
+  border-radius: 15px;
 }
 
 
@@ -242,12 +252,18 @@ html {
   align-items: center;
   justify-content: center;
   text-transform: uppercase;
-  border-radius: 11px;
+  border-radius: 15px;
   font-size: 13px;
   height: 250px;
   width: 100%;
   box-sizing: border-box;
-  
+   background-image: url("https://raw.githubusercontent.com/OliaPopova/filesistem/f130dd0d6f80da933877075653ef4f27f3dd1dc6/Group%2025.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: fill;
+  border-radius: 15px;
+ 
 }
 
 
@@ -301,7 +317,7 @@ line-height: 22px;
 .img{
 width: 28px;
 height: 29.75px;
-margin:18px 0px 15px 10px;
+margin:18px 0 15px 10px;
 
 }
 
@@ -353,41 +369,39 @@ font-weight: 500;
 
 
 
-.carousel__item:nth-child(1) .demo-content {
-  background: linear-gradient(72.92deg, rgba(240, 84, 84, 0.75) 11.68%, rgba(88, 104, 160, 0.75) 96%);
-}
+/*.carousel__item:nth-child(1) .demo-content {*/
+/*  */
+/*}*/
 
-.carousel__item:nth-child(2) .demo-content {
-  background: linear-gradient(72.92deg, rgba(240, 84, 84, 0.75) 11.68%, rgba(88, 104, 160, 0.75) 96%);
-}
+/*.carousel__item:nth-child(2) .demo-content {*/
+/*  background: linear-gradient(72.92deg, rgba(240, 84, 84, 0.75) 11.68%, rgba(88, 104, 160, 0.75) 96%);*/
+/*}*/
 
-.carousel__item:nth-child(3) .demo-content {
-  background: linear-gradient(72.92deg, rgba(240, 84, 84, 0.75) 11.68%, rgba(88, 104, 160, 0.75) 96%);
-}
+/*.carousel__item:nth-child(3) .demo-content {*/
+/*  background: linear-gradient(72.92deg, rgba(240, 84, 84, 0.75) 11.68%, rgba(88, 104, 160, 0.75) 96%);*/
+/*}*/
 
-.carousel__item:nth-child(4) .demo-content {
-  background: linear-gradient(72.92deg, rgba(240, 84, 84, 0.75) 11.68%, rgba(88, 104, 160, 0.75) 96%);
-}
+/*.carousel__item:nth-child(4) .demo-content {*/
+/*  background: linear-gradient(72.92deg, rgba(240, 84, 84, 0.75) 11.68%, rgba(88, 104, 160, 0.75) 96%);*/
+/*}*/
 
-.carousel__item:nth-child(5) .demo-content {
-  background: linear-gradient(72.92deg, rgba(240, 84, 84, 0.75) 11.68%, rgba(88, 104, 160, 0.75) 96%);
-}
+/*.carousel__item:nth-child(5) .demo-content {*/
+/*  background: linear-gradient(72.92deg, rgba(240, 84, 84, 0.75) 11.68%, rgba(88, 104, 160, 0.75) 96%);*/
+/*}*/
 
-.carousel__item:nth-child(6) .demo-content {
-  background: linear-gradient(72.92deg, rgba(240, 84, 84, 0.75) 11.68%, rgba(88, 104, 160, 0.75) 96%);
-}
+/*.carousel__item:nth-child(6) .demo-content {*/
+/*  background: linear-gradient(72.92deg, rgba(240, 84, 84, 0.75) 11.68%, rgba(88, 104, 160, 0.75) 96%);*/
+/*}*/
 
-.carousel__item:nth-child(7) .demo-content {
-  background: linear-gradient(72.92deg, rgba(240, 84, 84, 0.75) 11.68%, rgba(88, 104, 160, 0.75) 96%);
-}
+/*.carousel__item:nth-child(7) .demo-content {*/
+/*  background: linear-gradient(72.92deg, rgba(240, 84, 84, 0.75) 11.68%, rgba(88, 104, 160, 0.75) 96%);*/
+/*}*/
 
 .files-container-PhoneVersion{
 display: none;
 }
 
 @media screen and (max-width: 1023px) {
-
-
 
   .carousel {
     padding-left: 0;
@@ -416,18 +430,22 @@ display: none;
 
   .carousel__item--tablet-in-1 {
     width: 90%;
+    border-radius: 15px;
   }
 
   .carousel__item--tablet-in-2 {
     width: 45%;
+    border-radius: 15px;
   }
 
   .carousel__item--tablet-in-3 {
     width: 30%;
+    border-radius: 15px;
   }
     .demo-content {
   height: 200px;
   width: 90%;
+  border-radius: 15px;
 }
 
 .link {
@@ -589,19 +607,23 @@ display: block;
 
   .carousel__item--mobile-in-1 {
     width: 50%;
+    border-radius: 15px;
   }
 
   .carousel__item--mobile-in-2 {
     width: 45%;
+    border-radius: 15px;
   }
 
   .carousel__item--mobile-in-3 {
     width: 30%;
+    border-radius: 15px;
   }
   
   .demo-content {
   height: 150px;
   width: 85%;
+  border-radius: 15px;
     
 }
 
@@ -634,16 +656,18 @@ display: block;
         </div>
         <div class='carousel__screen'>
           <div class='carousel__track'>
-            <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
+            <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3' style="border-radius: 15px">
               <div class='demo-content'>
               
                 <a href="/" class="link" data-link>Главная</a>
               </div>
             </div>
             <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
+         
               <div class='demo-content'>
-<!--                <img src="https://github.com/OliaPopova/filesistem/blob/main/Sirius.png?raw=true" alt="" style="">-->
+              
                 <a href="/projects" class="link" data-link>Проекты</a>
+                
               </div>
             </div>
             <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
@@ -732,6 +756,7 @@ display: block;
 </div>
    
  </div>
+ 
   <div class='files-container-PhoneVersion'>
   
 
@@ -767,11 +792,7 @@ display: block;
     </div>
     
     
-  </div>
-  
-  
-  <a href="https://docviewer.yandex.ru/?url=https://proektnyyofis-ru.bitrix24.ru/~pHLab" target='_blank' class='yaviewer'>Просмотреть</a>
-  
+  </div>  
         `;
     }
 }

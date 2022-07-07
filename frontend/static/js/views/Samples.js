@@ -7,7 +7,7 @@ export default class extends AbstractView {
 
     async getHtml() {
         return `
-                 <style>
+                <style>
 html {
   box-sizing: border-box;
 }
@@ -208,27 +208,34 @@ html {
   vertical-align: top;
   white-space: normal;
   box-sizing: border-box;
+ 
+   
 }
 
 .carousel__item--desktop-in-1 {
   width: 100%;
+  border-radius: 15px;
 }
 
 .carousel__item--desktop-in-2 {
   width: 50%;
+  border-radius: 15px;
 }
 
 .carousel__item--desktop-in-3 {
   width: 33.3333333333%;
+  border-radius: 15px;
   
 }
 
 .carousel__item--desktop-in-4 {
   width: 25%;
+  border-radius: 15px;
 }
 
 .carousel__item--desktop-in-5 {
   width: 20%;
+  border-radius: 15px;
 }
 
 
@@ -242,12 +249,18 @@ html {
   align-items: center;
   justify-content: center;
   text-transform: uppercase;
-  border-radius: 11px;
+  border-radius: 15px;
   font-size: 13px;
   height: 250px;
   width: 100%;
   box-sizing: border-box;
-  
+   background-image: url("https://raw.githubusercontent.com/OliaPopova/filesistem/f130dd0d6f80da933877075653ef4f27f3dd1dc6/Group%2025.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: fill;
+  border-radius: 15px;
+ 
 }
 
 
@@ -301,7 +314,7 @@ line-height: 22px;
 .img{
 width: 28px;
 height: 29.75px;
-margin:18px 0px 15px 10px;
+margin:18px 0 15px 10px;
 
 }
 
@@ -337,48 +350,56 @@ font-weight: 500;
 
 .link {
     display: block;
-    padding: 12px 18px;
+    padding: 200px 18px 12px 18px;
     text-decoration: none;
-    color: #7A7A7A;
-    font-weight: 500;
+    color: white;
+    font-size: 20px;
+    font-weight: 1000;
     position: absolute;
-    bottom: 8px;
-    left: 16px;
+    width: 100%; /* Ширина слоя */
+    height: 100%; /* Высота слоя */
+    vertical-align:bottom;
+    
 }
 
-.carousel__item:nth-child(1) .demo-content {
-  background: linear-gradient(72.92deg, rgba(240, 84, 84, 0.75) 11.68%, rgba(88, 104, 160, 0.75) 96%);
-}
+     
 
-.carousel__item:nth-child(2) .demo-content {
-  background: linear-gradient(72.92deg, rgba(240, 84, 84, 0.75) 11.68%, rgba(88, 104, 160, 0.75) 96%);
-}
 
-.carousel__item:nth-child(3) .demo-content {
-  background: linear-gradient(72.92deg, rgba(240, 84, 84, 0.75) 11.68%, rgba(88, 104, 160, 0.75) 96%);
-}
 
-.carousel__item:nth-child(4) .demo-content {
-  background: linear-gradient(72.92deg, rgba(240, 84, 84, 0.75) 11.68%, rgba(88, 104, 160, 0.75) 96%);
-}
+/*.carousel__item:nth-child(1) .demo-content {*/
+/*  */
+/*}*/
 
-.carousel__item:nth-child(5) .demo-content {
-  background: linear-gradient(72.92deg, rgba(240, 84, 84, 0.75) 11.68%, rgba(88, 104, 160, 0.75) 96%);
-}
+/*.carousel__item:nth-child(2) .demo-content {*/
+/*  background: linear-gradient(72.92deg, rgba(240, 84, 84, 0.75) 11.68%, rgba(88, 104, 160, 0.75) 96%);*/
+/*}*/
 
-.carousel__item:nth-child(6) .demo-content {
-  background: linear-gradient(72.92deg, rgba(240, 84, 84, 0.75) 11.68%, rgba(88, 104, 160, 0.75) 96%);
-}
+/*.carousel__item:nth-child(3) .demo-content {*/
+/*  background: linear-gradient(72.92deg, rgba(240, 84, 84, 0.75) 11.68%, rgba(88, 104, 160, 0.75) 96%);*/
+/*}*/
 
-.carousel__item:nth-child(7) .demo-content {
-  background: linear-gradient(72.92deg, rgba(240, 84, 84, 0.75) 11.68%, rgba(88, 104, 160, 0.75) 96%);
-}
+/*.carousel__item:nth-child(4) .demo-content {*/
+/*  background: linear-gradient(72.92deg, rgba(240, 84, 84, 0.75) 11.68%, rgba(88, 104, 160, 0.75) 96%);*/
+/*}*/
+
+/*.carousel__item:nth-child(5) .demo-content {*/
+/*  background: linear-gradient(72.92deg, rgba(240, 84, 84, 0.75) 11.68%, rgba(88, 104, 160, 0.75) 96%);*/
+/*}*/
+
+/*.carousel__item:nth-child(6) .demo-content {*/
+/*  background: linear-gradient(72.92deg, rgba(240, 84, 84, 0.75) 11.68%, rgba(88, 104, 160, 0.75) 96%);*/
+/*}*/
+
+/*.carousel__item:nth-child(7) .demo-content {*/
+/*  background: linear-gradient(72.92deg, rgba(240, 84, 84, 0.75) 11.68%, rgba(88, 104, 160, 0.75) 96%);*/
+/*}*/
 
 .files-container-PhoneVersion{
 display: none;
 }
 
 @media screen and (max-width: 1023px) {
+
   .carousel {
     padding-left: 0;
     padding-right: 0;
@@ -406,19 +427,39 @@ display: none;
 
   .carousel__item--tablet-in-1 {
     width: 90%;
+    border-radius: 15px;
   }
 
   .carousel__item--tablet-in-2 {
     width: 45%;
+    border-radius: 15px;
   }
 
   .carousel__item--tablet-in-3 {
     width: 30%;
+    border-radius: 15px;
   }
     .demo-content {
   height: 200px;
   width: 90%;
+  border-radius: 15px;
 }
+
+.link {
+    display: block;
+    padding: 150px 18px 12px 18px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 1000;
+    position: absolute;
+    width: 100%; /* Ширина слоя */
+    height: 100%; /* Высота слоя */
+    vertical-align:bottom;
+    
+}
+
+
 }
 
 
@@ -431,19 +472,74 @@ display: none;
 display: block;
 }
 
-/* Clear floats after the columns */
+.link {
+    display: block;
+    padding: 160px 18px 12px 18px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 1000;
+    position: absolute;
+    width: 100%; /* Ширина слоя */
+    height: 100%; /* Высота слоя */
+    vertical-align:bottom;
+    
+}
 
+}
+
+
+@media screen and (max-width: 815px) {
+
+.link {
+    display: block;
+    padding: 160px 18px 12px 18px;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 1000;
+    position: absolute;
+    width: 100%; /* Ширина слоя */
+    height: 100%; /* Высота слоя */
+    vertical-align:bottom;}
+    
 }
 @media screen and (max-width: 745px) {
 
 .demo-content{
  height: 160px;
 }
+
+.link {
+    display: block;
+    padding: 120px 18px 12px 18px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 1000;
+    position: absolute;
+    width: 100%; /* Ширина слоя */
+    height: 100%; /* Высота слоя */
+    vertical-align:bottom;
+    
+}
 }
 
-
-
 @media screen and (max-width: 630px) {
+
+.link {
+    display: block;
+    padding: 120px 18px 12px 18px;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 1000;
+    position: absolute;
+    width: 100%; /* Ширина слоя */
+    height: 100%; /* Высота слоя */
+    vertical-align:bottom;}
+    
+
 .file-container-right{
   color: #fff;
   display: flex;
@@ -486,6 +582,21 @@ display: block;
 
 
 @media screen and (max-width: 600px) {
+
+.link {
+    display: block;
+    padding: 110px 18px 12px 18px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 1000;
+    position: absolute;
+    width: 100%; /* Ширина слоя */
+    height: 100%; /* Высота слоя */
+    vertical-align:bottom;
+    
+}
+
   .carousel__track {
     padding-left: 0;
     padding-right: 0;
@@ -493,19 +604,23 @@ display: block;
 
   .carousel__item--mobile-in-1 {
     width: 50%;
+    border-radius: 15px;
   }
 
   .carousel__item--mobile-in-2 {
     width: 45%;
+    border-radius: 15px;
   }
 
   .carousel__item--mobile-in-3 {
     width: 30%;
+    border-radius: 15px;
   }
   
   .demo-content {
   height: 150px;
   width: 85%;
+  border-radius: 15px;
     
 }
 
@@ -538,16 +653,18 @@ display: block;
         </div>
         <div class='carousel__screen'>
           <div class='carousel__track'>
-            <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
+            <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3' style="border-radius: 15px">
               <div class='demo-content'>
               
                 <a href="/" class="link" data-link>Главная</a>
               </div>
             </div>
             <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
+         
               <div class='demo-content'>
-<!--                <img src="https://github.com/OliaPopova/filesistem/blob/main/Sirius.png?raw=true" alt="" style="">-->
+              
                 <a href="/projects" class="link" data-link>Проекты</a>
+                
               </div>
             </div>
             <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
@@ -601,17 +718,17 @@ display: block;
   <div class="column">
     <div class="file-container">
         <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=DOC.png?raw=true" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Годовой отчёт</a>
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~6o0G3" class="file-name">НТИ справка</a>
     </div>
    
     <div class="file-container">
-        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/LINK.png?raw=true" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Шаблон</a>
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/PPTX.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~0FkYS" class="file-name">Итоги мониторинга МРГ НТИ</a>
     </div>
     
     <div class="file-container">
-        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/PPTX.png?raw=true" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Проект</a>
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=XLS.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Топ 11 прорывных НТИ</a>
     </div>
   </div>
   
@@ -636,6 +753,7 @@ display: block;
 </div>
    
  </div>
+ 
   <div class='files-container-PhoneVersion'>
   
 
@@ -671,8 +789,10 @@ display: block;
     </div>
     
     
-  </div>
-   
+  </div>  
+  
+  
+  
 
         `;
     }

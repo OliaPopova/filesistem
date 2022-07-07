@@ -1,59 +1,78 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
+<!DOCTYPE HTML>
+<html><head>
+    <title>DIVное окно!</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-        /* Стиль поля поиска */
-        #mySearch {
-            width: 100%;
-            font-size: 18px;
-            padding: 11px;
-            border: 1px solid #ddd;
+    <style type="text/css">
+        .files-container,
+        input[type="checkbox"] {
+            display: none;
         }
 
-        /* Стиль меню навигации внутри левой колонки */
+        input[type="checkbox"]:checked ~ .files-container {
+            display: block;
+        }
 
+        /* Стилизация псевдокнопки */
+        .btn {
+            display: inline-block;
+            margin-bottom: 4px;
+            padding: 4px 8px;
+            background-color: #ffffff;
+            border: 1px solid #eeeeee;
+            cursor: pointer;
+        }
     </style>
-</head>
+
+
+
 <body>
 
+<label for="pseudoBtn" class="btn" style="font-style: normal; font-weight: 700; font-size: 24px; line-height: 29px; color: #000000;">Файлы</label>
+<input type="checkbox" id="pseudoBtn">
+<div class='files-container'>
+    <p style="font-style: normal; font-weight: 700; font-size: 24px; line-height: 29px; color: #000000;"> Управление НТР </p>
+
+    <div class="row">
+        <div class="column">
+            <div class="file-container">
+                <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=DOC.png?raw=true" alt="">
+                <a href="https://proektnyyofis-ru.bitrix24.ru/~6o0G3" class="file-name">НТИ справка</a>
+            </div>
+
+            <div class="file-container">
+                <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/PPTX.png?raw=true" alt="">
+                <a href="https://proektnyyofis-ru.bitrix24.ru/~0FkYS" class="file-name">Итоги мониторинга МРГ НТИ</a>
+            </div>
+
+            <div class="file-container">
+                <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=XLS.png?raw=true" alt="">
+                <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Топ 11 прорывных НТИ</a>
+            </div>
+        </div>
 
 
-<div class="row">
-    <div class="left" style="background-color:#bbb;">
-        <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Поиск.." title="Введите категорию">
-        <ul id="myMenu">
-            <li><a href="tryhow_js_search_menu.php">HTML</a></li>
-            <li><a href="tryhow_js_search_menu.php">CSS</a></li>
-            <li><a href="tryhow_js_search_menu.php">JavaScript</a></li>
-            <li><a href="tryhow_js_search_menu.php">PHP</a></li>
-            <li><a href="tryhow_js_search_menu.php">Python</a></li>
-            <li><a href="tryhow_js_search_menu.php">SQL</a></li>
-            <li><a href="tryhow_js_search_menu.php">Bootstrap</a></li>
-            <li><a href="tryhow_js_search_menu.php">Node.js</a></li>
-        </ul>
+        <div class="column">
+            <div class="file-container-right">
+                <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=DOC.png?raw=true" alt="">
+                <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Документы</a>
+            </div>
+
+            <div class="file-container-right">
+                <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/LINK.png?raw=true" alt="">
+                <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Файл №5</a>
+            </div>
+
+            <div class="file-container-right">
+                <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/PPTX.png?raw=true" alt="">
+                <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Сборка</a>
+            </div>
+        </div>
+
     </div>
 
 </div>
 
-<script>
-    function myFunction() {
-        var input, filter, ul, li, a, i;
-        input = document.getElementById("mySearch");
-        filter = input.value.toUpperCase();
-        ul = document.getElementById("myMenu");
-        li = ul.getElementsByTagName("li");
-        for (i = 0; i < li.length; i++) {
-            a = li[i].getElementsByTagName("a")[0];
-            if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
-                li[i].style.display = "";
-            } else {
-                li[i].style.display = "none";
-            }
-        }
-    }
-</script>
 
 </body>
 </html>
