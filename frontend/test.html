@@ -1,78 +1,125 @@
-<!DOCTYPE HTML>
-<html><head>
-    <title>DIVное окно!</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-    <style type="text/css">
-        .files-container,
-        input[type="checkbox"] {
-            display: none;
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My PDF Viewer</title>
+    <script
+            src="http://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.0.943/pdf.min.js">
+    </script>
+
+    <style>
+        #canvas_container {
+            width: 800px;
+            height: 450px;
+            overflow: auto;
         }
 
-        input[type="checkbox"]:checked ~ .files-container {
-            display: block;
-        }
-
-        /* Стилизация псевдокнопки */
-        .btn {
-            display: inline-block;
-            margin-bottom: 4px;
-            padding: 4px 8px;
-            background-color: #ffffff;
-            border: 1px solid #eeeeee;
-            cursor: pointer;
+        #canvas_container {
+            background: #333;
+            text-align: center;
+            border: solid 3px;
         }
     </style>
-
-
-
+</head>
 <body>
-
-<label for="pseudoBtn" class="btn" style="font-style: normal; font-weight: 700; font-size: 24px; line-height: 29px; color: #000000;">Файлы</label>
-<input type="checkbox" id="pseudoBtn">
-<div class='files-container'>
-    <p style="font-style: normal; font-weight: 700; font-size: 24px; line-height: 29px; color: #000000;"> Управление НТР </p>
-
-    <div class="row">
-        <div class="column">
-            <div class="file-container">
-                <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=DOC.png?raw=true" alt="">
-                <a href="https://proektnyyofis-ru.bitrix24.ru/~6o0G3" class="file-name">НТИ справка</a>
-            </div>
-
-            <div class="file-container">
-                <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/PPTX.png?raw=true" alt="">
-                <a href="https://proektnyyofis-ru.bitrix24.ru/~0FkYS" class="file-name">Итоги мониторинга МРГ НТИ</a>
-            </div>
-
-            <div class="file-container">
-                <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=XLS.png?raw=true" alt="">
-                <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Топ 11 прорывных НТИ</a>
-            </div>
-        </div>
-
-
-        <div class="column">
-            <div class="file-container-right">
-                <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=DOC.png?raw=true" alt="">
-                <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Документы</a>
-            </div>
-
-            <div class="file-container-right">
-                <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/LINK.png?raw=true" alt="">
-                <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Файл №5</a>
-            </div>
-
-            <div class="file-container-right">
-                <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/PPTX.png?raw=true" alt="">
-                <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Сборка</a>
-            </div>
-        </div>
-
+<div id="my_pdf_viewer">
+    <div id="canvas_container">
+        <canvas id="pdf_renderer"></canvas>
     </div>
 
+    <div id="navigation_controls">
+        <button id="go_previous">Previous</button>
+        <input id="current_page" value="1" type="number"/>
+        <button id="go_next">Next</button>
+    </div>
+
+    <div id="zoom_controls">
+        <button id="zoom_in">+</button>
+        <button id="zoom_out">-</button>
+    </div>
 </div>
 
+<script>
+    var myState = {
+        pdf: null,
+        currentPage: 1,
+        zoom: 1
+    }
 
+    pdfjsLib.getDocument('2022.pdf').then((pdf) => {
+
+        myState.pdf = pdf;
+        render();
+
+    });
+
+    function render() {
+        myState.pdf.getPage(myState.currentPage).then((page) => {
+
+            var canvas = document.getElementById("pdf_renderer");
+            var ctx = canvas.getContext('2d');
+
+            var viewport = page.getViewport(myState.zoom);
+
+            canvas.width = viewport.width;
+            canvas.height = viewport.height;
+
+            page.render({
+                canvasContext: ctx,
+                viewport: viewport
+            });
+        });
+    }
+
+    document.getElementById('go_previous').addEventListener('click', (e) => {
+        if(myState.pdf == null || myState.currentPage == 1)
+            return;
+        myState.currentPage -= 1;
+        document.getElementById("current_page").value = myState.currentPage;
+        render();
+    });
+
+    document.getElementById('go_next').addEventListener('click', (e) => {
+        if(myState.pdf == null || myState.currentPage > myState.pdf._pdfInfo.numPages)
+            return;
+        myState.currentPage += 1;
+        document.getElementById("current_page").value = myState.currentPage;
+        render();
+    });
+
+    document.getElementById('current_page').addEventListener('keypress', (e) => {
+        if(myState.pdf == null) return;
+
+        // Get key code
+        var code = (e.keyCode ? e.keyCode : e.which);
+
+        // If key code matches that of the Enter key
+        if(code == 13) {
+            var desiredPage =
+                document.getElementById('current_page').valueAsNumber;
+
+            if(desiredPage >= 1 && desiredPage <= myState.pdf._pdfInfo.numPages) {
+                myState.currentPage = desiredPage;
+                document.getElementById("current_page").value = desiredPage;
+                render();
+            }
+        }
+    });
+
+    document.getElementById('zoom_in').addEventListener('click', (e) => {
+        if(myState.pdf == null) return;
+        myState.zoom += 0.5;
+        render();
+    });
+
+    document.getElementById('zoom_out').addEventListener('click', (e) => {
+        if(myState.pdf == null) return;
+        myState.zoom -= 0.5;
+        render();
+    });
+</script>
 </body>
 </html>

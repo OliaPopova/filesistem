@@ -70,8 +70,7 @@ const router = async () => {
         // загружаем скрипт в тег head
         body.appendChild(script);
     }
-
-    loader.importJS()
+    loader.importJS('https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/jstest.js')
 
 };
 
