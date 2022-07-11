@@ -68,7 +68,7 @@ const router = async () => {
         // загружаем скрипт в тег body
         body.appendChild(script);
     }
-    loader.importJS("static/js/views/fileviewer.js" , "text/javascript")
+    loader.importJS("filesistem/frontend/static/js/fileviewer.js" , "text/javascript")
 
 };
 

@@ -302,14 +302,14 @@ min-height: 50px;
 max-height: 300px;
 }
 
-.btn{
+label.btn{
 color: #000000;
 font-style: normal;
 font-weight: 500;
 font-size: 18px;
 line-height: 22px;
 cursor: pointer;
-margin: 3px;
+margin: 20px 20px 20px 20px;
 }
 
 
