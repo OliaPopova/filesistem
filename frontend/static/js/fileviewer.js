@@ -76,3 +76,35 @@
     myState.zoom -= 0.5;
     render();
 });
+
+
+
+    var btn = document.getElementById('btn');
+    btn.addEventListener('click', () => {
+        btn.classList.toggle('btn-down');
+    })
+
+    var btn = document.getElementById('btn2');
+    btn.addEventListener('click', () => {
+        btn.classList.toggle('btn-down2');
+    })
+
+    var btn = document.getElementById('btn3');
+    btn.addEventListener('click', () => {
+        btn.classList.toggle('btn-down3');
+    })
+
+    var btn = document.getElementById('bt4');
+    btn.addEventListener('click', () => {
+        btn.classList.toggle('btn-down4');
+    })
+
+    var btn = document.getElementById('btn5');
+    btn.addEventListener('click', () => {
+        btn.classList.toggle('btn-down5');
+    })
+
+    var btn = document.getElementById('btn6');
+    btn.addEventListener('click', () => {
+        btn.classList.toggle('btn-down6');
+    })

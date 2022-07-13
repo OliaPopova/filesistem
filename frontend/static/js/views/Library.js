@@ -9,18 +9,24 @@ export default class extends AbstractView {
     async getHtml() {
         return `
               <style>
-              
-               #canvas_container {
+                   
+#canvas_container {
             width: 800px;
             height: 450px;
             overflow: auto;
         }
 
-        #canvas_container {
+#canvas_container {
             background: #333;
             text-align: center;
             border: solid 3px;
         }
+              
+    
+#my_pdf_viewer{
+    display: none;
+    }
+    
               
               
 html {
@@ -31,6 +37,54 @@ html {
 *, *:before, *:after {
   box-sizing: border-box;
 }
+
+
+
+ .files-container,
+  input[type="checkbox"] {
+            display: none;
+    }
+
+  input[type="checkbox"]:checked ~ .files-container {
+            display: block;
+        }
+
+
+#btn{
+color: #000000;
+cursor: pointer;
+margin-top: 10px;
+margin-left: 20px;
+margin-right: 20px;
+display: inline-block;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+width: 100%;
+
+}
+#btn:after {
+    content: "\\276F";
+    color: #A6A6A6;
+    display: inline-block;
+    margin-left: 80%;
+    margin-right: auto;
+}
+
+#btn.btn-down:after{
+
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari */'
+    transform: rotate(90deg);
+    color: #3E6DEE;
+
+}
+
+
+.files-container{
+margin-left: 20px;
+}
+
 
 .carousel {
   min-width: 400px;
@@ -278,6 +332,16 @@ html {
  
 }
 
+.first-cont{
+background: #FFFFFF;
+border-radius: 15px;
+box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.03);
+min-height: 50px;
+max-height: 300px;
+min-width: 300px;
+}
+
+
 
 .file-container{
 
@@ -294,11 +358,12 @@ html {
   background: #FFFFFF;
   box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.03);
   border-radius: 10px;
-  margin: 8px 15px 8px 0px;
+  margin: 8px 15px 8px 0;
   gap: 21.48px;
   align-items: flex-start;
   font-style: normal;
   line-height: 22px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
 }
 
 .file-container-right{
@@ -315,13 +380,14 @@ html {
   background: #FFFFFF;
   box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.03);
   border-radius: 10px;
-  margin: 8px 15px 8px 0px;
+  margin: 8px 15px 8px 0;
   gap: 21.48px;
   align-items: flex-start;
   font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 22px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
 }
 
 
@@ -350,15 +416,16 @@ margin:18px 0 15px 10px;
 
 
 .file-name{
-width: 189.31px;
+min-width: 189.31px;
+max-width: 400px;
 font-family: 'Quicksand', sans-serif;
 height: 22px;
 font-style: normal;
-font-size: 13px;
+font-size: 16px;
 line-height: 22px;
 color: #000000;
 align-items: flex-start;
-margin:20px 10px 15px 0px;
+margin:20px 10px 15px 0;
 text-decoration: none;
 font-weight: 500;
 }
@@ -413,7 +480,69 @@ font-weight: 500;
 display: none;
 }
 
+@media screen and (max-width: 1390px) {
+
+#btn:after {
+    content: "\\276F";
+    color: #A6A6A6;
+    display: inline-block;
+    margin-left: 78%;
+    margin-right: auto;
+}
+
+#btn.btn-down:after{
+
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari */'
+    transform: rotate(90deg);
+    color: #3E6DEE;
+
+}
+}
+
+@media screen and (max-width: 1300px) {
+
+#btn:after {
+    margin-left: 76%;
+    margin-right: auto;
+}
+}
+
+@media screen and (max-width: 1250px) {
+
+#btn:after {
+    margin-left: 74%;
+    margin-right: auto;
+}
+
+}
+
+@media screen and (max-width: 1140px) {
+
+#btn:after {
+    margin-left: 72%;
+    margin-right: auto;
+
+}
+}
+
+@media screen and (max-width: 1100px) {
+
+#btn:after {
+    margin-left: 68%;
+    margin-right: auto;
+
+}
+}
+
 @media screen and (max-width: 1023px) {
+
+#btn:after {
+    margin-left: 65%;
+    margin-right: auto;
+}
+
+
 
   .carousel {
     padding-left: 0;
@@ -477,6 +606,12 @@ display: none;
 
 }
 
+@media screen and (max-width: 950px) {
+
+#btn:after {
+    margin-left: 62%;
+    margin-right: auto;
+}
 
 @media screen and (max-width: 900px) {
 
@@ -504,7 +639,34 @@ display: block;
 }
 
 
+@media screen and (max-width: 886px) {
+
+#btn:after {
+    margin-left: 60%;
+    margin-right: auto;
+}}
+
+
+@media screen and (max-width: 846px) {
+
+#btn:after {
+    margin-left: 57%;
+    margin-right: auto;
+}}
+
+@media screen and (max-width: 830px) {
+
+#btn:after {
+    margin-left: 55%;
+    margin-right: auto;
+}}
+
 @media screen and (max-width: 815px) {
+
+#btn:after {
+    margin-left: 54%;
+    margin-right: auto;
+}
 
 .link {
     display: block;
@@ -519,10 +681,31 @@ display: block;
     vertical-align:bottom;}
     
 }
+
+
+@media screen and (max-width: 790px) {
+
+#btn:after {
+    margin-left: 52%;
+    margin-right: auto;
+}}
+
+@media screen and (max-width: 775px) {
+
+#btn:after {
+    margin-left: 50%;
+    margin-right: auto;
+}}
+
 @media screen and (max-width: 745px) {
 
 .demo-content{
  height: 160px;
+}
+
+#btn:after {
+    margin-left: 48%;
+    margin-right: auto;
 }
 
 .link {
@@ -540,7 +723,77 @@ display: block;
 }
 }
 
+
+@media screen and (max-width: 737px) {
+
+#btn:after {
+    margin-left: 46%;
+    margin-right: auto;
+}}
+
+
+@media screen and (max-width: 720px) {
+
+#btn:after {
+    margin-left: 44%;
+    margin-right: auto;
+}}
+
+@media screen and (max-width: 700px) {
+
+#btn:after {
+    margin-left: 42%;
+    margin-right: auto;
+}}
+
+@media screen and (max-width: 690px) {
+
+#btn:after {
+    margin-left: 40%;
+    margin-right: auto;
+}}
+
+@media screen and (max-width: 680px) {
+
+#btn:after {
+    margin-left: 38%;
+    margin-right: auto;
+}}
+
+@media screen and (max-width: 670px) {
+
+#btn:after {
+    margin-left: 36%;
+    margin-right: auto;
+}}
+
+@media screen and (max-width: 660px) {
+
+#btn:after {
+    margin-left: 34%;
+    margin-right: auto;
+}}
+
+@media screen and (max-width: 650px) {
+
+#btn:after {
+    margin-left: 31%;
+    margin-right: auto;
+}}
+
+@media screen and (max-width: 640px) {
+
+#btn:after {
+    margin-left: 28%;
+    margin-right: auto;
+}}
+
 @media screen and (max-width: 630px) {
+
+#btn:after {
+    margin-left: 25%;
+    margin-right: auto;
+}
 
 .link {
     display: block;
@@ -593,7 +846,12 @@ display: block;
 }
 }
 
+@media screen and (max-width: 620px) {
 
+#btn:after {
+    margin-left: 23%;
+    margin-right: auto;
+}}
 
 
 @media screen and (max-width: 600px) {
@@ -611,6 +869,7 @@ display: block;
     vertical-align:bottom;
     
 }
+
 
   .carousel__track {
     padding-left: 0;
@@ -638,9 +897,10 @@ display: block;
   border-radius: 15px;
     
 }
-
-  
 }
+
+
+
 </style>
          <h1> Библиотека </h1>
          <div class='demo-container'>
@@ -725,10 +985,14 @@ display: block;
         </div>
       </div>
     </div>
-    
-    
- <div class='files-container'>
-    <p style="font-style: normal; font-weight: 700; font-size: 24px; line-height: 29px; color: #000000;">Файлы</p>
+<p style="font-style: normal; font-weight: 700; font-size: 24px; line-height: 29px; color: #000000;">Файлы</p>
+
+<div class="first-cont">
+
+<label for="pseudoBtn" id="btn" > Управление НТР </label>
+<input type="checkbox" id="pseudoBtn">
+
+<div class='files-container'>
 <div class="row">
   <div class="column">
     <div class="file-container">
@@ -768,10 +1032,17 @@ display: block;
 </div>
    
  </div>
+
+
+</div>
+
+ 
+
+ 
+ 
  
   <div class='files-container-PhoneVersion'>
   
-
     <div class="file-container">
         <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=DOC.png?raw=true" alt="">
         <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Годовой отчёт</a>
@@ -803,7 +1074,6 @@ display: block;
         <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Сборка</a>
     </div>
     
-    
   </div>  
   
   
@@ -823,6 +1093,8 @@ display: block;
         <button id="zoom_out">-</button>
     </div>
 </div>
+  
+  
         `;
     }
 }
