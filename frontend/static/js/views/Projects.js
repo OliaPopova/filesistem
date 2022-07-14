@@ -979,6 +979,62 @@ max-height: 100px;
 }
 }
 
+@media screen and (max-width: 700px) {
+
+#btn-phone:after{
+    position: absolute;
+    right:15px;
+}
+#btn2-phone:after{
+    position: absolute;
+    right:15px;
+}
+#btn3-phone:after{
+    position: absolute;
+     right:15px;
+}
+#btn4-phone:after{
+   position: absolute;
+     right:15px;
+}
+#btn5-phone:after{
+    position: absolute;
+     right:15px;
+}
+#btn6-phone:after{
+   position: absolute;
+     right:15px;
+}
+}
+
+@media screen and (max-width: 650px) {
+
+#btn-phone:after{
+    position: absolute;
+    right:5px;
+}
+#btn2-phone:after{
+    position: absolute;
+    right:5px;
+}
+#btn3-phone:after{
+    position: absolute;
+     right:5px;
+}
+#btn4-phone:after{
+   position: absolute;
+     right:5px;
+}
+#btn5-phone:after{
+    position: absolute;
+     right:5px;
+}
+#btn6-phone:after{
+   position: absolute;
+     right:5px;
+}
+}
+
 @media screen and (max-width: 630px) {
 
 #btn-phone:after{
