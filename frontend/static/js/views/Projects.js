@@ -68,8 +68,9 @@ width: 100%;
     content: "\\276F";
     color: #A6A6A6;
     display: inline-block;
-    margin-left: 80%;
-    margin-right: auto;
+    position: absolute;
+    right:50px;
+    
 }
 
 #btn.btn-down:after{
@@ -99,8 +100,8 @@ width: 100%;
     content: "\\276F";
     color: #A6A6A6;
     display: inline-block;
-    margin-left: 80%;
-    margin-right: auto;
+     position: absolute;
+    right:50px;
 }
 
 #btn2.btn-down2:after{
@@ -129,8 +130,8 @@ width: 100%;
     content: "\\276F";
     color: #A6A6A6;
     display: inline-block;
-    margin-left: 80%;
-    margin-right: auto;
+    position: absolute;
+    right:50px;
 }
 
 #btn3.btn-down3:after{
@@ -159,8 +160,8 @@ width: 100%;
     content: "\\276F";
     color: #A6A6A6;
     display: inline-block;
-    margin-left: 80%;
-    margin-right: auto;
+     position: absolute;
+    right:50px;
 }
 
 #btn4.btn-down4:after{
@@ -190,8 +191,8 @@ width: 100%;
     content: "\\276F";
     color: #A6A6A6;
     display: inline-block;
-    margin-left: 80%;
-    margin-right: auto;
+     position: absolute;
+    right:50px;
 }
 
 #btn5.btn-down5:after{
@@ -221,8 +222,8 @@ width: 100%;
     content: "\\276F";
     color: #A6A6A6;
     display: inline-block;
-    margin-left: 80%;
-    margin-right: auto;
+    position: absolute;
+    right:50px;
 }
 
 #btn6.btn-down6:after{
@@ -598,9 +599,6 @@ font-weight: 500;
     
 }
 
-     
-
-
 
 /*.carousel__item:nth-child(1) .demo-content {*/
 /*  */
@@ -634,68 +632,7 @@ font-weight: 500;
 display: none;
 }
 
-@media screen and (max-width: 1390px) {
-
-#btn:after {
-    content: "\\276F";
-    color: #A6A6A6;
-    display: inline-block;
-    margin-left: 78%;
-    margin-right: auto;
-}
-
-#btn.btn-down:after{
-
-    -ms-transform: rotate(90deg); /* IE 9 */
-    -webkit-transform: rotate(90deg); /* Safari */'
-    transform: rotate(90deg);
-    color: #3E6DEE;
-
-}
-}
-
-@media screen and (max-width: 1300px) {
-
-#btn:after {
-    margin-left: 76%;
-    margin-right: auto;
-}
-}
-
-@media screen and (max-width: 1250px) {
-
-#btn:after {
-    margin-left: 74%;
-    margin-right: auto;
-}
-
-}
-
-@media screen and (max-width: 1140px) {
-
-#btn:after {
-    margin-left: 72%;
-    margin-right: auto;
-
-}
-}
-
-@media screen and (max-width: 1100px) {
-
-#btn:after {
-    margin-left: 68%;
-    margin-right: auto;
-
-}
-}
-
 @media screen and (max-width: 1023px) {
-
-#btn:after {
-    margin-left: 65%;
-    margin-right: auto;
-}
-
 
 
   .carousel {
@@ -719,8 +656,6 @@ display: none;
   .carousel__track {
     overflow-x: auto;
     width: auto;
-    /*padding-left: 48px;*/
-    /*padding-right: 48px;*/
   }
 
   .carousel__item--tablet-in-1 {
@@ -756,16 +691,8 @@ display: none;
     vertical-align:bottom;
     
 }
-
-
 }
 
-@media screen and (max-width: 950px) {
-
-#btn:after {
-    margin-left: 62%;
-    margin-right: auto;
-}
 
 @media screen and (max-width: 900px) {
 
@@ -793,34 +720,8 @@ display: block;
 }
 
 
-@media screen and (max-width: 886px) {
-
-#btn:after {
-    margin-left: 60%;
-    margin-right: auto;
-}}
-
-
-@media screen and (max-width: 846px) {
-
-#btn:after {
-    margin-left: 57%;
-    margin-right: auto;
-}}
-
-@media screen and (max-width: 830px) {
-
-#btn:after {
-    margin-left: 55%;
-    margin-right: auto;
-}}
-
 @media screen and (max-width: 815px) {
 
-#btn:after {
-    margin-left: 54%;
-    margin-right: auto;
-}
 
 .link {
     display: block;
@@ -837,30 +738,12 @@ display: block;
 }
 
 
-@media screen and (max-width: 790px) {
-
-#btn:after {
-    margin-left: 52%;
-    margin-right: auto;
-}}
-
-@media screen and (max-width: 775px) {
-
-#btn:after {
-    margin-left: 50%;
-    margin-right: auto;
-}}
-
 @media screen and (max-width: 745px) {
 
 .demo-content{
  height: 160px;
 }
 
-#btn:after {
-    margin-left: 48%;
-    margin-right: auto;
-}
 
 .link {
     display: block;
@@ -877,76 +760,25 @@ display: block;
 }
 }
 
-
-@media screen and (max-width: 737px) {
-
-#btn:after {
-    margin-left: 46%;
-    margin-right: auto;
-}}
-
-
-@media screen and (max-width: 720px) {
-
-#btn:after {
-    margin-left: 44%;
-    margin-right: auto;
-}}
-
-@media screen and (max-width: 700px) {
-
-#btn:after {
-    margin-left: 42%;
-    margin-right: auto;
-}}
-
-@media screen and (max-width: 690px) {
-
-#btn:after {
-    margin-left: 40%;
-    margin-right: auto;
-}}
-
-@media screen and (max-width: 680px) {
-
-#btn:after {
-    margin-left: 38%;
-    margin-right: auto;
-}}
-
-@media screen and (max-width: 670px) {
-
-#btn:after {
-    margin-left: 36%;
-    margin-right: auto;
-}}
-
-@media screen and (max-width: 660px) {
-
-#btn:after {
-    margin-left: 34%;
-    margin-right: auto;
-}}
-
-@media screen and (max-width: 650px) {
-
-#btn:after {
-    margin-left: 31%;
-    margin-right: auto;
-}}
-
-@media screen and (max-width: 640px) {
-
-#btn:after {
-    margin-left: 28%;
-    margin-right: auto;
-}}
-
 @media screen and (max-width: 630px) {
 
-#btn:after {
-    margin-left: 25%;
-    margin-right: auto;
+#btn:after{
+    right:40px;
+}
+#btn2:after{
+    right:40px;
+}
+#btn3:after{
+    right:40px;
+}
+#btn4:after{
+    right:40px;
+}
+#btn5:after{
+    right:40px;
+}
+#btn6:after{
+    right:40px;
 }
 
 .link {
@@ -976,7 +808,7 @@ display: block;
   background: #FFFFFF;
   box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.03);
   border-radius: 10px;
-  margin: 8px 15px 8px 0px;
+  margin: 8px 15px 8px 0;
   gap: 21.48px;
   align-items: flex-start;
 }
@@ -994,18 +826,27 @@ display: block;
   background: #FFFFFF;
   box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.03);
   border-radius: 10px;
-  margin: 8px 15px 8px 0px;
+  margin: 8px 15px 8px 0;
   gap: 21.48px;
   align-items: flex-start;
 }
 }
 
 @media screen and (max-width: 620px) {
-
-#btn:after {
-    margin-left: 23%;
-    margin-right: auto;
-}}
+#btn:after{
+    right:29px;
+}
+#btn2:after{
+    right:29px;}
+#btn3:after{
+    right:29px;}
+#btn4:after{
+    right:29px;}
+#btn5:after{
+    right:29px;}
+#btn6:after{
+    right:29px;}
+}
 
 
 @media screen and (max-width: 600px) {
@@ -1024,7 +865,31 @@ display: block;
     
 }
 
+#btn:after{
+position: relative;
+margin-left: 100px;
+}
 
+#btn2:after{
+position: relative;
+margin-left: 100px;
+}
+#btn3:after{
+position: relative;
+margin-left: 100px;
+}
+#btn4:after{
+position: relative;
+margin-left: 100px;
+}
+#btn5:after{
+position: relative;
+margin-left: 100px;
+}
+#btn6:after{
+position: relative;
+margin-left: 100px;
+}
   .carousel__track {
     padding-left: 0;
     padding-right: 0;
@@ -1053,6 +918,32 @@ display: block;
 }
 }
 
+@media screen and (max-width: 480px) {
+#btn:after{
+position: absolute;
+right: 45px;
+}
+#btn2:after{
+position: absolute;
+right: 45px;
+}
+#btn3:after{
+position: absolute;
+right: 45px;
+}
+#btn4:after{
+position: absolute;
+right: 45px;
+}
+#btn5:after{
+position: absolute;
+right: 45px;
+}
+#btn6:after{
+position: absolute;
+right: 45px;
+}
+}
 
 
 </style>
