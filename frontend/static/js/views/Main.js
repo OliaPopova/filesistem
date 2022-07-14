@@ -7,23 +7,27 @@ export default class extends AbstractView {
 
     async getHtml() {
         return `
-
-
-        <style>
-        
-         #canvas_container {
+<style>
+               
+#canvas_container {
             width: 800px;
             height: 450px;
             overflow: auto;
         }
 
-        #canvas_container {
+#canvas_container {
             background: #333;
             text-align: center;
             border: solid 3px;
         }
-        
-        
+              
+    
+#my_pdf_viewer{
+    display: none;
+    }
+    
+              
+              
 html {
   box-sizing: border-box;
 }
@@ -32,6 +36,14 @@ html {
 *, *:before, *:after {
   box-sizing: border-box;
 }
+
+
+
+
+.files-container{
+margin-left: 45px;
+}
+
 
 .carousel {
   min-width: 400px;
@@ -42,9 +54,6 @@ html {
   padding-right: 48px;
   position: relative;
 }
-
-
-
 
 .carousel__activator {
   display: none;
@@ -282,50 +291,58 @@ html {
  
 }
 
+.first-cont{
+background: #FFFFFF;
+border-radius: 15px;
+box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.03);
+min-height: 50px;
+max-height: 300px;
+min-width: 300px;
+}
+
+
 
 .file-container{
 
   color: #fff;
-  display: flex;
-  font-family: 'Quicksand', sans-serif;
-  font-weight: 30;
-  justify-content: start;
-  text-transform: uppercase;
-  font-size: 13px;
-  max-width: 444px;
-  min-width: 200px;
-  height: 69px;
-  background: #FFFFFF;
-  box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.03);
-  border-radius: 10px;
-  margin: 8px 15px 8px 0px;
-  gap: 21.48px;
-  align-items: flex-start;
-  font-style: normal;
-  line-height: 22px;
+    display: flex;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 30;
+    justify-content: start;
+    text-transform: uppercase;
+    font-size: 13px;
+    max-width: 444px;
+    min-width: 200px;
+    height: 69px;
+    background: #FFFFFF;
+    box-shadow: 3px 4px 20px rgb(0 0 0 / 3%);
+    border-radius: 10px;
+    margin: 8px 15px 8px 0;
+    gap: 21.48px;
+    align-items: flex-start;
+    font-style: normal;
+    line-height: 22px;
 }
 
 .file-container-right{
   color: #fff;
   display: flex;
   font-family: 'Quicksand', sans-serif;
-
   justify-content: start;
   text-transform: uppercase;
-  
   max-width: 444px;
   min-width: 200px;
   height: 69px;
   background: #FFFFFF;
-  box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.03);
   border-radius: 10px;
-  margin: 8px 15px 8px 0px;
   gap: 21.48px;
   align-items: flex-start;
   font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 22px;
+  line-height: 22px;
+  font-weight: 30;
+  font-size: 13px;
+  box-shadow: 3px 4px 20px rgb(0 0 0 / 3%);
+  margin: 8px 15px 8px 0;
 }
 
 
@@ -354,15 +371,16 @@ margin:18px 0 15px 10px;
 
 
 .file-name{
-width: 189.31px;
+min-width: 189.31px;
+max-width: 400px;
 font-family: 'Quicksand', sans-serif;
 height: 22px;
 font-style: normal;
-font-size: 13px;
+font-size: 16px;
 line-height: 22px;
 color: #000000;
 align-items: flex-start;
-margin:20px 10px 15px 0px;
+margin:20px 10px 15px 0;
 text-decoration: none;
 font-weight: 500;
 }
@@ -416,6 +434,9 @@ font-weight: 500;
 .files-container-PhoneVersion{
 display: none;
 }
+
+
+
 
 @media screen and (max-width: 1023px) {
 
@@ -478,6 +499,10 @@ display: none;
     
 }
 
+.files-container{
+margin-left: 10px;
+}
+
 
 }
 
@@ -507,8 +532,8 @@ display: block;
 
 }
 
-
 @media screen and (max-width: 815px) {
+
 
 .link {
     display: block;
@@ -523,6 +548,9 @@ display: block;
     vertical-align:bottom;}
     
 }
+
+
+
 @media screen and (max-width: 745px) {
 
 .demo-content{
@@ -543,6 +571,7 @@ display: block;
     
 }
 }
+
 
 @media screen and (max-width: 630px) {
 
@@ -571,11 +600,13 @@ display: block;
   min-width: 300px;
   height: 69px;
   background: #FFFFFF;
-  box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.03);
   border-radius: 10px;
   margin: 8px 15px 8px 0px;
   gap: 21.48px;
   align-items: flex-start;
+  box-shadow: 3px 4px 20px rgb(0 0 0 / 3%);
+  font-style: normal;
+  line-height: 22px;
 }
 .file-container{
   color: #fff;
@@ -589,15 +620,15 @@ display: block;
   min-width: 300px;
   height: 69px;
   background: #FFFFFF;
-  box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.03);
   border-radius: 10px;
-  margin: 8px 15px 8px 0px;
+  margin: 8px 15px 8px 0;
   gap: 21.48px;
   align-items: flex-start;
+  box-shadow: 3px 4px 20px rgb(0 0 0 / 3%);
+  font-style: normal;
+  line-height: 22px;
 }
 }
-
-
 
 
 @media screen and (max-width: 600px) {
@@ -615,7 +646,6 @@ display: block;
     vertical-align:bottom;
     
 }
-
   .carousel__track {
     padding-left: 0;
     padding-right: 0;
@@ -642,11 +672,12 @@ display: block;
   border-radius: 15px;
     
 }
-
-  
 }
+
+
+
 </style>
-         <h1> Экосистема офиса</h1>
+         <h1> Главная </h1>
          <div class='demo-container'>
       <div class='carousel'>
         <input checked='checked' class='carousel__activator' id='carousel-slide-activator-1' name='carousel' type='radio'>
@@ -729,10 +760,9 @@ display: block;
         </div>
       </div>
     </div>
-    
-    
- <div class='files-container'>
-    <p style="font-style: normal; font-weight: 700; font-size: 24px; line-height: 29px; color: #000000;">Файлы</p>
+<p style="font-style: normal; font-weight: 700; font-size: 24px; line-height: 29px; color: #000000;">Файлы</p>
+
+<div class='files-container'>
 <div class="row">
   <div class="column">
     <div class="file-container">
@@ -772,10 +802,15 @@ display: block;
 </div>
    
  </div>
+
+
+ 
+
+ 
+ 
  
   <div class='files-container-PhoneVersion'>
   
-
     <div class="file-container">
         <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=DOC.png?raw=true" alt="">
         <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Годовой отчёт</a>
@@ -807,7 +842,6 @@ display: block;
         <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Сборка</a>
     </div>
     
-    
   </div>  
   
   
@@ -827,8 +861,8 @@ display: block;
         <button id="zoom_out">-</button>
     </div>
 </div>
-
-
+  
+  
 
         `;
     }

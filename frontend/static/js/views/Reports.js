@@ -7,7 +7,7 @@ export default class extends AbstractView {
 
     async getHtml() {
         return `
-           <style>
+          <style>
               
 #canvas_container {
             width: 800px;
@@ -492,7 +492,6 @@ min-height: 50px;
 max-height: 1500px;
 min-width: 300px;
 margin-bottom: 5px;
-overflow-x: scroll;
 }
 
 
@@ -698,8 +697,20 @@ display: none;
 .column {
     display: none;
 }
+
+.first-cont{
+display: none;
+}
+
 .files-container-PhoneVersion{
 display: block;
+background: #FFFFFF;
+border-radius: 15px;
+box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.03);
+min-height: 50px;
+max-height: 1500px;
+min-width: 300px;
+margin-bottom: 5px;
 }
 
 .link {
@@ -714,6 +725,213 @@ display: block;
     height: 100%; /* Высота слоя */
     vertical-align:bottom;
     
+}
+
+.files-container-phone,
+  input[type="checkbox"] {
+            display: none;
+    }
+
+  input[type="checkbox"]:checked ~ .files-container-phone {
+            display: block;
+        }
+
+.files-container-phone{
+margin-left: 20px;
+min-height: 50px;
+max-height: 1500px;
+min-width: 300px;
+padding-bottom: 2px;
+}
+    
+
+
+#btn-phone{
+color: #000000;
+cursor: pointer;
+margin-top: 10px;
+margin-left: 20px;
+margin-right: 20px;
+display: inline-block;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+min-height: 50px;
+max-height: 100px;
+
+}
+#btn-phone:after {
+    content: "\\276F";
+    color: #A6A6A6;
+    display: inline-block;
+    position: absolute;
+    right:50px;
+    
+}
+
+#btn-phone.btn-phone-down:after{
+
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari */'
+    transform: rotate(90deg);
+    color: #3E6DEE;
+
+}
+
+#btn2-phone{
+color: #000000;
+cursor: pointer;
+margin-top: 10px;
+margin-left: 20px;
+margin-right: 20px;
+display: inline-block;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+min-height: 50px;
+max-height: 100px;
+
+}
+#btn2-phone:after {
+    content: "\\276F";
+    color: #A6A6A6;
+    display: inline-block;
+    position: absolute;
+    right:50px;
+    
+}
+
+#btn2-phone.btn2-phone-down:after{
+
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari */'
+    transform: rotate(90deg);
+    color: #3E6DEE;
+}
+
+#btn3-phone{
+color: #000000;
+cursor: pointer;
+margin-top: 10px;
+margin-left: 20px;
+margin-right: 20px;
+display: inline-block;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+min-height: 50px;
+max-height: 100px;
+
+}
+#btn3-phone:after {
+    content: "\\276F";
+    color: #A6A6A6;
+    display: inline-block;
+    position: absolute;
+    right:50px;
+    
+}
+
+#btn3-phone.btn3-phone-down:after{
+
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari */'
+    transform: rotate(90deg);
+    color: #3E6DEE;
+}
+
+#btn4-phone{
+color: #000000;
+cursor: pointer;
+margin-top: 10px;
+margin-left: 20px;
+margin-right: 20px;
+display: inline-block;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+min-height: 50px;
+max-height: 100px;
+
+}
+#btn4-phone:after {
+    content: "\\276F";
+    color: #A6A6A6;
+    display: inline-block;
+    position: absolute;
+    right:50px;
+    
+}
+
+#btn4-phone.btn4-phone-down:after{
+
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari */'
+    transform: rotate(90deg);
+    color: #3E6DEE;
+}
+
+#btn5-phone{
+color: #000000;
+cursor: pointer;
+margin-top: 10px;
+margin-left: 20px;
+margin-right: 20px;
+display: inline-block;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+min-height: 50px;
+max-height: 100px;
+
+}
+#btn5-phone:after {
+    content: "\\276F";
+    color: #A6A6A6;
+    display: inline-block;
+    position: absolute;
+    right:50px;
+    
+}
+
+#btn5-phone.btn5-phone-down:after{
+
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari */'
+    transform: rotate(90deg);
+    color: #3E6DEE;
+}
+
+#btn6-phone{
+color: #000000;
+cursor: pointer;
+margin-top: 10px;
+margin-left: 20px;
+margin-right: 20px;
+display: inline-block;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+min-height: 50px;
+max-height: 100px;
+
+
+}
+#btn6-phone:after {
+    content: "\\276F";
+    color: #A6A6A6;
+    display: inline-block;
+    position: absolute;
+    right:50px;
+    
+}
+
+#btn6-phone.btn6-phone-down:after{
+
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari */'
+    transform: rotate(90deg);
+    color: #3E6DEE;
 }
 
 }
@@ -759,25 +977,146 @@ display: block;
 }
 }
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 700px) 
+{
 
-#btn:after{
-    right:40px;
+#btn-phone:after{position: absolute;
+    right:45px;
 }
-#btn2:after{
-    right:40px;
+#btn2-phone:after{position: absolute;
+    right:45px;
 }
-#btn3:after{
-    right:40px;
+#btn3-phone:after{position: absolute;
+    right:45px;
 }
-#btn4:after{
-    right:40px;
+#btn4-phone:after{
+   position: absolute;
+     right:45px;
 }
-#btn5:after{
-    right:40px;
+#btn5-phone:after{
+    position: absolute;
+     right:45px;
 }
-#btn6:after{
-    right:40px;
+#btn6-phone:after{
+   position: absolute;
+     right:45px;
+}
+}
+
+
+@media screen and (max-width: 680px) 
+{
+
+#btn-phone:after{
+    right:35px;
+}
+#btn2-phone:after{
+    right:35px;
+}
+#btn3-phone:after{
+    right:35px;
+}
+#btn4-phone:after{
+     right:35px;
+}
+#btn5-phone:after{
+     right:35px;
+}
+#btn6-phone:after{
+     right:35px;
+}
+}
+
+@media screen and (max-width: 670px) 
+{
+
+#btn-phone:after{
+    right:25px;
+}
+#btn2-phone:after{
+    right:25px;
+}
+#btn3-phone:after{
+    right:25px;
+}
+#btn4-phone:after{
+     right:25px;
+}
+#btn5-phone:after{
+     right:25px;
+}
+#btn6-phone:after{
+     right:25px;
+}
+}
+
+@media screen and (max-width: 650px) 
+{
+
+#btn-phone:after{
+    right:10px;
+}
+#btn2-phone:after{
+    right:10px;
+}
+#btn3-phone:after{
+     right:10px;
+}
+#btn4-phone:after{
+     right:10px;
+}
+#btn5-phone:after{
+     right:10px;
+}
+#btn6-phone:after{
+     right:10px;
+}
+}
+
+@media screen and (max-width: 640px) 
+{
+
+#btn-phone:after{
+    right:5px;
+}
+#btn2-phone:after{
+    right:5px;
+}
+#btn3-phone:after{
+     right:5px;
+}
+#btn4-phone:after{
+     right:5px;
+}
+#btn5-phone:after{
+     right:5px;
+}
+#btn6-phone:after{
+     right:5px;
+}
+}
+
+
+@media screen and (max-width: 630px) 
+{
+
+#btn-phone:after{
+    right:-15px;
+}
+#btn2-phone:after{
+    right:-15px;
+}
+#btn3-phone:after{
+   right:-15px;
+}
+#btn4-phone:after{
+    right:-15px;
+}
+#btn5-phone:after{
+   right:-15px;
+}
+#btn6-phone:after{
+   right:-15px;
 }
 
 .link {
@@ -801,8 +1140,8 @@ display: block;
   font-weight: 30;
   justify-content: start;
   font-size: 13px;
-  max-width: 345px;
-  min-width: 300px;
+  max-width: 300px;
+  min-width: 270px;
   min-height: 69px;
   background: #FFFFFF;
   box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.03);
@@ -819,8 +1158,8 @@ display: block;
   font-weight: 30;
   justify-content: start;
   font-size: 13px;
-  max-width: 345px;
-  min-width: 300px;
+  max-width: 300px;
+  min-width: 270px;
   min-height: 69px;
   background: #FFFFFF;
   box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.03);
@@ -831,23 +1170,50 @@ display: block;
 }
 }
 
-@media screen and (max-width: 620px) {
-#btn:after{
-    right:29px;
+@media screen and (max-width: 620px) 
+{
+#btn-phone:after{
+    right:-20px;
 }
-#btn2:after{
-    right:29px;}
-#btn3:after{
-    right:29px;}
-#btn4:after{
-    right:29px;}
-#btn5:after{
-    right:29px;}
-#btn6:after{
-    right:29px;}
+#btn2-phone:after{
+  right:-20px;
+}
+#btn3-phone:after{
+   right:-20px;
+}
+#btn4-phone:after{
+   right:-20px;
+}
+#btn5-phone:after{
+   right:-20px;
+}
+#btn6-phone:after{
+   right:-20px;
+}}
+
+@media screen and (max-width: 610px) 
+{
+#btn-phone:after{
+    right:-25px;
+}
+#btn2-phone:after{
+  right:-25px;
+}
+#btn3-phone:after{
+   right:-25px;
+}
+#btn4-phone:after{
+   right:-25px;
+}
+#btn5-phone:after{
+   right:-25px;
+}
+#btn6-phone:after{
+   right:-25px;
 }
 
 
+}
 @media screen and (max-width: 600px) {
 
 .link {
@@ -864,31 +1230,26 @@ display: block;
     
 }
 
-#btn:after{
-position: relative;
-margin-left: 100px;
+#btn-phone:after{
+   right:-45px;
 }
 
-#btn2:after{
-position: relative;
-margin-left: 100px;
+#btn2-phone:after{
+    right:-45px;
 }
-#btn3:after{
-position: relative;
-margin-left: 100px;
+#btn3-phone:after{
+   right:-45px;
 }
-#btn4:after{
-position: relative;
-margin-left: 100px;
+#btn4-phone:after{
+    right:-45px;
 }
-#btn5:after{
-position: relative;
-margin-left: 100px;
+#btn5-phone:after{
+   right:-45px;
 }
-#btn6:after{
-position: relative;
-margin-left: 100px;
+#btn6-phone:after{
+   right:-45px;
 }
+
   .carousel__track {
     padding-left: 0;
     padding-right: 0;
@@ -917,36 +1278,326 @@ margin-left: 100px;
 }
 }
 
-@media screen and (max-width: 480px) {
-#btn:after{
+@media screen and (max-width: 590px) {
+#btn-phone:after{
+   right:-55px;
+}
+
+#btn2-phone:after{
+    right:-55px;
+}
+#btn3-phone:after{
+   right:-55px;
+}
+#btn4-phone:after{
+    right:-55px;
+}
+#btn5-phone:after{
+   right:-55px;
+}
+#btn6-phone:after{
+   right:-55px;
+}
+
+}
+
+@media screen and (max-width: 580px) {
+#btn-phone:after{
+   right:-65px;
+}
+
+#btn2-phone:after{
+    right:-65px;
+}
+#btn3-phone:after{
+   right:-65px;
+}
+#btn4-phone:after{
+    right:-65px;
+}
+#btn5-phone:after{
+   right:-65px;
+}
+#btn6-phone:after{
+   right:-65px;
+}
+
+}
+
+@media screen and (max-width: 570px) {
+#btn-phone:after{
+   right:-77px;
+}
+
+#btn2-phone:after{
+    right:-77px;
+}
+#btn3-phone:after{
+   right:-77px;
+}
+#btn4-phone:after{
+    right:-77px;
+}
+#btn5-phone:after{
+   right:-77px;
+}
+#btn6-phone:after{
+   right:-77px;
+}
+
+}
+
+@media screen and (max-width: 560px) 
+{
+#btn-phone:after{
+   right:-90px;
+}
+
+#btn2-phone:after{
+    right:-90px;
+}
+#btn3-phone:after{
+   right:-90px;
+}
+#btn4-phone:after{
+    right:-90px;
+}
+#btn5-phone:after{
+   right:-90px;
+}
+#btn6-phone:after{
+   right:-90px;
+}
+
+}
+
+@media screen and (max-width: 550px) 
+{
+#btn-phone:after{
+   right:-105px;
+}
+
+#btn2-phone:after{
+    right:-105px;
+}
+#btn3-phone:after{
+   right:-105px;
+}
+#btn4-phone:after{
+    right:-105px;
+}
+#btn5-phone:after{
+   right:-105px;
+}
+#btn6-phone:after{
+   right:-105px;
+}
+
+}
+
+@media screen and (max-width: 550px) 
+{
+#btn-phone:after{
+   right:-100px;
+}
+
+#btn2-phone:after{
+    right:-100px;
+}
+#btn3-phone:after{
+   right:-100px;
+}
+#btn4-phone:after{
+    right:-100px;
+}
+#btn5-phone:after{
+   right:-100px;
+}
+#btn6-phone:after{
+   right:-100px;
+}
+
+}
+
+@media screen and (max-width: 540px) 
+{
+#btn-phone:after{
+   right:-109px;
+}
+
+#btn2-phone:after{
+    right:-109px;
+}
+#btn3-phone:after{
+   right:-109px;
+}
+#btn4-phone:after{
+    right:-109px;
+}
+#btn5-phone:after{
+   right:-109px;
+}
+#btn6-phone:after{
+   right:-109px;
+}
+
+}
+
+@media screen and (max-width: 520px) 
+{
+#btn-phone:after{
+   right:-119px;
+}
+
+#btn2-phone:after{
+    right:-119px;
+}
+#btn3-phone:after{
+   right:-119px;
+}
+#btn4-phone:after{
+    right:-119px;
+}
+#btn5-phone:after{
+   right:-119px;
+}
+#btn6-phone:after{
+   right:-119px;
+}
+
+}
+@media screen and (max-width: 510px) 
+{
+#btn-phone:after{
+   right:-129px;
+}
+
+#btn2-phone:after{
+    right:-129px;
+}
+#btn3-phone:after{
+   right:-129px;
+}
+#btn4-phone:after{
+    right:-129px;
+}
+#btn5-phone:after{
+   right:-129px;
+}
+#btn6-phone:after{
+   right:-129px;
+}
+
+}
+
+@media screen and (max-width: 500px) 
+{
+#btn-phone:after{
+   right:-139px;
+}
+
+#btn2-phone:after{
+    right:-139px;
+}
+#btn3-phone:after{
+   right:-139px;
+}
+#btn4-phone:after{
+    right:-139px;
+}
+#btn5-phone:after{
+   right:-139px;
+}
+#btn6-phone:after{
+   right:-139px;
+}
+
+}
+
+
+@media screen and (max-width: 480px) 
+{
+#btn-phone:after{
 position: absolute;
-right: 45px;
+right: 55px;
 }
-#btn2:after{
-position: absolute;
-right: 45px;
+#btn2-phone:after{
+  position: absolute;
+right: 55px;
 }
-#btn3:after{
-position: absolute;
-right: 45px;
+#btn3-phone:after{
+  position: absolute;
+right: 55px;
 }
-#btn4:after{
-position: absolute;
-right: 45px;
+#btn4-phone:after{
+   position: absolute;
+right: 55px;
 }
-#btn5:after{
-position: absolute;
-right: 45px;
+#btn5-phone:after{
+  position: absolute;
+right: 55px;
 }
-#btn6:after{
-position: absolute;
-right: 45px;
+#btn6-phone:after{
+  position: absolute;
+right: 55px;
 }
 }
+
+
+@media screen and (max-width: 420px) 
+{
+
+
+.files-container-PhoneVersion{
+display: block;
+background: #FFFFFF;
+border-radius: 15px;
+box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.03);
+min-height: 50px;
+max-height: 1500px;
+min-width: 200px;
+margin-bottom: 5px;
+}
+
+.link {
+    display: block;
+    padding: 160px 18px 12px 18px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 1000;
+    position: absolute;
+    width: 100%; /* Ширина слоя */
+    height: 100%; /* Высота слоя */
+    vertical-align:bottom;
+    
+}
+
+.files-container-phone,
+  input[type="checkbox"] {
+            display: none;
+    }
+
+  input[type="checkbox"]:checked ~ .files-container-phone {
+            display: block;
+        }
+
+.files-container-phone{
+margin-left: 20px;
+min-height: 50px;
+max-height: 1500px;
+min-width: 300px;
+padding-bottom: 2px;
+}
+    
+
+
+}
+
 
 
 </style>
-         <h1> Отчёты </h1>
+         <h1> Проекты </h1>
          <div class='demo-container'>
       <div class='carousel'>
         <input checked='checked' class='carousel__activator' id='carousel-slide-activator-1' name='carousel' type='radio'>
@@ -1033,7 +1684,7 @@ right: 45px;
 
 <div class="first-cont">
 
-<label for="pseudoBtn" id="btn" > Папка с файлами </label>
+<label for="pseudoBtn" id="btn" > Папка №1 </label>
 <input type="checkbox" id="pseudoBtn">
 
 <div class='files-container'>
@@ -1053,6 +1704,7 @@ right: 45px;
         <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=XLS.png?raw=true" alt="">
         <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Шаблон ...</a>
     </div>
+    
   </div>
   
   
@@ -1078,97 +1730,126 @@ right: 45px;
 </div>
 
  
-<!--<div class="first-cont">-->
+<div class="first-cont">
 
-<!--<label for="pseudoBtn2" id="btn2" > Кадры </label>-->
-<!--<input type="checkbox" id="pseudoBtn2">-->
+<label for="pseudoBtn2" id="btn2" > Папка №2 </label>
+<input type="checkbox" id="pseudoBtn2">
 
-<!--<div class='files-container'>-->
-<!--<div class="row">-->
-<!--  <div class="column">-->
-<!--    -->
-<!--  </div>-->
-<!--  -->
-<!--  <div class="column">-->
-<!--    -->
-<!--  </div>-->
-<!--  -->
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
+<div class='files-container'>
+<div class="row">
+  <div class="column">
+   
+    
+  </div>
+  
+  
+  <div class="column">
+   
+  </div>
+  
+</div>
+</div>
+</div>
 
-<!--<div class="first-cont">-->
+ 
+<!-- <div class="first-cont">-->
 
-<!--<label for="pseudoBtn3" id="btn3" > Инфраструктура и сервисы </label>-->
-<!--<input type="checkbox" id="pseudoBtn3">-->
-
-<!--<div class='files-container'>-->
-<!--<div class="row">-->
-<!--  <div class="column">-->
-<!--    -->
-<!--  </div>-->
-<!--  -->
-<!--  -->
-<!--  <div class="column">-->
-<!--    -->
-<!--  </div>-->
-<!--  -->
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
-
-<!--<div class="first-cont">-->
-
-<!--<label for="pseudoBtn4" id="btn4" > Инструменты поддержки </label>-->
-<!--<input type="checkbox" id="pseudoBtn4">-->
+<!--<label for="pseudoBtn6" id="btn6" > Международная деятельность </label>-->
+<!--<input type="checkbox" id="pseudoBtn6">-->
 
 <!--<div class='files-container'>-->
 <!--<div class="row">-->
 <!--  <div class="column">-->
+<!--   -->
 <!--  </div>-->
 <!--  -->
 <!--  -->
 <!--  <div class="column">-->
+<!--    -->
 <!--  </div>-->
 <!--  -->
 <!--</div>-->
 <!--</div>-->
 <!--</div>-->
  
-  <div class='files-container-PhoneVersion'>
-  
+
+<div class="files-container-PhoneVersion">
+
+<label for="pseudoBtn-phone" id="btn-phone" > Папка №1 </label>
+<input type="checkbox" id="pseudoBtn-phone">
+
+ <div class='files-container-phone'>
     <div class="file-container">
         <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=DOC.png?raw=true" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Годовой отчёт</a>
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~6o0G3" class="file-name">Шаблон ...</a>
     </div>
    
     <div class="file-container">
-        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/LINK.png?raw=true" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Шаблон</a>
-    </div>
-    
-    <div class="file-container">
         <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/PPTX.png?raw=true" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Проект</a>
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~0FkYS" class="file-name">Шаблон ...</a>
     </div>
+</div>
+</div>
   
   
-    <div class="file-container-right">
-        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=DOC.png?raw=true" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Документы</a>
-    </div>
-   
-    <div class="file-container-right">
-        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/LINK.png?raw=true" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Файл №5</a>
-    </div>
+  
+  
+  
+<div class="files-container-PhoneVersion">
+
+<label for="pseudoBtn2-phone" id="btn2-phone" > Папка №2 </label>
+<input type="checkbox" id="pseudoBtn2-phone">
+
+ <div class='files-container-phone'>
+  
+</div>
+</div>
+  
+  
+  
+  
+<div class="files-container-PhoneVersion">
+
+<label for="pseudoBtn3-phone" id="btn3-phone" > Папка .. </label>
+<input type="checkbox" id="pseudoBtn3-phone">
+
+ <div class='files-container-phone'>
     
-    <div class="file-container-right">
-        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/PPTX.png?raw=true" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Сборка</a>
-    </div>
-    
-  </div>  
+ 
+</div>
+</div>  
+  
+  
+<!--<div class="files-container-PhoneVersion">-->
+
+<!--<label for="pseudoBtn4-phone" id="btn4-phone" > Папка .. </label>-->
+<!--<input type="checkbox" id="pseudoBtn4-phone">-->
+
+<!-- <div class='files-container-phone'>-->
+<!--  -->
+<!--</div>-->
+<!--</div>  -->
+<!--  -->
+<!--<div class="files-container-PhoneVersion">-->
+
+<!--<label for="pseudoBtn5-phone" id="btn5-phone" > Папка .. </label>-->
+<!--<input type="checkbox" id="pseudoBtn5-phone">-->
+
+<!-- <div class='files-container-phone'>-->
+<!--  -->
+<!--</div>-->
+<!--</div>    -->
+<!--  -->
+<!--<div class="files-container-PhoneVersion">-->
+
+<!--<label for="pseudoBtn6-phone" id="btn6-phone" > Папка .. </label>-->
+<!--<input type="checkbox" id="pseudoBtn6-phone">-->
+
+<!-- <div class='files-container-phone'>-->
+<!--  -->
+<!--</div>-->
+<!--</div>    -->
+
   
   
   <div id="my_pdf_viewer">
@@ -1189,6 +1870,7 @@ right: 45px;
 </div>
   
   
+
         `;
     }
 }

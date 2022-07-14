@@ -8,7 +8,7 @@ export default class extends AbstractView {
     async getHtml() {
         return `
                 <style>
-      
+              
 #canvas_container {
             width: 800px;
             height: 450px;
@@ -57,7 +57,7 @@ margin-left: 20px;
 margin-right: 20px;
 display: inline-block;
 font-style: normal;
-font-weight: 600;
+font-weight: 400;
 font-size: 20px;
 width: 100%;
 
@@ -66,8 +66,9 @@ width: 100%;
     content: "\\276F";
     color: #A6A6A6;
     display: inline-block;
-    margin-left: 80%;
-    margin-right: auto;
+    position: absolute;
+    right:50px;
+    
 }
 
 #btn.btn-down:after{
@@ -79,6 +80,158 @@ width: 100%;
 
 }
 
+
+#btn2{
+color: #000000;
+cursor: pointer;
+margin-top: 10px;
+margin-left: 20px;
+margin-right: 20px;
+display: inline-block;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+width: 100%;
+
+}
+#btn2:after {
+    content: "\\276F";
+    color: #A6A6A6;
+    display: inline-block;
+     position: absolute;
+    right:50px;
+}
+
+#btn2.btn-down2:after{
+
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari */'
+    transform: rotate(90deg);
+    color: #3E6DEE;
+
+}
+
+#btn3{
+color: #000000;
+cursor: pointer;
+margin-top: 10px;
+margin-left: 20px;
+margin-right: 20px;
+display: inline-block;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+width: 100%;
+
+}
+#btn3:after {
+    content: "\\276F";
+    color: #A6A6A6;
+    display: inline-block;
+    position: absolute;
+    right:50px;
+}
+
+#btn3.btn-down3:after{
+
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari */'
+    transform: rotate(90deg);
+    color: #3E6DEE;
+
+}
+
+#btn4{
+color: #000000;
+cursor: pointer;
+margin-top: 10px;
+margin-left: 20px;
+margin-right: 20px;
+display: inline-block;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+width: 100%;
+
+}
+#btn4:after {
+    content: "\\276F";
+    color: #A6A6A6;
+    display: inline-block;
+     position: absolute;
+    right:50px;
+}
+
+#btn4.btn-down4:after{
+
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari */'
+    transform: rotate(90deg);
+    color: #3E6DEE;
+
+}
+
+
+#btn5{
+color: #000000;
+cursor: pointer;
+margin-top: 10px;
+margin-left: 20px;
+margin-right: 20px;
+display: inline-block;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+width: 100%;
+
+}
+#btn5:after {
+    content: "\\276F";
+    color: #A6A6A6;
+    display: inline-block;
+     position: absolute;
+    right:50px;
+}
+
+#btn5.btn-down5:after{
+
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari */'
+    transform: rotate(90deg);
+    color: #3E6DEE;
+
+}
+
+
+#btn6{
+color: #000000;
+cursor: pointer;
+margin-top: 10px;
+margin-left: 20px;
+margin-right: 20px;
+display: inline-block;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+width: 100%;
+
+}
+#btn6:after {
+    content: "\\276F";
+    color: #A6A6A6;
+    display: inline-block;
+    position: absolute;
+    right:50px;
+}
+
+#btn6.btn-down6:after{
+
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari */'
+    transform: rotate(90deg);
+    color: #3E6DEE;
+
+}
 
 .files-container{
 margin-left: 20px;
@@ -336,8 +489,9 @@ background: #FFFFFF;
 border-radius: 15px;
 box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.03);
 min-height: 50px;
-max-height: 300px;
+max-height: 1500px;
 min-width: 300px;
+margin-bottom: 5px;
 }
 
 
@@ -345,15 +499,12 @@ min-width: 300px;
 .file-container{
 
   color: #fff;
-  display: flex;
   font-family: 'Quicksand', sans-serif;
-  font-weight: 30;
   justify-content: start;
-  text-transform: uppercase;
-  font-size: 13px;
   max-width: 444px;
   min-width: 200px;
-  height: 69px;
+  min-height: 69px;
+  max-height: 100px;
   background: #FFFFFF;
   box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.03);
   border-radius: 10px;
@@ -361,21 +512,23 @@ min-width: 300px;
   gap: 21.48px;
   align-items: flex-start;
   font-style: normal;
+  display: flex;
+  font-weight: 500;
+  font-size: 18px;
   line-height: 22px;
   border: 2px solid rgba(0, 0, 0, 0.1);
+  
 }
 
 .file-container-right{
   color: #fff;
   display: flex;
   font-family: 'Quicksand', sans-serif;
-
+  max-height: 100px;
   justify-content: start;
-  text-transform: uppercase;
-  
   max-width: 444px;
   min-width: 200px;
-  height: 69px;
+  min-height: 69px;
   background: #FFFFFF;
   box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.03);
   border-radius: 10px;
@@ -402,7 +555,7 @@ margin:18px 0 15px 10px;
     box-sizing: border-box;
     float: left;
     width: 50%;
-    height: 300px; /* Should be removed. Only for demonstration */ 
+    max-height: 1100px; /* Should be removed. Only for demonstration */ 
 }
 
 /* Clear floats after the columns */
@@ -418,15 +571,16 @@ margin:18px 0 15px 10px;
 min-width: 189.31px;
 max-width: 400px;
 font-family: 'Quicksand', sans-serif;
-height: 22px;
+min-height: 22px;
+max-height: 70px;
 font-style: normal;
-font-size: 16px;
+font-size: 18px;
 line-height: 22px;
 color: #000000;
 align-items: flex-start;
 margin:20px 10px 15px 0;
 text-decoration: none;
-font-weight: 500;
+font-weight: 400;
 }
 
 .link {
@@ -442,9 +596,6 @@ font-weight: 500;
     vertical-align:bottom;
     
 }
-
-     
-
 
 
 /*.carousel__item:nth-child(1) .demo-content {*/
@@ -479,68 +630,7 @@ font-weight: 500;
 display: none;
 }
 
-@media screen and (max-width: 1390px) {
-
-#btn:after {
-    content: "\\276F";
-    color: #A6A6A6;
-    display: inline-block;
-    margin-left: 78%;
-    margin-right: auto;
-}
-
-#btn.btn-down:after{
-
-    -ms-transform: rotate(90deg); /* IE 9 */
-    -webkit-transform: rotate(90deg); /* Safari */'
-    transform: rotate(90deg);
-    color: #3E6DEE;
-
-}
-}
-
-@media screen and (max-width: 1300px) {
-
-#btn:after {
-    margin-left: 76%;
-    margin-right: auto;
-}
-}
-
-@media screen and (max-width: 1250px) {
-
-#btn:after {
-    margin-left: 74%;
-    margin-right: auto;
-}
-
-}
-
-@media screen and (max-width: 1140px) {
-
-#btn:after {
-    margin-left: 72%;
-    margin-right: auto;
-
-}
-}
-
-@media screen and (max-width: 1100px) {
-
-#btn:after {
-    margin-left: 68%;
-    margin-right: auto;
-
-}
-}
-
 @media screen and (max-width: 1023px) {
-
-#btn:after {
-    margin-left: 65%;
-    margin-right: auto;
-}
-
 
 
   .carousel {
@@ -564,8 +654,6 @@ display: none;
   .carousel__track {
     overflow-x: auto;
     width: auto;
-    /*padding-left: 48px;*/
-    /*padding-right: 48px;*/
   }
 
   .carousel__item--tablet-in-1 {
@@ -601,24 +689,28 @@ display: none;
     vertical-align:bottom;
     
 }
-
-
 }
 
-@media screen and (max-width: 950px) {
-
-#btn:after {
-    margin-left: 62%;
-    margin-right: auto;
-}
 
 @media screen and (max-width: 900px) {
 
 .column {
     display: none;
 }
+
+.first-cont{
+display: none;
+}
+
 .files-container-PhoneVersion{
 display: block;
+background: #FFFFFF;
+border-radius: 15px;
+box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.03);
+min-height: 50px;
+max-height: 1500px;
+min-width: 300px;
+margin-bottom: 5px;
 }
 
 .link {
@@ -635,37 +727,218 @@ display: block;
     
 }
 
+.files-container-phone,
+  input[type="checkbox"] {
+            display: none;
+    }
+
+  input[type="checkbox"]:checked ~ .files-container-phone {
+            display: block;
+        }
+
+.files-container-phone{
+margin-left: 20px;
+min-height: 50px;
+max-height: 1500px;
+min-width: 300px;
+padding-bottom: 2px;
+}
+    
+
+
+#btn-phone{
+color: #000000;
+cursor: pointer;
+margin-top: 10px;
+margin-left: 20px;
+margin-right: 20px;
+display: inline-block;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+min-height: 50px;
+max-height: 100px;
+
+}
+#btn-phone:after {
+    content: "\\276F";
+    color: #A6A6A6;
+    display: inline-block;
+    position: absolute;
+    right:50px;
+    
 }
 
+#btn-phone.btn-phone-down:after{
 
-@media screen and (max-width: 886px) {
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari */'
+    transform: rotate(90deg);
+    color: #3E6DEE;
 
-#btn:after {
-    margin-left: 60%;
-    margin-right: auto;
-}}
+}
+
+#btn2-phone{
+color: #000000;
+cursor: pointer;
+margin-top: 10px;
+margin-left: 20px;
+margin-right: 20px;
+display: inline-block;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+min-height: 50px;
+max-height: 100px;
+
+}
+#btn2-phone:after {
+    content: "\\276F";
+    color: #A6A6A6;
+    display: inline-block;
+    position: absolute;
+    right:50px;
+    
+}
+
+#btn2-phone.btn2-phone-down:after{
+
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari */'
+    transform: rotate(90deg);
+    color: #3E6DEE;
+}
+
+#btn3-phone{
+color: #000000;
+cursor: pointer;
+margin-top: 10px;
+margin-left: 20px;
+margin-right: 20px;
+display: inline-block;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+min-height: 50px;
+max-height: 100px;
+
+}
+#btn3-phone:after {
+    content: "\\276F";
+    color: #A6A6A6;
+    display: inline-block;
+    position: absolute;
+    right:50px;
+    
+}
+
+#btn3-phone.btn3-phone-down:after{
+
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari */'
+    transform: rotate(90deg);
+    color: #3E6DEE;
+}
+
+#btn4-phone{
+color: #000000;
+cursor: pointer;
+margin-top: 10px;
+margin-left: 20px;
+margin-right: 20px;
+display: inline-block;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+min-height: 50px;
+max-height: 100px;
+
+}
+#btn4-phone:after {
+    content: "\\276F";
+    color: #A6A6A6;
+    display: inline-block;
+    position: absolute;
+    right:50px;
+    
+}
+
+#btn4-phone.btn4-phone-down:after{
+
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari */'
+    transform: rotate(90deg);
+    color: #3E6DEE;
+}
+
+#btn5-phone{
+color: #000000;
+cursor: pointer;
+margin-top: 10px;
+margin-left: 20px;
+margin-right: 20px;
+display: inline-block;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+min-height: 50px;
+max-height: 100px;
+
+}
+#btn5-phone:after {
+    content: "\\276F";
+    color: #A6A6A6;
+    display: inline-block;
+    position: absolute;
+    right:50px;
+    
+}
+
+#btn5-phone.btn5-phone-down:after{
+
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari */'
+    transform: rotate(90deg);
+    color: #3E6DEE;
+}
+
+#btn6-phone{
+color: #000000;
+cursor: pointer;
+margin-top: 10px;
+margin-left: 20px;
+margin-right: 20px;
+display: inline-block;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+min-height: 50px;
+max-height: 100px;
 
 
-@media screen and (max-width: 846px) {
+}
+#btn6-phone:after {
+    content: "\\276F";
+    color: #A6A6A6;
+    display: inline-block;
+    position: absolute;
+    right:50px;
+    
+}
 
-#btn:after {
-    margin-left: 57%;
-    margin-right: auto;
-}}
+#btn6-phone.btn6-phone-down:after{
 
-@media screen and (max-width: 830px) {
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari */'
+    transform: rotate(90deg);
+    color: #3E6DEE;
+}
 
-#btn:after {
-    margin-left: 55%;
-    margin-right: auto;
-}}
+}
+
 
 @media screen and (max-width: 815px) {
 
-#btn:after {
-    margin-left: 54%;
-    margin-right: auto;
-}
 
 .link {
     display: block;
@@ -682,30 +955,12 @@ display: block;
 }
 
 
-@media screen and (max-width: 790px) {
-
-#btn:after {
-    margin-left: 52%;
-    margin-right: auto;
-}}
-
-@media screen and (max-width: 775px) {
-
-#btn:after {
-    margin-left: 50%;
-    margin-right: auto;
-}}
-
 @media screen and (max-width: 745px) {
 
 .demo-content{
  height: 160px;
 }
 
-#btn:after {
-    margin-left: 48%;
-    margin-right: auto;
-}
 
 .link {
     display: block;
@@ -722,76 +977,146 @@ display: block;
 }
 }
 
+@media screen and (max-width: 700px) 
+{
 
-@media screen and (max-width: 737px) {
+#btn-phone:after{position: absolute;
+    right:45px;
+}
+#btn2-phone:after{position: absolute;
+    right:45px;
+}
+#btn3-phone:after{position: absolute;
+    right:45px;
+}
+#btn4-phone:after{
+   position: absolute;
+     right:45px;
+}
+#btn5-phone:after{
+    position: absolute;
+     right:45px;
+}
+#btn6-phone:after{
+   position: absolute;
+     right:45px;
+}
+}
 
-#btn:after {
-    margin-left: 46%;
-    margin-right: auto;
-}}
+
+@media screen and (max-width: 680px) 
+{
+
+#btn-phone:after{
+    right:35px;
+}
+#btn2-phone:after{
+    right:35px;
+}
+#btn3-phone:after{
+    right:35px;
+}
+#btn4-phone:after{
+     right:35px;
+}
+#btn5-phone:after{
+     right:35px;
+}
+#btn6-phone:after{
+     right:35px;
+}
+}
+
+@media screen and (max-width: 670px) 
+{
+
+#btn-phone:after{
+    right:25px;
+}
+#btn2-phone:after{
+    right:25px;
+}
+#btn3-phone:after{
+    right:25px;
+}
+#btn4-phone:after{
+     right:25px;
+}
+#btn5-phone:after{
+     right:25px;
+}
+#btn6-phone:after{
+     right:25px;
+}
+}
+
+@media screen and (max-width: 650px) 
+{
+
+#btn-phone:after{
+    right:10px;
+}
+#btn2-phone:after{
+    right:10px;
+}
+#btn3-phone:after{
+     right:10px;
+}
+#btn4-phone:after{
+     right:10px;
+}
+#btn5-phone:after{
+     right:10px;
+}
+#btn6-phone:after{
+     right:10px;
+}
+}
+
+@media screen and (max-width: 640px) 
+{
+
+#btn-phone:after{
+    right:5px;
+}
+#btn2-phone:after{
+    right:5px;
+}
+#btn3-phone:after{
+     right:5px;
+}
+#btn4-phone:after{
+     right:5px;
+}
+#btn5-phone:after{
+     right:5px;
+}
+#btn6-phone:after{
+     right:5px;
+}
+}
 
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 630px) 
+{
 
-#btn:after {
-    margin-left: 44%;
-    margin-right: auto;
-}}
-
-@media screen and (max-width: 700px) {
-
-#btn:after {
-    margin-left: 42%;
-    margin-right: auto;
-}}
-
-@media screen and (max-width: 690px) {
-
-#btn:after {
-    margin-left: 40%;
-    margin-right: auto;
-}}
-
-@media screen and (max-width: 680px) {
-
-#btn:after {
-    margin-left: 38%;
-    margin-right: auto;
-}}
-
-@media screen and (max-width: 670px) {
-
-#btn:after {
-    margin-left: 36%;
-    margin-right: auto;
-}}
-
-@media screen and (max-width: 660px) {
-
-#btn:after {
-    margin-left: 34%;
-    margin-right: auto;
-}}
-
-@media screen and (max-width: 650px) {
-
-#btn:after {
-    margin-left: 31%;
-    margin-right: auto;
-}}
-
-@media screen and (max-width: 640px) {
-
-#btn:after {
-    margin-left: 28%;
-    margin-right: auto;
-}}
-
-@media screen and (max-width: 630px) {
-
-#btn:after {
-    margin-left: 25%;
-    margin-right: auto;
+#btn-phone:after{
+    right:-15px;
+}
+#btn2-phone:after{
+    right:-15px;
+}
+#btn3-phone:after{
+   right:-15px;
+}
+#btn4-phone:after{
+    right:-15px;
+}
+#btn5-phone:after{
+   right:-15px;
+}
+#btn6-phone:after{
+   right:-15px;
 }
 
 .link {
@@ -808,51 +1133,87 @@ display: block;
     
 
 .file-container-right{
+  max-height: 100px;
   color: #fff;
   display: flex;
   font-family: 'Quicksand', sans-serif;
   font-weight: 30;
   justify-content: start;
-  text-transform: uppercase;
   font-size: 13px;
-  max-width: 345px;
-  min-width: 300px;
-  height: 69px;
+  max-width: 300px;
+  min-width: 270px;
+  min-height: 69px;
   background: #FFFFFF;
   box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.03);
   border-radius: 10px;
-  margin: 8px 15px 8px 0px;
+  margin: 8px 15px 8px 0;
   gap: 21.48px;
   align-items: flex-start;
 }
 .file-container{
+  max-height: 100px;
   color: #fff;
   display: flex;
   font-family: 'Quicksand', sans-serif;
   font-weight: 30;
   justify-content: start;
-  text-transform: uppercase;
   font-size: 13px;
-  max-width: 345px;
-  min-width: 300px;
-  height: 69px;
+  max-width: 300px;
+  min-width: 270px;
+  min-height: 69px;
   background: #FFFFFF;
   box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.03);
   border-radius: 10px;
-  margin: 8px 15px 8px 0px;
+  margin: 8px 15px 8px 0;
   gap: 21.48px;
   align-items: flex-start;
 }
 }
 
-@media screen and (max-width: 620px) {
-
-#btn:after {
-    margin-left: 23%;
-    margin-right: auto;
+@media screen and (max-width: 620px) 
+{
+#btn-phone:after{
+    right:-20px;
+}
+#btn2-phone:after{
+  right:-20px;
+}
+#btn3-phone:after{
+   right:-20px;
+}
+#btn4-phone:after{
+   right:-20px;
+}
+#btn5-phone:after{
+   right:-20px;
+}
+#btn6-phone:after{
+   right:-20px;
 }}
 
+@media screen and (max-width: 610px) 
+{
+#btn-phone:after{
+    right:-25px;
+}
+#btn2-phone:after{
+  right:-25px;
+}
+#btn3-phone:after{
+   right:-25px;
+}
+#btn4-phone:after{
+   right:-25px;
+}
+#btn5-phone:after{
+   right:-25px;
+}
+#btn6-phone:after{
+   right:-25px;
+}
 
+
+}
 @media screen and (max-width: 600px) {
 
 .link {
@@ -869,6 +1230,25 @@ display: block;
     
 }
 
+#btn-phone:after{
+   right:-45px;
+}
+
+#btn2-phone:after{
+    right:-45px;
+}
+#btn3-phone:after{
+   right:-45px;
+}
+#btn4-phone:after{
+    right:-45px;
+}
+#btn5-phone:after{
+   right:-45px;
+}
+#btn6-phone:after{
+   right:-45px;
+}
 
   .carousel__track {
     padding-left: 0;
@@ -898,10 +1278,326 @@ display: block;
 }
 }
 
+@media screen and (max-width: 590px) {
+#btn-phone:after{
+   right:-55px;
+}
+
+#btn2-phone:after{
+    right:-55px;
+}
+#btn3-phone:after{
+   right:-55px;
+}
+#btn4-phone:after{
+    right:-55px;
+}
+#btn5-phone:after{
+   right:-55px;
+}
+#btn6-phone:after{
+   right:-55px;
+}
+
+}
+
+@media screen and (max-width: 580px) {
+#btn-phone:after{
+   right:-65px;
+}
+
+#btn2-phone:after{
+    right:-65px;
+}
+#btn3-phone:after{
+   right:-65px;
+}
+#btn4-phone:after{
+    right:-65px;
+}
+#btn5-phone:after{
+   right:-65px;
+}
+#btn6-phone:after{
+   right:-65px;
+}
+
+}
+
+@media screen and (max-width: 570px) {
+#btn-phone:after{
+   right:-77px;
+}
+
+#btn2-phone:after{
+    right:-77px;
+}
+#btn3-phone:after{
+   right:-77px;
+}
+#btn4-phone:after{
+    right:-77px;
+}
+#btn5-phone:after{
+   right:-77px;
+}
+#btn6-phone:after{
+   right:-77px;
+}
+
+}
+
+@media screen and (max-width: 560px) 
+{
+#btn-phone:after{
+   right:-90px;
+}
+
+#btn2-phone:after{
+    right:-90px;
+}
+#btn3-phone:after{
+   right:-90px;
+}
+#btn4-phone:after{
+    right:-90px;
+}
+#btn5-phone:after{
+   right:-90px;
+}
+#btn6-phone:after{
+   right:-90px;
+}
+
+}
+
+@media screen and (max-width: 550px) 
+{
+#btn-phone:after{
+   right:-105px;
+}
+
+#btn2-phone:after{
+    right:-105px;
+}
+#btn3-phone:after{
+   right:-105px;
+}
+#btn4-phone:after{
+    right:-105px;
+}
+#btn5-phone:after{
+   right:-105px;
+}
+#btn6-phone:after{
+   right:-105px;
+}
+
+}
+
+@media screen and (max-width: 550px) 
+{
+#btn-phone:after{
+   right:-100px;
+}
+
+#btn2-phone:after{
+    right:-100px;
+}
+#btn3-phone:after{
+   right:-100px;
+}
+#btn4-phone:after{
+    right:-100px;
+}
+#btn5-phone:after{
+   right:-100px;
+}
+#btn6-phone:after{
+   right:-100px;
+}
+
+}
+
+@media screen and (max-width: 540px) 
+{
+#btn-phone:after{
+   right:-109px;
+}
+
+#btn2-phone:after{
+    right:-109px;
+}
+#btn3-phone:after{
+   right:-109px;
+}
+#btn4-phone:after{
+    right:-109px;
+}
+#btn5-phone:after{
+   right:-109px;
+}
+#btn6-phone:after{
+   right:-109px;
+}
+
+}
+
+@media screen and (max-width: 520px) 
+{
+#btn-phone:after{
+   right:-119px;
+}
+
+#btn2-phone:after{
+    right:-119px;
+}
+#btn3-phone:after{
+   right:-119px;
+}
+#btn4-phone:after{
+    right:-119px;
+}
+#btn5-phone:after{
+   right:-119px;
+}
+#btn6-phone:after{
+   right:-119px;
+}
+
+}
+@media screen and (max-width: 510px) 
+{
+#btn-phone:after{
+   right:-129px;
+}
+
+#btn2-phone:after{
+    right:-129px;
+}
+#btn3-phone:after{
+   right:-129px;
+}
+#btn4-phone:after{
+    right:-129px;
+}
+#btn5-phone:after{
+   right:-129px;
+}
+#btn6-phone:after{
+   right:-129px;
+}
+
+}
+
+@media screen and (max-width: 500px) 
+{
+#btn-phone:after{
+   right:-139px;
+}
+
+#btn2-phone:after{
+    right:-139px;
+}
+#btn3-phone:after{
+   right:-139px;
+}
+#btn4-phone:after{
+    right:-139px;
+}
+#btn5-phone:after{
+   right:-139px;
+}
+#btn6-phone:after{
+   right:-139px;
+}
+
+}
+
+
+@media screen and (max-width: 480px) 
+{
+#btn-phone:after{
+position: absolute;
+right: 55px;
+}
+#btn2-phone:after{
+  position: absolute;
+right: 55px;
+}
+#btn3-phone:after{
+  position: absolute;
+right: 55px;
+}
+#btn4-phone:after{
+   position: absolute;
+right: 55px;
+}
+#btn5-phone:after{
+  position: absolute;
+right: 55px;
+}
+#btn6-phone:after{
+  position: absolute;
+right: 55px;
+}
+}
+
+
+@media screen and (max-width: 420px) 
+{
+
+
+.files-container-PhoneVersion{
+display: block;
+background: #FFFFFF;
+border-radius: 15px;
+box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.03);
+min-height: 50px;
+max-height: 1500px;
+min-width: 200px;
+margin-bottom: 5px;
+}
+
+.link {
+    display: block;
+    padding: 160px 18px 12px 18px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 1000;
+    position: absolute;
+    width: 100%; /* Ширина слоя */
+    height: 100%; /* Высота слоя */
+    vertical-align:bottom;
+    
+}
+
+.files-container-phone,
+  input[type="checkbox"] {
+            display: none;
+    }
+
+  input[type="checkbox"]:checked ~ .files-container-phone {
+            display: block;
+        }
+
+.files-container-phone{
+margin-left: 20px;
+min-height: 50px;
+max-height: 1500px;
+min-width: 300px;
+padding-bottom: 2px;
+}
+    
+
+
+}
+
 
 
 </style>
-         <h1> Шаблоны </h1>
+         <h1> Проекты </h1>
          <div class='demo-container'>
       <div class='carousel'>
         <input checked='checked' class='carousel__activator' id='carousel-slide-activator-1' name='carousel' type='radio'>
@@ -988,7 +1684,7 @@ display: block;
 
 <div class="first-cont">
 
-<label for="pseudoBtn" id="btn" > Управление НТР </label>
+<label for="pseudoBtn" id="btn" > Папка №1 </label>
 <input type="checkbox" id="pseudoBtn">
 
 <div class='files-container'>
@@ -996,84 +1692,164 @@ display: block;
   <div class="column">
     <div class="file-container">
         <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=DOC.png?raw=true" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~6o0G3" class="file-name">НТИ справка</a>
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~6o0G3" class="file-name">Шаблон ...</a>
     </div>
    
     <div class="file-container">
         <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/PPTX.png?raw=true" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~0FkYS" class="file-name">Итоги мониторинга МРГ НТИ</a>
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~0FkYS" class="file-name">Шаблон ...</a>
     </div>
     
     <div class="file-container">
         <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=XLS.png?raw=true" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Топ 11 прорывных НТИ</a>
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Шаблон ...</a>
     </div>
+    
   </div>
   
   
   <div class="column">
     <div class="file-container-right">
         <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=DOC.png?raw=true" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Документы</a>
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Шаблон ...</a>
     </div>
    
     <div class="file-container-right">
         <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/LINK.png?raw=true" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Файл №5</a>
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Шаблон ...</a>
     </div>
     
     <div class="file-container-right">
         <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/PPTX.png?raw=true" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Сборка</a>
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Шаблон ...</a>
     </div>
   </div>
   
 </div>
-   
- </div>
-
-
+</div>
 </div>
 
  
+<div class="first-cont">
+
+<label for="pseudoBtn2" id="btn2" > Папка №2 </label>
+<input type="checkbox" id="pseudoBtn2">
+
+<div class='files-container'>
+<div class="row">
+  <div class="column">
+   
+    
+  </div>
+  
+  
+  <div class="column">
+   
+  </div>
+  
+</div>
+</div>
+</div>
 
  
+<!-- <div class="first-cont">-->
+
+<!--<label for="pseudoBtn6" id="btn6" > Международная деятельность </label>-->
+<!--<input type="checkbox" id="pseudoBtn6">-->
+
+<!--<div class='files-container'>-->
+<!--<div class="row">-->
+<!--  <div class="column">-->
+<!--   -->
+<!--  </div>-->
+<!--  -->
+<!--  -->
+<!--  <div class="column">-->
+<!--    -->
+<!--  </div>-->
+<!--  -->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
  
- 
-  <div class='files-container-PhoneVersion'>
-  
+
+<div class="files-container-PhoneVersion">
+
+<label for="pseudoBtn-phone" id="btn-phone" > Папка №1 </label>
+<input type="checkbox" id="pseudoBtn-phone">
+
+ <div class='files-container-phone'>
     <div class="file-container">
         <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=DOC.png?raw=true" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Годовой отчёт</a>
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~6o0G3" class="file-name">Шаблон ...</a>
     </div>
    
     <div class="file-container">
-        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/LINK.png?raw=true" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Шаблон</a>
-    </div>
-    
-    <div class="file-container">
         <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/PPTX.png?raw=true" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Проект</a>
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~0FkYS" class="file-name">Шаблон ...</a>
     </div>
+</div>
+</div>
   
   
-    <div class="file-container-right">
-        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=DOC.png?raw=true" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Документы</a>
-    </div>
-   
-    <div class="file-container-right">
-        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/LINK.png?raw=true" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Файл №5</a>
-    </div>
+  
+  
+  
+<div class="files-container-PhoneVersion">
+
+<label for="pseudoBtn2-phone" id="btn2-phone" > Папка №2 </label>
+<input type="checkbox" id="pseudoBtn2-phone">
+
+ <div class='files-container-phone'>
+  
+</div>
+</div>
+  
+  
+  
+  
+<div class="files-container-PhoneVersion">
+
+<label for="pseudoBtn3-phone" id="btn3-phone" > Папка .. </label>
+<input type="checkbox" id="pseudoBtn3-phone">
+
+ <div class='files-container-phone'>
     
-    <div class="file-container-right">
-        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/PPTX.png?raw=true" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Сборка</a>
-    </div>
-    
-  </div>  
+ 
+</div>
+</div>  
+  
+  
+<!--<div class="files-container-PhoneVersion">-->
+
+<!--<label for="pseudoBtn4-phone" id="btn4-phone" > Папка .. </label>-->
+<!--<input type="checkbox" id="pseudoBtn4-phone">-->
+
+<!-- <div class='files-container-phone'>-->
+<!--  -->
+<!--</div>-->
+<!--</div>  -->
+<!--  -->
+<!--<div class="files-container-PhoneVersion">-->
+
+<!--<label for="pseudoBtn5-phone" id="btn5-phone" > Папка .. </label>-->
+<!--<input type="checkbox" id="pseudoBtn5-phone">-->
+
+<!-- <div class='files-container-phone'>-->
+<!--  -->
+<!--</div>-->
+<!--</div>    -->
+<!--  -->
+<!--<div class="files-container-PhoneVersion">-->
+
+<!--<label for="pseudoBtn6-phone" id="btn6-phone" > Папка .. </label>-->
+<!--<input type="checkbox" id="pseudoBtn6-phone">-->
+
+<!-- <div class='files-container-phone'>-->
+<!--  -->
+<!--</div>-->
+<!--</div>    -->
+
   
   
   <div id="my_pdf_viewer">

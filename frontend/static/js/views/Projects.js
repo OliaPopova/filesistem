@@ -711,7 +711,7 @@ border-radius: 15px;
 box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.03);
 min-height: 50px;
 max-height: 1500px;
-min-width: 350px;
+min-width: 300px;
 margin-bottom: 5px;
 }
 
@@ -979,87 +979,146 @@ max-height: 100px;
 }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 700px) 
+{
 
-#btn-phone:after{
-    position: absolute;
-    right:15px;
+#btn-phone:after{position: absolute;
+    right:45px;
 }
-#btn2-phone:after{
-    position: absolute;
-    right:15px;
+#btn2-phone:after{position: absolute;
+    right:45px;
 }
-#btn3-phone:after{
-    position: absolute;
-     right:15px;
+#btn3-phone:after{position: absolute;
+    right:45px;
 }
 #btn4-phone:after{
    position: absolute;
-     right:15px;
+     right:45px;
 }
 #btn5-phone:after{
     position: absolute;
-     right:15px;
+     right:45px;
 }
 #btn6-phone:after{
    position: absolute;
-     right:15px;
+     right:45px;
 }
 }
 
-@media screen and (max-width: 650px) {
+
+@media screen and (max-width: 680px) 
+{
 
 #btn-phone:after{
-    position: absolute;
+    right:35px;
+}
+#btn2-phone:after{
+    right:35px;
+}
+#btn3-phone:after{
+    right:35px;
+}
+#btn4-phone:after{
+     right:35px;
+}
+#btn5-phone:after{
+     right:35px;
+}
+#btn6-phone:after{
+     right:35px;
+}
+}
+
+@media screen and (max-width: 670px) 
+{
+
+#btn-phone:after{
+    right:25px;
+}
+#btn2-phone:after{
+    right:25px;
+}
+#btn3-phone:after{
+    right:25px;
+}
+#btn4-phone:after{
+     right:25px;
+}
+#btn5-phone:after{
+     right:25px;
+}
+#btn6-phone:after{
+     right:25px;
+}
+}
+
+@media screen and (max-width: 650px) 
+{
+
+#btn-phone:after{
+    right:10px;
+}
+#btn2-phone:after{
+    right:10px;
+}
+#btn3-phone:after{
+     right:10px;
+}
+#btn4-phone:after{
+     right:10px;
+}
+#btn5-phone:after{
+     right:10px;
+}
+#btn6-phone:after{
+     right:10px;
+}
+}
+
+@media screen and (max-width: 640px) 
+{
+
+#btn-phone:after{
     right:5px;
 }
 #btn2-phone:after{
-    position: absolute;
     right:5px;
 }
 #btn3-phone:after{
-    position: absolute;
      right:5px;
 }
 #btn4-phone:after{
-   position: absolute;
      right:5px;
 }
 #btn5-phone:after{
-    position: absolute;
      right:5px;
 }
 #btn6-phone:after{
-   position: absolute;
      right:5px;
 }
 }
 
-@media screen and (max-width: 630px) {
+
+@media screen and (max-width: 630px) 
+{
 
 #btn-phone:after{
-    position: absolute;
-    right:0;
+    right:-15px;
 }
 #btn2-phone:after{
-    position: absolute;
-    right:0;
+    right:-15px;
 }
 #btn3-phone:after{
-    position: absolute;
-    right:0;
+   right:-15px;
 }
 #btn4-phone:after{
-   position: absolute;
-    right:0;
+    right:-15px;
 }
 #btn5-phone:after{
-    position: absolute;
-    right:0;
+   right:-15px;
 }
 #btn6-phone:after{
-   position: absolute;
-    right:0;
+   right:-15px;
 }
 
 .link {
@@ -1113,30 +1172,46 @@ max-height: 100px;
 }
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 620px) 
+{
 #btn-phone:after{
-    position: absolute;
-    right:0;
+    right:-20px;
 }
 #btn2-phone:after{
-  position: absolute;
-    right:0;
+  right:-20px;
 }
 #btn3-phone:after{
-  position: absolute;
-    right:0;
+   right:-20px;
 }
 #btn4-phone:after{
-   position: absolute;
-    right:0;
+   right:-20px;
 }
 #btn5-phone:after{
-    position: absolute;
-    right:0;
+   right:-20px;
 }
 #btn6-phone:after{
- position: absolute;
-    right:0;
+   right:-20px;
+}}
+
+@media screen and (max-width: 610px) 
+{
+#btn-phone:after{
+    right:-25px;
+}
+#btn2-phone:after{
+  right:-25px;
+}
+#btn3-phone:after{
+   right:-25px;
+}
+#btn4-phone:after{
+   right:-25px;
+}
+#btn5-phone:after{
+   right:-25px;
+}
+#btn6-phone:after{
+   right:-25px;
 }
 
 
@@ -1158,29 +1233,23 @@ max-height: 100px;
 }
 
 #btn-phone:after{
-position: absolute;
-    right:0;
+   right:-45px;
 }
 
 #btn2-phone:after{
-  position: absolute;
-    right:0;
+    right:-45px;
 }
 #btn3-phone:after{
- position: absolute;
-    right:0;
+   right:-45px;
 }
 #btn4-phone:after{
-  position: absolute;
-    right:0;
+    right:-45px;
 }
 #btn5-phone:after{
- position: absolute;
-    right:0;
+   right:-45px;
 }
 #btn6-phone:after{
-  position: absolute;
-    right:0;
+   right:-45px;
 }
 
   .carousel__track {
@@ -1211,7 +1280,245 @@ position: absolute;
 }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 590px) {
+#btn-phone:after{
+   right:-55px;
+}
+
+#btn2-phone:after{
+    right:-55px;
+}
+#btn3-phone:after{
+   right:-55px;
+}
+#btn4-phone:after{
+    right:-55px;
+}
+#btn5-phone:after{
+   right:-55px;
+}
+#btn6-phone:after{
+   right:-55px;
+}
+
+}
+
+@media screen and (max-width: 580px) {
+#btn-phone:after{
+   right:-65px;
+}
+
+#btn2-phone:after{
+    right:-65px;
+}
+#btn3-phone:after{
+   right:-65px;
+}
+#btn4-phone:after{
+    right:-65px;
+}
+#btn5-phone:after{
+   right:-65px;
+}
+#btn6-phone:after{
+   right:-65px;
+}
+
+}
+
+@media screen and (max-width: 570px) {
+#btn-phone:after{
+   right:-77px;
+}
+
+#btn2-phone:after{
+    right:-77px;
+}
+#btn3-phone:after{
+   right:-77px;
+}
+#btn4-phone:after{
+    right:-77px;
+}
+#btn5-phone:after{
+   right:-77px;
+}
+#btn6-phone:after{
+   right:-77px;
+}
+
+}
+
+@media screen and (max-width: 560px) 
+{
+#btn-phone:after{
+   right:-90px;
+}
+
+#btn2-phone:after{
+    right:-90px;
+}
+#btn3-phone:after{
+   right:-90px;
+}
+#btn4-phone:after{
+    right:-90px;
+}
+#btn5-phone:after{
+   right:-90px;
+}
+#btn6-phone:after{
+   right:-90px;
+}
+
+}
+
+@media screen and (max-width: 550px) 
+{
+#btn-phone:after{
+   right:-105px;
+}
+
+#btn2-phone:after{
+    right:-105px;
+}
+#btn3-phone:after{
+   right:-105px;
+}
+#btn4-phone:after{
+    right:-105px;
+}
+#btn5-phone:after{
+   right:-105px;
+}
+#btn6-phone:after{
+   right:-105px;
+}
+
+}
+
+@media screen and (max-width: 550px) 
+{
+#btn-phone:after{
+   right:-100px;
+}
+
+#btn2-phone:after{
+    right:-100px;
+}
+#btn3-phone:after{
+   right:-100px;
+}
+#btn4-phone:after{
+    right:-100px;
+}
+#btn5-phone:after{
+   right:-100px;
+}
+#btn6-phone:after{
+   right:-100px;
+}
+
+}
+
+@media screen and (max-width: 540px) 
+{
+#btn-phone:after{
+   right:-109px;
+}
+
+#btn2-phone:after{
+    right:-109px;
+}
+#btn3-phone:after{
+   right:-109px;
+}
+#btn4-phone:after{
+    right:-109px;
+}
+#btn5-phone:after{
+   right:-109px;
+}
+#btn6-phone:after{
+   right:-109px;
+}
+
+}
+
+@media screen and (max-width: 520px) 
+{
+#btn-phone:after{
+   right:-119px;
+}
+
+#btn2-phone:after{
+    right:-119px;
+}
+#btn3-phone:after{
+   right:-119px;
+}
+#btn4-phone:after{
+    right:-119px;
+}
+#btn5-phone:after{
+   right:-119px;
+}
+#btn6-phone:after{
+   right:-119px;
+}
+
+}
+@media screen and (max-width: 510px) 
+{
+#btn-phone:after{
+   right:-129px;
+}
+
+#btn2-phone:after{
+    right:-129px;
+}
+#btn3-phone:after{
+   right:-129px;
+}
+#btn4-phone:after{
+    right:-129px;
+}
+#btn5-phone:after{
+   right:-129px;
+}
+#btn6-phone:after{
+   right:-129px;
+}
+
+}
+
+@media screen and (max-width: 500px) 
+{
+#btn-phone:after{
+   right:-139px;
+}
+
+#btn2-phone:after{
+    right:-139px;
+}
+#btn3-phone:after{
+   right:-139px;
+}
+#btn4-phone:after{
+    right:-139px;
+}
+#btn5-phone:after{
+   right:-139px;
+}
+#btn6-phone:after{
+   right:-139px;
+}
+
+}
+
+
+@media screen and (max-width: 480px) 
+{
 #btn-phone:after{
 position: absolute;
 right: 55px;
@@ -1237,6 +1544,58 @@ right: 55px;
 right: 55px;
 }
 }
+
+
+@media screen and (max-width: 420px) 
+{
+
+
+.files-container-PhoneVersion{
+display: block;
+background: #FFFFFF;
+border-radius: 15px;
+box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.03);
+min-height: 50px;
+max-height: 1500px;
+min-width: 200px;
+margin-bottom: 5px;
+}
+
+.link {
+    display: block;
+    padding: 160px 18px 12px 18px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 1000;
+    position: absolute;
+    width: 100%; /* Ширина слоя */
+    height: 100%; /* Высота слоя */
+    vertical-align:bottom;
+    
+}
+
+.files-container-phone,
+  input[type="checkbox"] {
+            display: none;
+    }
+
+  input[type="checkbox"]:checked ~ .files-container-phone {
+            display: block;
+        }
+
+.files-container-phone{
+margin-left: 20px;
+min-height: 50px;
+max-height: 1500px;
+min-width: 300px;
+padding-bottom: 2px;
+}
+    
+
+
+}
+
 
 
 </style>
