@@ -1597,7 +1597,7 @@ padding-bottom: 2px;
 
 
 </style>
-         <h1> Проекты </h1>
+         <h1> Шаблоны </h1>
          <div class='demo-container'>
       <div class='carousel'>
         <input checked='checked' class='carousel__activator' id='carousel-slide-activator-1' name='carousel' type='radio'>
