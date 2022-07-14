@@ -711,7 +711,7 @@ border-radius: 15px;
 box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.03);
 min-height: 50px;
 max-height: 1500px;
-min-width: 300px;
+min-width: 350px;
 margin-bottom: 5px;
 }
 
@@ -758,7 +758,8 @@ display: inline-block;
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
-width: 100%;
+min-height: 50px;
+max-height: 100px;
 
 }
 #btn-phone:after {
@@ -789,7 +790,8 @@ display: inline-block;
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
-width: 100%;
+min-height: 50px;
+max-height: 100px;
 
 }
 #btn2-phone:after {
@@ -819,7 +821,8 @@ display: inline-block;
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
-width: 100%;
+min-height: 50px;
+max-height: 100px;
 
 }
 #btn3-phone:after {
@@ -849,7 +852,8 @@ display: inline-block;
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
-width: 100%;
+min-height: 50px;
+max-height: 100px;
 
 }
 #btn4-phone:after {
@@ -879,7 +883,8 @@ display: inline-block;
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
-width: 100%;
+min-height: 50px;
+max-height: 100px;
 
 }
 #btn5-phone:after {
@@ -909,7 +914,9 @@ display: inline-block;
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
-width: 100%;
+min-height: 50px;
+max-height: 100px;
+
 
 }
 #btn6-phone:after {
@@ -975,22 +982,28 @@ width: 100%;
 @media screen and (max-width: 630px) {
 
 #btn-phone:after{
-    right:40px;
+    position: absolute;
+    right:0;
 }
 #btn2-phone:after{
-    right:40px;
+    position: absolute;
+    right:0;
 }
 #btn3-phone:after{
-    right:40px;
+    position: absolute;
+    right:0;
 }
 #btn4-phone:after{
-    right:40px;
+   position: absolute;
+    right:0;
 }
 #btn5-phone:after{
-    right:40px;
+    position: absolute;
+    right:0;
 }
 #btn6-phone:after{
-    right:40px;
+   position: absolute;
+    right:0;
 }
 
 .link {
@@ -1046,22 +1059,28 @@ width: 100%;
 
 @media screen and (max-width: 620px) {
 #btn-phone:after{
-    right:29px;
+    position: absolute;
+    right:0;
 }
 #btn2-phone:after{
-   right:29px;
+  position: absolute;
+    right:0;
 }
 #btn3-phone:after{
-   right:29px;
+  position: absolute;
+    right:0;
 }
 #btn4-phone:after{
-    right:29px;
+   position: absolute;
+    right:0;
 }
 #btn5-phone:after{
-    right:29px;
+    position: absolute;
+    right:0;
 }
 #btn6-phone:after{
-  right:29px;
+ position: absolute;
+    right:0;
 }
 
 
@@ -1083,8 +1102,29 @@ width: 100%;
 }
 
 #btn-phone:after{
-position: relative;
-margin-left: 100px;
+position: absolute;
+    right:0;
+}
+
+#btn2-phone:after{
+  position: absolute;
+    right:0;
+}
+#btn3-phone:after{
+ position: absolute;
+    right:0;
+}
+#btn4-phone:after{
+  position: absolute;
+    right:0;
+}
+#btn5-phone:after{
+ position: absolute;
+    right:0;
+}
+#btn6-phone:after{
+  position: absolute;
+    right:0;
 }
 
   .carousel__track {
