@@ -1597,7 +1597,7 @@ padding-bottom: 2px;
 
 
 </style>
-         <h1> Проекты </h1>
+         <h1> Отчёты </h1>
          <div class='demo-container'>
       <div class='carousel'>
         <input checked='checked' class='carousel__activator' id='carousel-slide-activator-1' name='carousel' type='radio'>
@@ -1692,17 +1692,17 @@ padding-bottom: 2px;
   <div class="column">
     <div class="file-container">
         <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=DOC.png?raw=true" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~6o0G3" class="file-name">Шаблон ...</a>
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~6o0G3" class="file-name">Отчёт ...</a>
     </div>
    
     <div class="file-container">
         <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/PPTX.png?raw=true" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~0FkYS" class="file-name">Шаблон ...</a>
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~0FkYS" class="file-name">Отчёт ...</a>
     </div>
     
     <div class="file-container">
         <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=XLS.png?raw=true" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Шаблон ...</a>
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Отчёт ...</a>
     </div>
     
   </div>
@@ -1711,17 +1711,17 @@ padding-bottom: 2px;
   <div class="column">
     <div class="file-container-right">
         <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=DOC.png?raw=true" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Шаблон ...</a>
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Отчёт ...</a>
     </div>
    
     <div class="file-container-right">
         <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/LINK.png?raw=true" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Шаблон ...</a>
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Отчёт ...</a>
     </div>
     
     <div class="file-container-right">
         <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/PPTX.png?raw=true" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Шаблон ...</a>
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Отчёт ...</a>
     </div>
   </div>
   
@@ -1781,12 +1781,12 @@ padding-bottom: 2px;
  <div class='files-container-phone'>
     <div class="file-container">
         <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=DOC.png?raw=true" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~6o0G3" class="file-name">Шаблон ...</a>
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~6o0G3" class="file-name">Отчёт ...</a>
     </div>
    
     <div class="file-container">
         <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/PPTX.png?raw=true" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~0FkYS" class="file-name">Шаблон ...</a>
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~0FkYS" class="file-name">Отчёт ...</a>
     </div>
 </div>
 </div>

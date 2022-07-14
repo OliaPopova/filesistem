@@ -80,61 +80,98 @@
 
 
     var btn_phone = document.getElementById('btn-phone');
-    btn_phone.addEventListener('click', () => {
-        btn_phone.classList.toggle('btn-phone-down');
-    })
+
+    if(btn_phone) {
+        btn_phone.addEventListener('click', () => {
+                btn_phone.classList.toggle('btn-phone-down');
+        })
+    }
 
     var btn2_phone = document.getElementById('btn2-phone');
-    btn2_phone.addEventListener('click', () => {
-        btn2_phone.classList.toggle('btn2-phone-down');
-    })
+    if(btn2_phone) {
+        btn2_phone.addEventListener('click', () => {
+            btn2_phone.classList.toggle('btn2-phone-down');
+        })
+    }
+
 
     var btn3_phone = document.getElementById('btn3-phone');
-    btn3_phone.addEventListener('click', () => {
-        btn3_phone.classList.toggle('btn3-phone-down');
-    })
+    if(btn3_phone) {
+        btn3_phone.addEventListener('click', () => {
+            btn3_phone.classList.toggle('btn3-phone-down');
+        })
+    }
+
 
     var btn4_phone = document.getElementById('btn4-phone');
-    btn4_phone.addEventListener('click', () => {
-        btn4_phone.classList.toggle('btn4-phone-down');
-    })
+    if(btn4_phone) {
+        btn4_phone.addEventListener('click', () => {
+            btn4_phone.classList.toggle('btn4-phone-down');
+        })
+    }
+
 
     var btn5_phone = document.getElementById('btn5-phone');
-    btn5_phone.addEventListener('click', () => {
-        btn5_phone.classList.toggle('btn5-phone-down');
-    })
+    if(btn5_phone) {
+        btn5_phone.addEventListener('click', () => {
+            btn5_phone.classList.toggle('btn5-phone-down');
+        })
+    }
+
 
     var btn6_phone = document.getElementById('btn6-phone');
-    btn6_phone.addEventListener('click', () => {
-        btn6_phone.classList.toggle('btn6-phone-down');
-    })
+    if(btn6_phone) {
+        btn6_phone.addEventListener('click', () => {
+            btn6_phone.classList.toggle('btn6-phone-down');
+        })
+    }
+
 
     var btn = document.getElementById('btn');
-    btn.addEventListener('click', () => {
-        btn.classList.toggle('btn-down');
-    })
+    if(btn) {
+        btn.addEventListener('click', () => {
+            btn.classList.toggle('btn-down');
+        })
+    }
+
 
     var btn2 = document.getElementById('btn2');
-    btn2.addEventListener('click', () => {
-        btn2.classList.toggle('btn-down2');
-    })
+    if(btn2) {
+        btn2.addEventListener('click', () => {
+            btn2.classList.toggle('btn2-down');
+        })
+    }
+
+
 
     var btn3 = document.getElementById('btn3');
-    btn3.addEventListener('click', () => {
-        btn3.classList.toggle('btn-down3');
-    })
+    if(btn3) {
+        btn3.addEventListener('click', () => {
+            btn3.classList.toggle('btn3-down');
+        })
+    }
+
 
     var btn4 = document.getElementById('btn4');
-    btn4.addEventListener('click', () => {
-        btn4.classList.toggle('btn-down4');
-    })
+    if(btn4) {
+        btn4.addEventListener('click', () => {
+            btn4.classList.toggle('btn4-down');
+        })
+    }
 
     var btn5 = document.getElementById('btn5');
-    btn5.addEventListener('click', () => {
-        btn5.classList.toggle('btn-down5');
-    })
+    if(btn5) {
+        btn5.addEventListener('click', () => {
+            btn5.classList.toggle('btn5-down');
+        })
+    }
+
 
     var btn6 = document.getElementById('btn6');
-    btn6.addEventListener('click', () => {
-        btn6.classList.toggle('btn-down6');
-    })
+    if(btn6) {
+        btn6.addEventListener('click', () => {
+            btn6.classList.toggle('btn6-down');
+        })
+    }
+
+
