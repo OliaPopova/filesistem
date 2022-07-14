@@ -1691,17 +1691,17 @@ padding-bottom: 2px;
 <div class="row">
   <div class="column">
     <div class="file-container">
-        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=DOC.png?raw=true" alt="">
+        <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPPTX.svg" alt="">
         <a href="https://proektnyyofis-ru.bitrix24.ru/~6o0G3" class="file-name">Шаблон ...</a>
     </div>
    
     <div class="file-container">
-        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/PPTX.png?raw=true" alt="">
+        <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DDOC.svg" alt="">
         <a href="https://proektnyyofis-ru.bitrix24.ru/~0FkYS" class="file-name">Шаблон ...</a>
     </div>
     
     <div class="file-container">
-        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=XLS.png?raw=true" alt="">
+        <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DDOC.svg" alt="">
         <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Шаблон ...</a>
     </div>
     
@@ -1710,17 +1710,17 @@ padding-bottom: 2px;
   
   <div class="column">
     <div class="file-container-right">
-        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=DOC.png?raw=true" alt="">
+        <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
         <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Шаблон ...</a>
     </div>
    
     <div class="file-container-right">
-        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/LINK.png?raw=true" alt="">
+        <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
         <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Шаблон ...</a>
     </div>
     
     <div class="file-container-right">
-        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/PPTX.png?raw=true" alt="">
+        <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
         <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Шаблон ...</a>
     </div>
   </div>
@@ -1739,6 +1739,10 @@ padding-bottom: 2px;
 <div class="row">
   <div class="column">
    
+   <div class="file-container">
+        <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DDOC.svg" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~0FkYS" class="file-name">Шаблон ...</a>
+    </div>
     
   </div>
   
@@ -1780,12 +1784,12 @@ padding-bottom: 2px;
 
  <div class='files-container-phone'>
     <div class="file-container">
-        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=DOC.png?raw=true" alt="">
+        <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
         <a href="https://proektnyyofis-ru.bitrix24.ru/~6o0G3" class="file-name">Шаблон ...</a>
     </div>
    
     <div class="file-container">
-        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/PPTX.png?raw=true" alt="">
+        <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DDOC.svg" alt="">
         <a href="https://proektnyyofis-ru.bitrix24.ru/~0FkYS" class="file-name">Шаблон ...</a>
     </div>
 </div>
@@ -1801,7 +1805,10 @@ padding-bottom: 2px;
 <input type="checkbox" id="pseudoBtn2-phone">
 
  <div class='files-container-phone'>
-  
+  <div class="file-container">
+        <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DDOC.svg" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~0FkYS" class="file-name">Шаблон ...</a>
+    </div>
 </div>
 </div>
   
