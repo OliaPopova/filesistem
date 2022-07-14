@@ -706,6 +706,13 @@ display: none;
 
 .files-container-PhoneVersion{
 display: block;
+background: #FFFFFF;
+border-radius: 15px;
+box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.03);
+min-height: 50px;
+max-height: 1500px;
+min-width: 300px;
+margin-bottom: 5px;
 }
 
 .link {
@@ -730,6 +737,15 @@ display: block;
   input[type="checkbox"]:checked ~ .files-container-phone {
             display: block;
         }
+
+.files-container-phone{
+margin-left: 20px;
+min-height: 50px;
+max-height: 1500px;
+min-width: 300px;
+padding-bottom: 2px;
+}
+    
 
 
 #btn-phone{
@@ -761,6 +777,156 @@ width: 100%;
     transform: rotate(90deg);
     color: #3E6DEE;
 
+}
+
+#btn2-phone{
+color: #000000;
+cursor: pointer;
+margin-top: 10px;
+margin-left: 20px;
+margin-right: 20px;
+display: inline-block;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+width: 100%;
+
+}
+#btn2-phone:after {
+    content: "\\276F";
+    color: #A6A6A6;
+    display: inline-block;
+    position: absolute;
+    right:50px;
+    
+}
+
+#btn2-phone.btn2-phone-down:after{
+
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari */'
+    transform: rotate(90deg);
+    color: #3E6DEE;
+}
+
+#btn3-phone{
+color: #000000;
+cursor: pointer;
+margin-top: 10px;
+margin-left: 20px;
+margin-right: 20px;
+display: inline-block;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+width: 100%;
+
+}
+#btn3-phone:after {
+    content: "\\276F";
+    color: #A6A6A6;
+    display: inline-block;
+    position: absolute;
+    right:50px;
+    
+}
+
+#btn3-phone.btn3-phone-down:after{
+
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari */'
+    transform: rotate(90deg);
+    color: #3E6DEE;
+}
+
+#btn4-phone{
+color: #000000;
+cursor: pointer;
+margin-top: 10px;
+margin-left: 20px;
+margin-right: 20px;
+display: inline-block;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+width: 100%;
+
+}
+#btn4-phone:after {
+    content: "\\276F";
+    color: #A6A6A6;
+    display: inline-block;
+    position: absolute;
+    right:50px;
+    
+}
+
+#btn4-phone.btn4-phone-down:after{
+
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari */'
+    transform: rotate(90deg);
+    color: #3E6DEE;
+}
+
+#btn5-phone{
+color: #000000;
+cursor: pointer;
+margin-top: 10px;
+margin-left: 20px;
+margin-right: 20px;
+display: inline-block;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+width: 100%;
+
+}
+#btn5-phone:after {
+    content: "\\276F";
+    color: #A6A6A6;
+    display: inline-block;
+    position: absolute;
+    right:50px;
+    
+}
+
+#btn5-phone.btn5-phone-down:after{
+
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari */'
+    transform: rotate(90deg);
+    color: #3E6DEE;
+}
+
+#btn6-phone{
+color: #000000;
+cursor: pointer;
+margin-top: 10px;
+margin-left: 20px;
+margin-right: 20px;
+display: inline-block;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+width: 100%;
+
+}
+#btn6-phone:after {
+    content: "\\276F";
+    color: #A6A6A6;
+    display: inline-block;
+    position: absolute;
+    right:50px;
+    
+}
+
+#btn6-phone.btn6-phone-down:after{
+
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari */'
+    transform: rotate(90deg);
+    color: #3E6DEE;
 }
 
 }
@@ -808,22 +974,22 @@ width: 100%;
 
 @media screen and (max-width: 630px) {
 
-#btn:after{
+#btn-phone:after{
     right:40px;
 }
-#btn2:after{
+#btn2-phone:after{
     right:40px;
 }
-#btn3:after{
+#btn3-phone:after{
     right:40px;
 }
-#btn4:after{
+#btn4-phone:after{
     right:40px;
 }
-#btn5:after{
+#btn5-phone:after{
     right:40px;
 }
-#btn6:after{
+#btn6-phone:after{
     right:40px;
 }
 
@@ -848,8 +1014,8 @@ width: 100%;
   font-weight: 30;
   justify-content: start;
   font-size: 13px;
-  max-width: 345px;
-  min-width: 300px;
+  max-width: 300px;
+  min-width: 270px;
   min-height: 69px;
   background: #FFFFFF;
   box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.03);
@@ -866,8 +1032,8 @@ width: 100%;
   font-weight: 30;
   justify-content: start;
   font-size: 13px;
-  max-width: 345px;
-  min-width: 300px;
+  max-width: 300px;
+  min-width: 270px;
   min-height: 69px;
   background: #FFFFFF;
   box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.03);
@@ -879,22 +1045,27 @@ width: 100%;
 }
 
 @media screen and (max-width: 620px) {
-#btn:after{
+#btn-phone:after{
     right:29px;
 }
-#btn2:after{
-    right:29px;}
-#btn3:after{
-    right:29px;}
-#btn4:after{
-    right:29px;}
-#btn5:after{
-    right:29px;}
-#btn6:after{
-    right:29px;}
+#btn2-phone:after{
+   right:29px;
+}
+#btn3-phone:after{
+   right:29px;
+}
+#btn4-phone:after{
+    right:29px;
+}
+#btn5-phone:after{
+    right:29px;
+}
+#btn6-phone:after{
+  right:29px;
 }
 
 
+}
 @media screen and (max-width: 600px) {
 
 .link {
@@ -911,31 +1082,11 @@ width: 100%;
     
 }
 
-#btn:after{
+#btn-phone:after{
 position: relative;
 margin-left: 100px;
 }
 
-#btn2:after{
-position: relative;
-margin-left: 100px;
-}
-#btn3:after{
-position: relative;
-margin-left: 100px;
-}
-#btn4:after{
-position: relative;
-margin-left: 100px;
-}
-#btn5:after{
-position: relative;
-margin-left: 100px;
-}
-#btn6:after{
-position: relative;
-margin-left: 100px;
-}
   .carousel__track {
     padding-left: 0;
     padding-right: 0;
@@ -965,29 +1116,29 @@ margin-left: 100px;
 }
 
 @media screen and (max-width: 480px) {
-#btn:after{
+#btn-phone:after{
 position: absolute;
-right: 45px;
+right: 55px;
 }
-#btn2:after{
-position: absolute;
-right: 45px;
+#btn2-phone:after{
+  position: absolute;
+right: 55px;
 }
-#btn3:after{
-position: absolute;
-right: 45px;
+#btn3-phone:after{
+  position: absolute;
+right: 55px;
 }
-#btn4:after{
-position: absolute;
-right: 45px;
+#btn4-phone:after{
+   position: absolute;
+right: 55px;
 }
-#btn5:after{
-position: absolute;
-right: 45px;
+#btn5-phone:after{
+  position: absolute;
+right: 55px;
 }
-#btn6:after{
-position: absolute;
-right: 45px;
+#btn6-phone:after{
+  position: absolute;
+right: 55px;
 }
 }
 
@@ -1590,13 +1741,354 @@ right: 45px;
     </div>
  
 </div>
-
-
 </div>
   
   
   
   
+  
+<div class="files-container-PhoneVersion">
+
+<label for="pseudoBtn2-phone" id="btn2-phone" > Кадры </label>
+<input type="checkbox" id="pseudoBtn2-phone">
+
+ <div class='files-container-phone'>
+    <div class="file-container">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=DOC.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~6o0G3" class="file-name">Десятилетие науки и технологий</a>
+    </div>
+   
+    <div class="file-container">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/PPTX.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~0FkYS" class="file-name">Развитие научного туризма и волонтерства</a>
+    </div>
+    
+    <div class="file-container">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=XLS.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Модель научной аттестации</a>
+    </div>
+    
+    <div class="file-container">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=XLS.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">РЦТ вузов и НО</a>
+    </div>
+    
+    <div class="file-container-right">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=DOC.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Зелёный» коридор для ученых</a>
+    </div>
+   
+    <div class="file-container-right">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/LINK.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Кадровый проект для науки и высшего образования</a>
+    </div>
+    
+    <div class="file-container-right">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/PPTX.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Эндаумент-фонды</a>
+    </div>
+   
+ 
+</div>
+</div>
+  
+  
+  
+  
+<div class="files-container-PhoneVersion">
+
+<label for="pseudoBtn3-phone" id="btn3-phone" > Инфраструктура и сервисы </label>
+<input type="checkbox" id="pseudoBtn3-phone">
+
+ <div class='files-container-phone'>
+    <div class="file-container">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=DOC.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~6o0G3" class="file-name">Кампусы</a>
+    </div>
+   
+    <div class="file-container">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/PPTX.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~0FkYS" class="file-name">Приборная база</a>
+    </div>
+    
+    <div class="file-container">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=XLS.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">ЦКП и УНУ</a>
+    </div>
+    
+    <div class="file-container">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=XLS.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Мегасайенс</a>
+    </div>
+    
+    <div class="file-container">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=XLS.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Научный флот</a>
+    </div>
+    
+    <div class="file-container-right">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=DOC.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">НИКС и суперкомпьютеры</a>
+    </div>
+   
+    <div class="file-container-right">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/LINK.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Домен «Наука и инновации»</a>
+    </div>
+    
+    <div class="file-container-right">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/PPTX.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Домен «Образование»</a>
+    </div>
+    
+    <div class="file-container-right">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/PPTX.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Суперсервис</a>
+    </div>
+    
+    <div class="file-container-right">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/PPTX.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Капремонт вузов и научных организаций</a>
+    </div>
+ 
+</div>
+</div>  
+  
+  
+<div class="files-container-PhoneVersion">
+
+<label for="pseudoBtn4-phone" id="btn4-phone" > Инструменты поддержки </label>
+<input type="checkbox" id="pseudoBtn4-phone">
+
+ <div class='files-container-phone'>
+    <div class="file-container">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/PPTX.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~0FkYS" class="file-name">Научно-образовательные центры</a>
+    </div>
+    
+    <div class="file-container">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=XLS.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Приоритет-2030</a>
+    </div>
+    
+    <div class="file-container">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=XLS.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Приоритет-2030 для научных организаций</a>
+    </div>
+    
+    <div class="file-container">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=XLS.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Инжиниринговые центры</a>
+    </div>
+    
+    <div class="file-container">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=XLS.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">ФНТП Генетика</a>
+    </div>
+    
+    <div class="file-container">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=XLS.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Комплексная научно-техническая программа</a>
+    </div>
+    
+    <div class="file-container">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=XLS.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">ВИП ГЗ Климат</a>
+    </div>
+    
+    <div class="file-container">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=XLS.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">ВИП ГЗ Новая энергетика</a>
+    </div>
+    
+    <div class="file-container">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=XLS.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">ВИП ГЗ технологическая платформа оперативного реагирования на инфекционные заболевания</a>
+    </div>
+    
+     <div class="file-container">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=XLS.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Региональные научные фонды</a>
+    </div>
+    
+    <div class="file-container">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=XLS.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Институты инновационного развития</a>
+    </div>
+    
+    <div class="file-container">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=XLS.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Университетское технопредпринимательство</a>
+    </div>
+    
+    <div class="file-container-right">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=DOC.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">НЦМУ математика</a>
+    </div>
+   
+    <div class="file-container-right">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/LINK.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">НЦМУ приоритеты СНТР</a>
+    </div>
+    
+    <div class="file-container-right">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/PPTX.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">НЦМУ геномные</a>
+    </div>
+    
+    <div class="file-container-right">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/PPTX.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">ФНТП Климат</a>
+    </div>
+    
+    <div class="file-container-right">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/PPTX.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">ФНТП Сельское хозяйство</a>
+    </div>
+    
+     <div class="file-container-right">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/LINK.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Интеграция бизнеса и науки в рамках АПК</a>
+    </div>
+    
+    <div class="file-container-right">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/PPTX.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Национальная технологическая инициатива (НТИ)</a>
+    </div>
+    
+    <div class="file-container-right">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/PPTX.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">218-ПП (интеграция производства и науки)</a>
+    </div>
+    
+    <div class="file-container-right">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/PPTX.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Научные лаборатории (в т.ч. Молодежные)</a>
+    </div>
+    
+     <div class="file-container-right">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=XLS.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Отечественное научное приборостроение</a>
+    </div>
+    
+    <div class="file-container-right">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=XLS.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Центры трансфера технологий</a>
+    </div>
+    
+    <div class="file-container-right">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=XLS.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">НЦФМ</a>
+    </div>
+    
+  
+  
+</div>
+</div>  
+  
+<div class="files-container-PhoneVersion">
+
+<label for="pseudoBtn5-phone" id="btn5-phone" > Спецпроекты </label>
+<input type="checkbox" id="pseudoBtn5-phone">
+
+ <div class='files-container-phone'>
+    <div class="file-container">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=DOC.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~6o0G3" class="file-name">Российская Дарпа</a>
+    </div>
+   
+    <div class="file-container">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/PPTX.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~0FkYS" class="file-name">СИРИУС</a>
+    </div>
+    
+    <div class="file-container">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=XLS.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Водородная энергетика (совместно с Минэнерго)</a>
+    </div>
+    
+    <div class="file-container">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=XLS.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Цифровые двойники (в т.ч. научных установок)</a>
+    </div>
+    
+    <div class="file-container">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=XLS.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Бор-нейтронно захватная терапия</a>
+    </div>
+    
+    <div class="file-container">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=XLS.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Химпрепарат и вакцины</a>
+    </div>
+    
+    <div class="file-container">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=XLS.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Ботанический сад Газпрома</a>
+    </div>
+    
+    <div class="file-container">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=XLS.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Ботанический сад Газпрома</a>
+    </div>
+    
+    <div class="file-container-right">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=DOC.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Лицей в Крыму</a>
+    </div>
+   
+    <div class="file-container-right">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/LINK.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">ИТ кадры и инструменты крипты</a>
+    </div>
+    
+    <div class="file-container-right">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/PPTX.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Микроэлектроника</a>
+    </div>
+    
+    <div class="file-container-right">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/PPTX.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Станкин и станкостроение</a>
+    </div>
+    
+    <div class="file-container-right">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/PPTX.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Передовые инженерные школы</a>
+    </div>
+    
+     <div class="file-container-right">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/LINK.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Российский центр научной информации</a>
+    </div>
+    
+    <div class="file-container-right">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/PPTX.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Авиастроение</a>
+    </div>
+   
+  
+</div>
+</div>    
+  
+  
+  
+  
+<div class="files-container-PhoneVersion">
+
+<label for="pseudoBtn6-phone" id="btn6-phone" > Международная деятельность </label>
+<input type="checkbox" id="pseudoBtn6-phone">
+
+ <div class='files-container-phone'>
+  
+  <div class="file-container">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=DOC.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~6o0G3" class="file-name">Международные научные и образовательные проекты</a>
+    </div>  
+  
+</div>
+</div>    
+
   
   
   <div id="my_pdf_viewer">

@@ -84,6 +84,30 @@
         btn_phone.classList.toggle('btn-phone-down');
     })
 
+    var btn2_phone = document.getElementById('btn2-phone');
+    btn2_phone.addEventListener('click', () => {
+        btn2_phone.classList.toggle('btn2-phone-down');
+    })
+
+    var btn3_phone = document.getElementById('btn3-phone');
+    btn3_phone.addEventListener('click', () => {
+        btn3_phone.classList.toggle('btn3-phone-down');
+    })
+
+    var btn4_phone = document.getElementById('btn4-phone');
+    btn4_phone.addEventListener('click', () => {
+        btn4_phone.classList.toggle('btn4-phone-down');
+    })
+
+    var btn5_phone = document.getElementById('btn5-phone');
+    btn5_phone.addEventListener('click', () => {
+        btn5_phone.classList.toggle('btn5-phone-down');
+    })
+
+    var btn6_phone = document.getElementById('btn6-phone');
+    btn6_phone.addEventListener('click', () => {
+        btn6_phone.classList.toggle('btn6-phone-down');
+    })
 
     var btn = document.getElementById('btn');
     btn.addEventListener('click', () => {
