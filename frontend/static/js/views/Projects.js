@@ -722,6 +722,47 @@ display: block;
     
 }
 
+.files-container-phone,
+  input[type="checkbox"] {
+            display: none;
+    }
+
+  input[type="checkbox"]:checked ~ .files-container-phone {
+            display: block;
+        }
+
+
+#btn-phone{
+color: #000000;
+cursor: pointer;
+margin-top: 10px;
+margin-left: 20px;
+margin-right: 20px;
+display: inline-block;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+width: 100%;
+
+}
+#btn-phone:after {
+    content: "\\276F";
+    color: #A6A6A6;
+    display: inline-block;
+    position: absolute;
+    right:50px;
+    
+}
+
+#btn-phone.btn-phone-down:after{
+
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari */'
+    transform: rotate(90deg);
+    color: #3E6DEE;
+
+}
+
 }
 
 
@@ -1468,51 +1509,51 @@ right: 45px;
 </div>
  
  
- 
- 
-  <div class='files-container-PhoneVersion'>
-  
-    <div class="file-container">
-        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=DOC.png?raw=true" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Годовой отчёт</a>
-    </div>
-   
-    <div class="file-container">
-        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/LINK.png?raw=true" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Шаблон</a>
-    </div>
-    
-    <div class="file-container">
-        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/PPTX.png?raw=true" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Проект</a>
-    </div>
-  
-  
-    <div class="file-container-right">
-        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=DOC.png?raw=true" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Документы</a>
-    </div>
-   
-    <div class="file-container-right">
-        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/LINK.png?raw=true" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Файл №5</a>
-    </div>
-    
-    <div class="file-container-right">
-        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/PPTX.png?raw=true" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Сборка</a>
-    </div>
-    
-  </div>  
-  
+<!-- -->
+<!-- -->
+<!--  <div class='files-container-PhoneVersion'>-->
+<!--  -->
+<!--    <div class="file-container">-->
+<!--        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=DOC.png?raw=true" alt="">-->
+<!--        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Годовой отчёт</a>-->
+<!--    </div>-->
+<!--   -->
+<!--    <div class="file-container">-->
+<!--        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/LINK.png?raw=true" alt="">-->
+<!--        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Шаблон</a>-->
+<!--    </div>-->
+<!--    -->
+<!--    <div class="file-container">-->
+<!--        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/PPTX.png?raw=true" alt="">-->
+<!--        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Проект</a>-->
+<!--    </div>-->
+<!--  -->
+<!--  -->
+<!--    <div class="file-container-right">-->
+<!--        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=DOC.png?raw=true" alt="">-->
+<!--        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Документы</a>-->
+<!--    </div>-->
+<!--   -->
+<!--    <div class="file-container-right">-->
+<!--        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/LINK.png?raw=true" alt="">-->
+<!--        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Файл №5</a>-->
+<!--    </div>-->
+<!--    -->
+<!--    <div class="file-container-right">-->
+<!--        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/PPTX.png?raw=true" alt="">-->
+<!--        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Сборка</a>-->
+<!--    </div>-->
+<!--    -->
+<!--  </div>  -->
+<!--  -->
   
   
 <div class="files-container-PhoneVersion">
 
-<label for="pseudoBtn" id="btn" > Управление НТР </label>
-<input type="checkbox" id="pseudoBtn">
+<label for="pseudoBtn-phone" id="btn-phone" > Управление НТР </label>
+<input type="checkbox" id="pseudoBtn-phone">
 
- 
+ <div class='files-container-phone'>
     <div class="file-container">
         <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=DOC.png?raw=true" alt="">
         <a href="https://proektnyyofis-ru.bitrix24.ru/~6o0G3" class="file-name">Научная экспертиза</a>
@@ -1548,7 +1589,7 @@ right: 45px;
         <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Озеро данных вузов (вкл. программы развития)</a>
     </div>
  
-
+</div>
 
 
 </div>

@@ -79,6 +79,12 @@
 
 
 
+    var btn_phone = document.getElementById('btn-phone');
+    btn_phone.addEventListener('click', () => {
+        btn_phone.classList.toggle('btn-phone-down');
+    })
+
+
     var btn = document.getElementById('btn');
     btn.addEventListener('click', () => {
         btn.classList.toggle('btn-down');
