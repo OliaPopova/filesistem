@@ -94,7 +94,7 @@
         btn3.classList.toggle('btn-down3');
     })
 
-    var btn4 = document.getElementById('bt4');
+    var btn4 = document.getElementById('btn4');
     btn4.addEventListener('click', () => {
         btn4.classList.toggle('btn-down4');
     })

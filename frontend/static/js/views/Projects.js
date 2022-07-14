@@ -59,7 +59,7 @@ margin-left: 20px;
 margin-right: 20px;
 display: inline-block;
 font-style: normal;
-font-weight: 600;
+font-weight: 400;
 font-size: 20px;
 width: 100%;
 
@@ -91,7 +91,7 @@ margin-left: 20px;
 margin-right: 20px;
 display: inline-block;
 font-style: normal;
-font-weight: 600;
+font-weight: 400;
 font-size: 20px;
 width: 100%;
 
@@ -121,7 +121,7 @@ margin-left: 20px;
 margin-right: 20px;
 display: inline-block;
 font-style: normal;
-font-weight: 600;
+font-weight: 400;
 font-size: 20px;
 width: 100%;
 
@@ -151,7 +151,7 @@ margin-left: 20px;
 margin-right: 20px;
 display: inline-block;
 font-style: normal;
-font-weight: 600;
+font-weight: 400;
 font-size: 20px;
 width: 100%;
 
@@ -182,7 +182,7 @@ margin-left: 20px;
 margin-right: 20px;
 display: inline-block;
 font-style: normal;
-font-weight: 600;
+font-weight: 400;
 font-size: 20px;
 width: 100%;
 
@@ -213,7 +213,7 @@ margin-left: 20px;
 margin-right: 20px;
 display: inline-block;
 font-style: normal;
-font-weight: 600;
+font-weight: 400;
 font-size: 20px;
 width: 100%;
 
@@ -491,7 +491,7 @@ background: #FFFFFF;
 border-radius: 15px;
 box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.03);
 min-height: 50px;
-max-height: 600px;
+max-height: 1500px;
 min-width: 300px;
 margin-bottom: 5px;
 }
@@ -501,15 +501,12 @@ margin-bottom: 5px;
 .file-container{
 
   color: #fff;
-  display: block;
   font-family: 'Quicksand', sans-serif;
-  font-weight: 30;
   justify-content: start;
-  text-transform: uppercase;
-  font-size: 13px;
   max-width: 444px;
   min-width: 200px;
-  height: 69px;
+  min-height: 69px;
+  max-height: 100px;
   background: #FFFFFF;
   box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.03);
   border-radius: 10px;
@@ -517,21 +514,23 @@ margin-bottom: 5px;
   gap: 21.48px;
   align-items: flex-start;
   font-style: normal;
+  display: flex;
+  font-weight: 500;
+  font-size: 18px;
   line-height: 22px;
   border: 2px solid rgba(0, 0, 0, 0.1);
+  
 }
 
 .file-container-right{
   color: #fff;
   display: flex;
   font-family: 'Quicksand', sans-serif;
-
+  max-height: 100px;
   justify-content: start;
-  text-transform: uppercase;
-  
   max-width: 444px;
   min-width: 200px;
-  height: 69px;
+  min-height: 69px;
   background: #FFFFFF;
   box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.03);
   border-radius: 10px;
@@ -558,7 +557,7 @@ margin:18px 0 15px 10px;
     box-sizing: border-box;
     float: left;
     width: 50%;
-    max-height: 800px; /* Should be removed. Only for demonstration */ 
+    max-height: 1100px; /* Should be removed. Only for demonstration */ 
 }
 
 /* Clear floats after the columns */
@@ -574,15 +573,16 @@ margin:18px 0 15px 10px;
 min-width: 189.31px;
 max-width: 400px;
 font-family: 'Quicksand', sans-serif;
-height: 22px;
+min-height: 22px;
+max-height: 70px;
 font-style: normal;
-font-size: 16px;
+font-size: 18px;
 line-height: 22px;
 color: #000000;
 align-items: flex-start;
 margin:20px 10px 15px 0;
 text-decoration: none;
-font-weight: 500;
+font-weight: 400;
 }
 
 .link {
@@ -699,6 +699,11 @@ display: none;
 .column {
     display: none;
 }
+
+.first-cont{
+display: none;
+}
+
 .files-container-PhoneVersion{
 display: block;
 }
@@ -795,16 +800,16 @@ display: block;
     
 
 .file-container-right{
+  max-height: 100px;
   color: #fff;
   display: flex;
   font-family: 'Quicksand', sans-serif;
   font-weight: 30;
   justify-content: start;
-  text-transform: uppercase;
   font-size: 13px;
   max-width: 345px;
   min-width: 300px;
-  height: 69px;
+  min-height: 69px;
   background: #FFFFFF;
   box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.03);
   border-radius: 10px;
@@ -813,16 +818,16 @@ display: block;
   align-items: flex-start;
 }
 .file-container{
+  max-height: 100px;
   color: #fff;
   display: flex;
   font-family: 'Quicksand', sans-serif;
   font-weight: 30;
   justify-content: start;
-  text-transform: uppercase;
   font-size: 13px;
   max-width: 345px;
   min-width: 300px;
-  height: 69px;
+  min-height: 69px;
   background: #FFFFFF;
   box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.03);
   border-radius: 10px;
@@ -1499,6 +1504,58 @@ right: 45px;
     </div>
     
   </div>  
+  
+  
+  
+<div class="files-container-PhoneVersion">
+
+<label for="pseudoBtn" id="btn" > Управление НТР </label>
+<input type="checkbox" id="pseudoBtn">
+
+ 
+    <div class="file-container">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=DOC.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~6o0G3" class="file-name">Научная экспертиза</a>
+    </div>
+   
+    <div class="file-container">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/PPTX.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~0FkYS" class="file-name">Научные журналы</a>
+    </div>
+    
+    <div class="file-container">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=XLS.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Оценка результативности науки</a>
+    </div>
+    
+    <div class="file-container">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=XLS.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Гомеостаз</a>
+    </div>
+
+    <div class="file-container-right">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/Property%201=DOC.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Фронтиры и приоритеты СНТР (анализ разрывов технологических цепочек)</a>
+    </div>
+   
+    <div class="file-container-right">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/LINK.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">ИИ для управления НТР</a>
+    </div>
+    
+    <div class="file-container-right">
+        <img class = "img" src="https://github.com/OliaPopova/filesistem/blob/main/frontend/static/js/views/PPTX.png?raw=true" alt="">
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Озеро данных вузов (вкл. программы развития)</a>
+    </div>
+ 
+
+
+
+</div>
+  
+  
+  
+  
   
   
   <div id="my_pdf_viewer">
