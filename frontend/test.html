@@ -6,44 +6,61 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My PDF Viewer</title>
-    <script
-            src="http://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.0.943/pdf.min.js">
-    </script>
+
 
     <style>
-        #canvas_container {
-            width: 800px;
-            height: 450px;
-            overflow: auto;
-        }
-
-        #canvas_container {
-            background: #333;
-            text-align: center;
-            border: solid 3px;
+        .nav-item-submenu {
+            display: none;
         }
     </style>
 </head>
 <body>
-<div id="my_pdf_viewer">
-    <div id="canvas_container">
-        <canvas id="pdf_renderer"></canvas>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<li class="nav-item-toggle">
+    <a href="#">Ссылка</a>
+    <div class="nav-item-submenu">
+        <ul>
+            <li><a href="#">Ссылка</a></li>
+            <li><a href="#">Ссылка</a></li>
+            <li><a href="#">Ссылка</a></li>
+        </ul>
     </div>
-
-    <div id="navigation_controls">
-        <button id="go_previous">Previous</button>
-        <input id="current_page" value="1" type="number"/>
-        <button id="go_next">Next</button>
+</li>
+<li class="nav-item-toggle">
+    <a href="#">Ссылка</a>
+    <div class="nav-item-submenu">
+        <ul>
+            <li><a href="#">Ссылка</a></li>
+            <li><a href="#">Ссылка</a></li>
+            <li><a href="#">Ссылка</a></li>
+        </ul>
     </div>
-
-    <div id="zoom_controls">
-        <button id="zoom_in">+</button>
-        <button id="zoom_out">-</button>
+</li>
+<li class="nav-item-toggle">
+    <a href="#">Ссылка</a>
+    <div class="nav-item-submenu">
+        <ul>
+            <li><a href="#">Ссылка</a></li>
+            <li><a href="#">Ссылка</a></li>
+            <li><a href="#">Ссылка</a></li>
+        </ul>
     </div>
-</div>
+</li>
 
-<script
-src="static/js/fileviewer.js">
+<script>
+    (".nav-item-toggle > a").on('click', function(e) {
+e.preventDefault();
+if ($(this).hasClass("active")) {
+$(this).next().slideUp("easeOutExpo");
+$(this).removeClass("active");
+} else {
+$(".nav-item-toggle > a").removeClass('active');
+$('.nav-item-submenu').slideUp("easeOutExpo");
+$(this).next(".nav-item-submenu");
+$(this).addClass("active");
+$(this).next().slideDown("easeOutExpo");
+}
+})
 </script>
 </body>
 </html>

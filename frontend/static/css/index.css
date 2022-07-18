@@ -25,9 +25,11 @@ a.folder.folder-down{
 }
 
 
-#reports a:visited, a:focus {
+a:focus {
     color: #3E6DEE;
 }
+
+
 
 
 
@@ -53,23 +55,23 @@ a.folder.folder-down{
     margin-right: 6px;
 }
 
-#lib.caret.caret-down::before{
-    content: url("https://raw.githubusercontent.com/OliaPopova/filesistem/68ab06ac42b1ab78f52c39b0a2ab0b794a7fbcd7/frontend/libblue.svg");
+.lib-link.active::before{
+    content: url("https://raw.githubusercontent.com/OliaPopova/filesistem/b186f27efb2aac5a0acf5130748541a33ca55cad/frontend/libblue.svg");
     display: inline-block;
     margin-right: 6px;
 }
-#lib.caret::before{
+.lib-link::before{
     content: url("https://raw.githubusercontent.com/OliaPopova/filesistem/68ab06ac42b1ab78f52c39b0a2ab0b794a7fbcd7/frontend/lib.svg");
     display: inline-block;
     margin-right: 6px;
 }
 
-#dif.caret.caret-down::before{
+.dif-link.active::before{
     content: url("https://raw.githubusercontent.com/OliaPopova/filesistem/293606d67cce72f763154967fff2952fe508179a/frontend/difblue.svg");
     display: inline-block;
     margin-right: 6px;
 }
-#dif.caret::before{
+.dif-link::before{
     content: url("https://raw.githubusercontent.com/OliaPopova/filesistem/293606d67cce72f763154967fff2952fe508179a/frontend/dif.svg");
     display: inline-block;
     margin-right: 6px;
@@ -328,23 +330,23 @@ ul, #myUL {
         margin-right: 6px;
     }
 
-    #lib-right.caret-right.caret-right-down::before{
+    .lib-right.active-right::before{
         content: url("https://raw.githubusercontent.com/OliaPopova/filesistem/68ab06ac42b1ab78f52c39b0a2ab0b794a7fbcd7/frontend/libblue.svg");
         display: inline-block;
         margin-right: 6px;
     }
-    #lib-right.caret-right::before{
+    .lib-right::before{
         content: url("https://raw.githubusercontent.com/OliaPopova/filesistem/68ab06ac42b1ab78f52c39b0a2ab0b794a7fbcd7/frontend/lib.svg");
         display: inline-block;
         margin-right: 6px;
     }
 
-    #dif-right.caret-right.caret-right-down::before{
+    .dif-right.active-right::before{
         content: url("https://raw.githubusercontent.com/OliaPopova/filesistem/293606d67cce72f763154967fff2952fe508179a/frontend/difblue.svg");
         display: inline-block;
         margin-right: 6px;
     }
-    #dif-right.caret-right::before{
+    .dif-right::before{
         content: url("https://raw.githubusercontent.com/OliaPopova/filesistem/293606d67cce72f763154967fff2952fe508179a/frontend/dif.svg");
         display: inline-block;
         margin-right: 6px;
