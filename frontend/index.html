@@ -527,8 +527,8 @@
                         <li><a  class="nav__link-right" data-link>Отчёт №2</a></li>
                     </ul>
                 </li>
-                <li><a href="/library" class="lib-right" data-link>Библиотека</a></li>
-                <li><a href="/different" class="dif-right" data-link>Разное</a></li>
+                <li><a id="lib-right" href="/library" class="n-link-right" data-link>Библиотека</a></li>
+                <li><a id="dif-right" href="/different" class="n-link-right" data-link>Разное</a></li>
             </ul>
     </nav>
     <div class="mask-content"></div>
@@ -1053,8 +1053,8 @@
                 <li><a  class="nav__link" data-link>Отчёт №2</a></li>
             </ul>
         </li>
-        <li><a  href="/library" class="lib-link" data-link>Библиотека </a></li>
-        <li><a  href="/different" class="dif-link" data-link>Разное </a></li>
+        <li><a id="lib" href="/library" class="n-link" data-link>Библиотека </a></li>
+        <li><a id="dif" href="/different" class="n-link" data-link>Разное </a></li>
     </ul>
 
 </nav>
@@ -1065,16 +1065,16 @@
 <script>
     var toggler = document.getElementsByClassName("caret");
     var i;
-    var lib = document.getElementsByClassName("lib-link");
-    var dif = document.getElementsByClassName("dif-link");
+    var lib = document.getElementById("lib");
+    var dif = document.getElementById("dif");
     for (i = 0; i < toggler.length; i++) {
         toggler[i].addEventListener("click", function() {
             this.parentElement.querySelector(".nested").classList.toggle("active");
             this.classList.toggle("caret-down");
-            if(document.querySelector(".dif-link").classList.contains("active")) {
+            if(document.querySelector("#dif").classList.contains("active")) {
                 dif.classList.remove('active')
             }
-            if(document.querySelector(".lib-link").classList.contains("active")) {
+            if(document.querySelector("#lib").classList.contains("active")) {
                 lib.classList.remove('active')
             }
         });
@@ -1082,22 +1082,22 @@
 </script>
 
 <script>
-    var lib = document.getElementsByClassName("lib-link");
-    var dif = document.getElementsByClassName("dif-link");
+    var lib = document.getElementById("lib");
+    var dif = document.getElementById("dif");
     lib.addEventListener("click", function() {
         lib.classList.toggle("active");
-        if(document.querySelector(".dif-link").classList.contains("active")) {
+        if(document.querySelector("#dif").classList.contains("active")) {
             dif.classList.remove('active')
         }
     });
 </script>
 
 <script>
-    var lib = document.getElementsByClassName("lib-link");
-    var dif = document.getElementsByClassName("dif-link");
+    var lib = document.getElementById("lib");
+    var dif = document.getElementById("dif");
     dif.addEventListener("click", function() {
         dif.classList.toggle("active");
-        if(document.querySelector(".lib-link").classList.contains("active")) {
+        if(document.querySelector("#lib").classList.contains("active")) {
             lib.classList.remove('active')
         }
     });
@@ -1106,16 +1106,16 @@
 <script>
     var toggler = document.getElementsByClassName("folder");
     var i;
-    var lib = document.getElementsByClassName("lib-link");
-    var dif = document.getElementsByClassName("dif-link");
+    var lib = document.getElementById("lib");
+    var dif = document.getElementById("dif");
     for (i = 0; i < toggler.length; i++) {
         toggler[i].addEventListener("click", function() {
             this.parentElement.querySelector(".nested").classList.toggle("active");
             this.classList.toggle("folder-down");
-            if(document.querySelector(".dif-link").classList.contains("active")) {
+            if(document.querySelector("#dif").classList.contains("active")) {
                 dif.classList.remove('active')
             }
-            if(document.querySelector(".lib-link").classList.contains("active")) {
+            if(document.querySelector("#lib").classList.contains("active")) {
                 lib.classList.remove('active')
             }
         });
@@ -1125,22 +1125,22 @@
 
 
 <script>
-    var lib_right = document.getElementsByClassName("lib-right");
-    var dif_right = document.getElementsByClassName("dif-right");
+    var lib_right = document.getElementById("lib-right");
+    var dif_right = document.getElementById("dif-right");
     lib_right.addEventListener("click", function() {
         lib_right.classList.toggle("active-right");
-        if(document.querySelector(".dif-right").classList.contains("active-right")) {
+        if(document.querySelector("#dif-right").classList.contains("active-right")) {
             dif_right.classList.remove('active-right')
         }
     });
 </script>
 
 <script>
-    var lib_right = document.getElementsByClassName("lib-right");
-    var dif_right = document.getElementsByClassName("dif-right");
+    var lib_right = document.getElementById("lib-right");
+    var dif_right = document.getElementById("dif-right");
     dif_right.addEventListener("click", function() {
         dif_right.classList.toggle("active-right");
-        if(document.querySelector(".lib-right").classList.contains("active-right")) {
+        if(document.querySelector("#lib-right").classList.contains("active-right")) {
             lib_right.classList.remove('active-right')
         }
     });
@@ -1151,16 +1151,16 @@
 
     var toggler = document.getElementsByClassName("caret-right");
     var i;
-    var lib_right = document.getElementsByClassName("lib-right");
-    var dif_right = document.getElementsByClassName("dif-right");
+    var lib_right = document.getElementById("lib-right");
+    var dif_right = document.getElementById("dif-right");
     for (i = 0; i < toggler.length; i++) {
         toggler[i].addEventListener("click", function() {
             this.parentElement.querySelector(".nested").classList.toggle("active");
             this.classList.toggle("caret-right-down");
-            if(document.querySelector(".dif-right").classList.contains("active-right")) {
+            if(document.querySelector("#dif-right").classList.contains("active-right")) {
                 dif_right.classList.remove('active-right')
             }
-            if(document.querySelector(".lib-right").classList.contains("active-right")) {
+            if(document.querySelector("#lib-right").classList.contains("active-right")) {
                 lib_right.classList.remove('active-right')
             }
         });
@@ -1171,16 +1171,16 @@
 
     var toggler = document.getElementsByClassName("folder-right");
     var i;
-    var lib_right = document.getElementsByClassName("lib-right");
-    var dif_right = document.getElementsByClassName("dif-right");
+    var lib_right = document.getElementById("lib-right");
+    var dif_right = document.getElementById("dif-right");
     for (i = 0; i < toggler.length; i++) {
         toggler[i].addEventListener("click", function() {
             this.parentElement.querySelector(".nested").classList.toggle("active");
             this.classList.toggle("folder-right-down");
-            if(document.querySelector(".dif-right").classList.contains("active-right")) {
+            if(document.querySelector("#dif-right").classList.contains("active-right")) {
                 dif_right.classList.remove('active-right')
             }
-            if(document.querySelector(".lib-right").classList.contains("active-right")) {
+            if(document.querySelector("#lib-right").classList.contains("active-right")) {
                 lib_right.classList.remove('active-right')
             }
         });

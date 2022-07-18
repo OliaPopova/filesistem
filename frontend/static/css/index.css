@@ -19,6 +19,9 @@
 a.caret.caret-down{
     color: #3E6DEE;
 }
+a.n-link.active{
+    color: #3E6DEE;
+}
 
 a.folder.folder-down{
     color: #3E6DEE;
@@ -55,23 +58,23 @@ a:focus {
     margin-right: 6px;
 }
 
-.lib-link.active::before{
+#lib.n-link.active::before{
     content: url("https://raw.githubusercontent.com/OliaPopova/filesistem/b186f27efb2aac5a0acf5130748541a33ca55cad/frontend/libblue.svg");
     display: inline-block;
     margin-right: 6px;
 }
-.lib-link::before{
+#lib.n-link::before{
     content: url("https://raw.githubusercontent.com/OliaPopova/filesistem/68ab06ac42b1ab78f52c39b0a2ab0b794a7fbcd7/frontend/lib.svg");
     display: inline-block;
     margin-right: 6px;
 }
 
-.dif-link.active::before{
+#dif.n-link.active::before{
     content: url("https://raw.githubusercontent.com/OliaPopova/filesistem/293606d67cce72f763154967fff2952fe508179a/frontend/difblue.svg");
     display: inline-block;
     margin-right: 6px;
 }
-.dif-link::before{
+#dif.n-link::before{
     content: url("https://raw.githubusercontent.com/OliaPopova/filesistem/293606d67cce72f763154967fff2952fe508179a/frontend/dif.svg");
     display: inline-block;
     margin-right: 6px;
@@ -103,6 +106,13 @@ a:focus {
 
 
 .caret {
+    cursor: pointer;
+    -webkit-user-select: none; /* Safari 3.1+ */
+    -moz-user-select: none; /* Firefox 2+ */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none;
+}
+.n-link{
     cursor: pointer;
     -webkit-user-select: none; /* Safari 3.1+ */
     -moz-user-select: none; /* Firefox 2+ */
@@ -183,7 +193,9 @@ body {
 .nav__link:hover {
     background: #E2EAFF;
 }
-
+.n-link:hover {
+    background: #E2EAFF;
+}
 .caret:hover {
     background: #E2EAFF;
 }
@@ -220,6 +232,15 @@ a.caret {
     color: #7A7A7A;
     font-weight: 500;
 }
+a.n-link{
+    line-height: 1.5;
+    display: block;
+    padding: 12px 18px;
+    text-decoration: none;
+    color: #7A7A7A;
+    font-weight: 500;
+}
+
 a.folder {
     line-height: 1.5;
     display: block;
@@ -245,6 +266,14 @@ ul, #myUL {
 }
 
 .caret {
+    cursor: pointer;
+    -webkit-user-select: none; /* Safari 3.1+ */
+    -moz-user-select: none; /* Firefox 2+ */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none;
+}
+
+.n-link{
     cursor: pointer;
     -webkit-user-select: none; /* Safari 3.1+ */
     -moz-user-select: none; /* Firefox 2+ */
@@ -302,8 +331,11 @@ ul, #myUL {
         color: #3E6DEE;
     }
 
+    a.n-link.active-right{
+        color: #3E6DEE;
+    }
 
-    #reports-right a:visited, a:focus {
+    #reports-right a:focus {
         color: #3E6DEE;
     }
 
@@ -330,23 +362,23 @@ ul, #myUL {
         margin-right: 6px;
     }
 
-    .lib-right.active-right::before{
+    #lib-right.n-link-right.active-right::before{
         content: url("https://raw.githubusercontent.com/OliaPopova/filesistem/68ab06ac42b1ab78f52c39b0a2ab0b794a7fbcd7/frontend/libblue.svg");
         display: inline-block;
         margin-right: 6px;
     }
-    .lib-right::before{
+    #lib-right.n-link-right::before{
         content: url("https://raw.githubusercontent.com/OliaPopova/filesistem/68ab06ac42b1ab78f52c39b0a2ab0b794a7fbcd7/frontend/lib.svg");
         display: inline-block;
         margin-right: 6px;
     }
 
-    .dif-right.active-right::before{
+    #dif-right.n-link-right.active-right::before{
         content: url("https://raw.githubusercontent.com/OliaPopova/filesistem/293606d67cce72f763154967fff2952fe508179a/frontend/difblue.svg");
         display: inline-block;
         margin-right: 6px;
     }
-    .dif-right::before{
+    #dif-right.n-link-right::before{
         content: url("https://raw.githubusercontent.com/OliaPopova/filesistem/293606d67cce72f763154967fff2952fe508179a/frontend/dif.svg");
         display: inline-block;
         margin-right: 6px;
@@ -376,6 +408,14 @@ ul, #myUL {
 
 
     .folder-right {
+        cursor: pointer;
+        -webkit-user-select: none; /* Safari 3.1+ */
+        -moz-user-select: none; /* Firefox 2+ */
+        -ms-user-select: none; /* IE 10+ */
+        user-select: none;
+    }
+
+    .n-link-right {
         cursor: pointer;
         -webkit-user-select: none; /* Safari 3.1+ */
         -moz-user-select: none; /* Firefox 2+ */
@@ -415,6 +455,10 @@ ul, #myUL {
         background: #E2EAFF;
     }
 
+    .n-link-right:hover {
+        background: #E2EAFF;
+    }
+
     a.folder-right {
         line-height: 1.5;
         display: block;
@@ -424,7 +468,25 @@ ul, #myUL {
         font-weight: 500;
     }
 
+    a.n-link-right {
+        line-height: 1.5;
+        display: block;
+        padding: 12px 18px;
+        text-decoration: none;
+        color: #7A7A7A;
+        font-weight: 500;
+    }
+
+
     .folder-right {
+        cursor: pointer;
+        -webkit-user-select: none; /* Safari 3.1+ */
+        -moz-user-select: none; /* Firefox 2+ */
+        -ms-user-select: none; /* IE 10+ */
+        user-select: none;
+    }
+
+    .n-link-right {
         cursor: pointer;
         -webkit-user-select: none; /* Safari 3.1+ */
         -moz-user-select: none; /* Firefox 2+ */
@@ -490,6 +552,15 @@ ul, #myUL {
         font-weight: 500;
     }
 
+    a.n-link-right {
+        line-height: 1.5;
+        display: block;
+        padding: 12px 18px;
+        text-decoration: none;
+        color: #7A7A7A;
+        font-weight: 500;
+    }
+
     a {
         color: #7A7A7A;
         line-height: 1.5;
@@ -510,6 +581,13 @@ ul, #myUL {
         user-select: none;
     }
 
+    .n-link-right{
+        cursor: pointer;
+        -webkit-user-select: none; /* Safari 3.1+ */
+        -moz-user-select: none; /* Firefox 2+ */
+        -ms-user-select: none; /* IE 10+ */
+        user-select: none;
+    }
 
     .caret-right::before {
         color: #7A7A7A;
