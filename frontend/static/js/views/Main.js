@@ -23,7 +23,10 @@ export default class extends AbstractView {
               
     
 #my_pdf_viewer{
-    display: none;
+    display: block;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    margin-left: 45px;
     }
     
               
@@ -767,17 +770,17 @@ display: block;
   <div class="column">
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~6o0G3" class="file-name">НТИ справка</a>
+        <a href="#" id="id1" class="file-name">НТИ справка</a>
     </div>
    
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~0FkYS" class="file-name">Итоги мониторинга МРГ НТИ</a>
+        <a href="#" id="id2" class="file-name">Итоги мониторинга МРГ НТИ</a>
     </div>
     
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Топ 11 прорывных НТИ</a>
+        <a href="#" class="file-name">Топ 11 прорывных НТИ</a>
     </div>
   </div>
   
@@ -818,12 +821,12 @@ display: block;
    
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Шаблон</a>
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab"  class="file-name">Шаблон</a>
     </div>
     
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Проект</a>
+        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab"  class="file-name">Проект</a>
     </div>
   
   

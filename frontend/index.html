@@ -16,7 +16,7 @@
         <label for="nav-toggle" class="nav-toggle" onclick ></label>
         <ul id="myUL-right">
             <input type="text" id="mySearch-right" onkeyup="myFunction_right()" placeholder="Поиск.." >
-            <li><a href="/" class="nav__link-right" data-link style="font-size: 25px">Главная</a></li>
+            <li><a href="/" id="mymain-right" class="nav__link-right" data-link style="font-size: 25px">Главная</a></li>
 
                 <li><a  id='projects-right' href="/projects" class="caret-right" data-link>Проекты </a>
                     <ul class="nested">
@@ -542,7 +542,7 @@
 
 <nav class="nav">
     <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Поиск.." >
-    <a href="/" class="nav__link" data-link style="font-size: 25px">Главная</a>
+    <a href="/" id="mymain" class="nav__link" data-link style="font-size: 25px">Главная</a>
     <ul id="myUL">
         <li><a  id='projects' href="/projects" class="caret" data-link>Проекты </a>
             <ul class="nested">
@@ -1067,6 +1067,7 @@
     var i;
     var lib = document.getElementById("lib");
     var dif = document.getElementById("dif");
+    var mymain= document.getElementById("mymain");
     for (i = 0; i < toggler.length; i++) {
         toggler[i].addEventListener("click", function() {
             this.parentElement.querySelector(".nested").classList.toggle("active");
@@ -1077,6 +1078,9 @@
             if(document.querySelector("#lib").classList.contains("active")) {
                 lib.classList.remove('active')
             }
+            if(document.querySelector("#mymain").classList.contains("active")) {
+                mymain.classList.remove('active')
+            }
         });
     }
 </script>
@@ -1084,10 +1088,14 @@
 <script>
     var lib = document.getElementById("lib");
     var dif = document.getElementById("dif");
+    var mymain= document.getElementById("mymain");
     lib.addEventListener("click", function() {
         lib.classList.toggle("active");
         if(document.querySelector("#dif").classList.contains("active")) {
             dif.classList.remove('active')
+        }
+        if(document.querySelector("#mymain").classList.contains("active")) {
+            mymain.classList.remove('active')
         }
     });
 </script>
@@ -1095,10 +1103,14 @@
 <script>
     var lib = document.getElementById("lib");
     var dif = document.getElementById("dif");
+    var mymain= document.getElementById("mymain");
     dif.addEventListener("click", function() {
         dif.classList.toggle("active");
         if(document.querySelector("#lib").classList.contains("active")) {
             lib.classList.remove('active')
+        }
+        if(document.querySelector("#mymain").classList.contains("active")) {
+            mymain.classList.remove('active')
         }
     });
 </script>
@@ -1108,6 +1120,7 @@
     var i;
     var lib = document.getElementById("lib");
     var dif = document.getElementById("dif");
+    var mymain= document.getElementById("mymain");
     for (i = 0; i < toggler.length; i++) {
         toggler[i].addEventListener("click", function() {
             this.parentElement.querySelector(".nested").classList.toggle("active");
@@ -1118,6 +1131,9 @@
             if(document.querySelector("#lib").classList.contains("active")) {
                 lib.classList.remove('active')
             }
+            if(document.querySelector("#mymain").classList.contains("active")) {
+                mymain.classList.remove('active')
+            }
         });
     }
 </script>
@@ -1127,10 +1143,14 @@
 <script>
     var lib_right = document.getElementById("lib-right");
     var dif_right = document.getElementById("dif-right");
+    var mymain_right = document.getElementById("mymain-right");
     lib_right.addEventListener("click", function() {
         lib_right.classList.toggle("active-right");
         if(document.querySelector("#dif-right").classList.contains("active-right")) {
             dif_right.classList.remove('active-right')
+        }
+        if(document.querySelector("#mymain-right").classList.contains("active-right")) {
+            mymain_right.classList.remove('active-right')
         }
     });
 </script>
@@ -1138,10 +1158,14 @@
 <script>
     var lib_right = document.getElementById("lib-right");
     var dif_right = document.getElementById("dif-right");
+    var mymain_right = document.getElementById("mymain-right");
     dif_right.addEventListener("click", function() {
         dif_right.classList.toggle("active-right");
         if(document.querySelector("#lib-right").classList.contains("active-right")) {
             lib_right.classList.remove('active-right')
+        }
+        if(document.querySelector("#mymain-right").classList.contains("active-right")) {
+            mymain_right.classList.remove('active-right')
         }
     });
 </script>
@@ -1153,6 +1177,7 @@
     var i;
     var lib_right = document.getElementById("lib-right");
     var dif_right = document.getElementById("dif-right");
+    var mymain_right = document.getElementById("mymain-right");
     for (i = 0; i < toggler.length; i++) {
         toggler[i].addEventListener("click", function() {
             this.parentElement.querySelector(".nested").classList.toggle("active");
@@ -1162,6 +1187,9 @@
             }
             if(document.querySelector("#lib-right").classList.contains("active-right")) {
                 lib_right.classList.remove('active-right')
+            }
+            if(document.querySelector("#mymain-right").classList.contains("active-right")) {
+                mymain_right.classList.remove('active-right')
             }
         });
     }
@@ -1173,6 +1201,7 @@
     var i;
     var lib_right = document.getElementById("lib-right");
     var dif_right = document.getElementById("dif-right");
+    var mymain_right = document.getElementById("mymain-right");
     for (i = 0; i < toggler.length; i++) {
         toggler[i].addEventListener("click", function() {
             this.parentElement.querySelector(".nested").classList.toggle("active");
@@ -1183,9 +1212,53 @@
             if(document.querySelector("#lib-right").classList.contains("active-right")) {
                 lib_right.classList.remove('active-right')
             }
+            if(document.querySelector("#mymain-right").classList.contains("active-right")) {
+                mymain_right.classList.remove('active-right')
+            }
         });
     }
 </script>
+
+
+<script>
+
+    var mymain = document.getElementById("mymain");
+    console.log(mymain);
+    var lib = document.getElementById("lib");
+    var dif = document.getElementById("dif");
+    mymain.addEventListener("click", function() {
+            if(document.querySelector("#dif").classList.contains("active")) {
+                dif.classList.remove('active')
+            }
+            if(document.querySelector("#lib").classList.contains("active")) {
+                lib.classList.remove('active')
+            }
+        mymain.classList.toggle('active');
+
+    });
+
+
+</script>
+
+<script>
+
+    var mymain_right = document.getElementById("mymain-right");
+    console.log(mymain_right);
+    var lib_right = document.getElementById("lib-right");
+    var dif_right = document.getElementById("dif-right");
+    mymain_right.addEventListener("click", function() {
+        if(document.querySelector("#dif-right").classList.contains("active-right")) {
+            dif_right.classList.remove('active-right')
+        }
+        if(document.querySelector("#lib-right").classList.contains("active-right")) {
+            lib_right.classList.remove('active-right')
+        }
+        mymain_right.classList.toggle('active-right');
+
+    });
+
+</script>
+
 
 
 <script>

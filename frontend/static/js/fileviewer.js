@@ -175,3 +175,7 @@
     }
 
 
+    document.querySelector('.file-name').addEventListener('click', function(e){
+        var id = e.target.id; //
+        console.log(id);
+    });

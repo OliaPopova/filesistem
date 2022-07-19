@@ -26,13 +26,13 @@ a.n-link.active{
 a.folder.folder-down{
     color: #3E6DEE;
 }
-
-
 a:focus {
     color: #3E6DEE;
 }
 
-
+#mymain.nav__link.active{
+    color: #3E6DEE;
+}
 
 
 
@@ -189,8 +189,18 @@ body {
     font-weight: 500;
 }
 
+#mymain{
+    display: block;
+    padding: 12px 18px;
+    text-decoration: none;
+    color: #7A7A7A;
+    font-weight: 500;
+}
 
 .nav__link:hover {
+    background: #E2EAFF;
+}
+#mymain:hover{
     background: #E2EAFF;
 }
 .n-link:hover {
@@ -331,7 +341,7 @@ ul, #myUL {
         color: #3E6DEE;
     }
 
-    a.n-link.active-right{
+    #mymain-right.nav__link-right.active-right{
         color: #3E6DEE;
     }
 
@@ -339,6 +349,15 @@ ul, #myUL {
         color: #3E6DEE;
     }
 
+    #dif-right.n-link-right.active-right{
+        color: #3E6DEE;
+    }
+    #lib-right.n-link-right.active-right{
+        color: #3E6DEE;
+    }
+    #mymain-right.nav__link-right.active-right{
+        color: #3E6DEE;
+    }
 
     #projects-right.caret-right.caret-right-down::before{
         content: url("https://raw.githubusercontent.com/OliaPopova/filesistem/68ab06ac42b1ab78f52c39b0a2ab0b794a7fbcd7/frontend/projectsblue.svg");
@@ -529,11 +548,22 @@ ul, #myUL {
         color: #7A7A7A;
         font-weight: 500;
     }
+    #mymain-right {
+        display: block;
+        padding: 12px 18px;
+        text-decoration: none;
+        color: #7A7A7A;
+        font-weight: 500;
+    }
 
     .nav__link-right:hover {
         background: #E2EAFF;
     }
 
+
+    #mymain-right:hover {
+        background: #E2EAFF;
+    }
     a.caret-right {
         line-height: 1.5;
         display: block;
