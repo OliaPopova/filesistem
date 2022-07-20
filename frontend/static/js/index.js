@@ -29,7 +29,8 @@ const router = async () => {
         { path: "/library", view: Library },
         { path: "/projects", view: Projects },
         { path: "/samples", view: Samples },
-        { path: "/reports", view: Reports }
+        { path: "/reports", view: Reports },
+        {path: "/projects/:id", view: PostView}
     ];
 
     // Test each route for potential match

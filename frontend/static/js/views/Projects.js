@@ -1694,22 +1694,22 @@ padding-bottom: 2px;
   <div class="column">
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~6o0G3" class="file-name">Научная экспертиза</a>
+        <a href="" id='Научная экспертиза'  class="file-name">Научная экспертиза</a>
     </div>
    
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~0FkYS" class="file-name">Научные журналы</a>
+        <a href="" id="Научные журналы"  class="file-name">Научные журналы</a>
     </div>
     
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Оценка результативности науки</a>
+        <a href="" id="Оценка результативности науки"  class="file-name">Оценка результативности науки</a>
     </div>
     
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Гомеостаз</a>
+        <a href="" id="Гомеостаз" class="file-name">Гомеостаз</a>
     </div>
   </div>
   
@@ -1717,17 +1717,17 @@ padding-bottom: 2px;
   <div class="column">
     <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Фронтиры и приоритеты СНТР (анализ разрывов технологических цепочек)</a>
+        <a href="" id="Фронтиры и приоритеты СНТР (анализ разрывов технологических цепочек)" class="file-name">Фронтиры и приоритеты СНТР (анализ разрывов технологических цепочек)</a>
     </div>
    
     <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">ИИ для управления НТР</a>
+        <a href="" id="ИИ для управления НТР" class="file-name">ИИ для управления НТР</a>
     </div>
     
     <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Озеро данных вузов (вкл. программы развития)</a>
+        <a href="" id="Озеро данных вузов (вкл. программы развития)" class="file-name">Озеро данных вузов (вкл. программы развития)</a>
     </div>
   </div>
   
@@ -1746,22 +1746,22 @@ padding-bottom: 2px;
   <div class="column">
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~6o0G3" class="file-name">Десятилетие науки и технологий</a>
+        <a href="" id="Десятилетие науки и технологий" class="file-name">Десятилетие науки и технологий</a>
     </div>
    
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~0FkYS" class="file-name">Развитие научного туризма и волонтерства</a>
+        <a href="" id="Развитие научного туризма и волонтерства" class="file-name">Развитие научного туризма и волонтерства</a>
     </div>
     
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Модель научной аттестации</a>
+        <a href="" id="Модель научной аттестации" class="file-name">Модель научной аттестации</a>
     </div>
     
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">РЦТ вузов и НО</a>
+        <a href="" id="РЦТ вузов и НО" class="file-name">РЦТ вузов и НО</a>
     </div>
     
   </div>
@@ -1770,17 +1770,17 @@ padding-bottom: 2px;
   <div class="column">
     <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Зелёный» коридор для ученых</a>
+        <a href="" id="Зелёный» коридор для ученых" class="file-name">Зелёный» коридор для ученых</a>
     </div>
    
     <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Кадровый проект для науки и высшего образования</a>
+        <a href="" id="Кадровый проект для науки и высшего образования" class="file-name">Кадровый проект для науки и высшего образования</a>
     </div>
     
     <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Эндаумент-фонды</a>
+        <a href="" id="Эндаумент-фонды" class="file-name">Эндаумент-фонды</a>
     </div>
   </div>
   
@@ -1799,27 +1799,27 @@ padding-bottom: 2px;
   <div class="column">
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~6o0G3" class="file-name">Кампусы</a>
+        <a href="" id="Кампусы" class="file-name">Кампусы</a>
     </div>
    
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~0FkYS" class="file-name">Приборная база</a>
+        <a href="" id="Приборная база" class="file-name">Приборная база</a>
     </div>
     
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">ЦКП и УНУ</a>
+        <a href="" id="ЦКП и УНУ" class="file-name">ЦКП и УНУ</a>
     </div>
     
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Мегасайенс</a>
+        <a href="" id="Мегасайенс" class="file-name">Мегасайенс</a>
     </div>
     
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Научный флот</a>
+        <a href="" id="Научный флот" class="file-name">Научный флот</a>
     </div>
     
   </div>
@@ -1828,27 +1828,27 @@ padding-bottom: 2px;
   <div class="column">
     <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">НИКС и суперкомпьютеры</a>
+        <a href="" id="НИКС и суперкомпьютеры" class="file-name">НИКС и суперкомпьютеры</a>
     </div>
    
     <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Домен «Наука и инновации»</a>
+        <a href="" id="Домен «Наука и инновации»" class="file-name">Домен «Наука и инновации»</a>
     </div>
     
     <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Домен «Образование»</a>
+        <a href="" id="Домен «Образование»" class="file-name">Домен «Образование»</a>
     </div>
     
     <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Суперсервис</a>
+        <a href="" id="Суперсервис" class="file-name">Суперсервис</a>
     </div>
     
     <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Капремонт вузов и научных организаций</a>
+        <a href="" id="Капремонт вузов и научных организаций" class="file-name">Капремонт вузов и научных организаций</a>
     </div>
     
   </div>
@@ -1869,62 +1869,62 @@ padding-bottom: 2px;
   <div class="column">
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~0FkYS" class="file-name">Научно-образовательные центры</a>
+        <a href="" id="Научно-образовательные центры" class="file-name">Научно-образовательные центры</a>
     </div>
     
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Приоритет-2030</a>
+        <a href="" id="Приоритет-2030" class="file-name">Приоритет-2030</a>
     </div>
     
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Приоритет-2030 для научных организаций</a>
+        <a href="" id="Приоритет-2030 для научных организаций" class="file-name">Приоритет-2030 для научных организаций</a>
     </div>
     
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Инжиниринговые центры</a>
+        <a href="" id="Инжиниринговые центры" class="file-name">Инжиниринговые центры</a>
     </div>
     
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">ФНТП Генетика</a>
+        <a href="" id="ФНТП Генетика" class="file-name">ФНТП Генетика</a>
     </div>
     
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Комплексная научно-техническая программа</a>
+        <a href="" id="Комплексная научно-техническая программа" class="file-name">Комплексная научно-техническая программа</a>
     </div>
     
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">ВИП ГЗ Климат</a>
+        <a href="" id="ВИП ГЗ Климат" class="file-name">ВИП ГЗ Климат</a>
     </div>
     
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">ВИП ГЗ Новая энергетика</a>
+        <a href="" id="ВИП ГЗ Новая энергетика" class="file-name">ВИП ГЗ Новая энергетика</a>
     </div>
     
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">ВИП ГЗ технологическая платформа оперативного реагирования на инфекционные заболевания</a>
+        <a href="ВИП ГЗ технологическая платформа оперативного реагирования на инфекционные заболевания" id="" class="file-name">ВИП ГЗ технологическая платформа оперативного реагирования на инфекционные заболевания</a>
     </div>
     
      <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Региональные научные фонды</a>
+        <a href="" id="Региональные научные фонды" class="file-name">Региональные научные фонды</a>
     </div>
     
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Институты инновационного развития</a>
+        <a href="" id="Институты инновационного развития" class="file-name">Институты инновационного развития</a>
     </div>
     
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Университетское технопредпринимательство</a>
+        <a href="" id="Университетское технопредпринимательство" class="file-name">Университетское технопредпринимательство</a>
     </div>
     
   </div>
@@ -1933,62 +1933,62 @@ padding-bottom: 2px;
   <div class="column">
     <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">НЦМУ математика</a>
+        <a href="" id="НЦМУ математика" class="file-name">НЦМУ математика</a>
     </div>
    
     <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">НЦМУ приоритеты СНТР</a>
+        <a href="" id="НЦМУ математика" class="file-name">НЦМУ приоритеты СНТР</a>
     </div>
     
     <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">НЦМУ геномные</a>
+        <a href="" id="НЦМУ геномные" class="file-name">НЦМУ геномные</a>
     </div>
     
     <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">ФНТП Климат</a>
+        <a href="" id="ФНТП Климат" class="file-name">ФНТП Климат</a>
     </div>
     
     <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">ФНТП Сельское хозяйство</a>
+        <a href="" id="ФНТП Сельское хозяйство" class="file-name">ФНТП Сельское хозяйство</a>
     </div>
     
      <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Интеграция бизнеса и науки в рамках АПК</a>
+        <a href="" id="Интеграция бизнеса и науки в рамках АПК" class="file-name">Интеграция бизнеса и науки в рамках АПК</a>
     </div>
     
     <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Национальная технологическая инициатива (НТИ)</a>
+        <a href="" id="Национальная технологическая инициатива (НТИ)" class="file-name">Национальная технологическая инициатива (НТИ)</a>
     </div>
     
     <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">218-ПП (интеграция производства и науки)</a>
+        <a href="" id="218-ПП (интеграция производства и науки)" class="file-name">218-ПП (интеграция производства и науки)</a>
     </div>
     
     <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Научные лаборатории (в т.ч. Молодежные)</a>
+        <a href="" id="Научные лаборатории (в т.ч. Молодежные)" class="file-name">Научные лаборатории (в т.ч. Молодежные)</a>
     </div>
     
      <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Отечественное научное приборостроение</a>
+        <a href="" id="Отечественное научное приборостроение" class="file-name">Отечественное научное приборостроение</a>
     </div>
     
     <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Центры трансфера технологий</a>
+        <a href="" id="Центры трансфера технологий" class="file-name">Центры трансфера технологий</a>
     </div>
     
     <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">НЦФМ</a>
+        <a href="" id="НЦФМ" class="file-name">НЦФМ</a>
     </div>
     
   </div>
@@ -2007,42 +2007,42 @@ padding-bottom: 2px;
   <div class="column">
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~6o0G3" class="file-name">Российская Дарпа</a>
+        <a href="" id="Российская Дарпа" class="file-name">Российская Дарпа</a>
     </div>
    
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~0FkYS" class="file-name">СИРИУС</a>
+        <a href="" id="СИРИУС" class="file-name">СИРИУС</a>
     </div>
     
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Водородная энергетика (совместно с Минэнерго)</a>
+        <a href="" id="Водородная энергетика (совместно с Минэнерго)" class="file-name">Водородная энергетика (совместно с Минэнерго)</a>
     </div>
     
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Цифровые двойники (в т.ч. научных установок)</a>
+        <a href="" id="Цифровые двойники (в т.ч. научных установок)" class="file-name">Цифровые двойники (в т.ч. научных установок)</a>
     </div>
     
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Бор-нейтронно захватная терапия</a>
+        <a href="" id="Бор-нейтронно захватная терапия" class="file-name">Бор-нейтронно захватная терапия</a>
     </div>
     
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Химпрепарат и вакцины</a>
+        <a href="" id="Химпрепарат и вакцины" class="file-name">Химпрепарат и вакцины</a>
     </div>
     
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Ботанический сад Газпрома</a>
+        <a href="" id="Ботанический сад Газпрома" class="file-name">Ботанический сад Газпрома</a>
     </div>
     
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Ботанический сад Газпрома</a>
+        <a href="" id="Ботанический сад Газпрома" class="file-name">Ботанический сад Газпрома</a>
     </div>
     
   </div>
@@ -2051,37 +2051,37 @@ padding-bottom: 2px;
   <div class="column">
     <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Лицей в Крыму</a>
+        <a href="" id="Лицей в Крыму" class="file-name">Лицей в Крыму</a>
     </div>
    
     <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">ИТ кадры и инструменты крипты</a>
+        <a href="" id="ИТ кадры и инструменты крипты" class="file-name">ИТ кадры и инструменты крипты</a>
     </div>
     
     <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Микроэлектроника</a>
+        <a href="" id="Микроэлектроника" class="file-name">Микроэлектроника</a>
     </div>
     
     <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Станкин и станкостроение</a>
+        <a href="" id="Станкин и станкостроение" class="file-name">Станкин и станкостроение</a>
     </div>
     
     <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Передовые инженерные школы</a>
+        <a href="" id="Передовые инженерные школы" class="file-name">Передовые инженерные школы</a>
     </div>
     
      <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Российский центр научной информации</a>
+        <a href="" id="Российский центр научной информации" class="file-name">Российский центр научной информации</a>
     </div>
     
     <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Авиастроение</a>
+        <a href="" id="Авиастроение" class="file-name">Авиастроение</a>
     </div>
    
   </div>
@@ -2100,7 +2100,7 @@ padding-bottom: 2px;
   <div class="column">
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~6o0G3" class="file-name">Международные научные и образовательные проекты</a>
+        <a href="" id="Международные научные и образовательные проекты" class="file-name">Международные научные и образовательные проекты</a>
     </div>
     
   </div>
@@ -2162,37 +2162,37 @@ padding-bottom: 2px;
  <div class='files-container-phone'>
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~6o0G3" class="file-name">Научная экспертиза</a>
+        <a href="" id="phone-" class="file-name">Научная экспертиза</a>
     </div>
    
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~0FkYS" class="file-name">Научные журналы</a>
+        <a href="" id="phone-" class="file-name">Научные журналы</a>
     </div>
     
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Оценка результативности науки</a>
+        <a href="" id="phone-" class="file-name">Оценка результативности науки</a>
     </div>
     
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Гомеостаз</a>
+        <a href="" id="phone-" class="file-name">Гомеостаз</a>
     </div>
 
     <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Фронтиры и приоритеты СНТР (анализ разрывов технологических цепочек)</a>
+        <a href="" id="phone-" class="file-name">Фронтиры и приоритеты СНТР (анализ разрывов технологических цепочек)</a>
     </div>
    
     <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">ИИ для управления НТР</a>
+        <a href="" id="phone-" class="file-name">ИИ для управления НТР</a>
     </div>
     
     <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Озеро данных вузов (вкл. программы развития)</a>
+        <a href="" id="phone-" class="file-name">Озеро данных вузов (вкл. программы развития)</a>
     </div>
  
 </div>
@@ -2210,37 +2210,37 @@ padding-bottom: 2px;
  <div class='files-container-phone'>
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~6o0G3" class="file-name">Десятилетие науки и технологий</a>
+        <a href="" id="phone-" class="file-name">Десятилетие науки и технологий</a>
     </div>
    
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~0FkYS" class="file-name">Развитие научного туризма и волонтерства</a>
+        <a href="" id="phone-" class="file-name">Развитие научного туризма и волонтерства</a>
     </div>
     
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Модель научной аттестации</a>
+        <a href="" id="phone-" class="file-name">Модель научной аттестации</a>
     </div>
     
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">РЦТ вузов и НО</a>
+        <a href="" id="phone-" class="file-name">РЦТ вузов и НО</a>
     </div>
     
     <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Зелёный» коридор для ученых</a>
+        <a href="" id="phone-" class="file-name">Зелёный» коридор для ученых</a>
     </div>
    
     <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Кадровый проект для науки и высшего образования</a>
+        <a href="" id="phone-" class="file-name">Кадровый проект для науки и высшего образования</a>
     </div>
     
     <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Эндаумент-фонды</a>
+        <a href="" id="phone-" class="file-name">Эндаумент-фонды</a>
     </div>
    
  
@@ -2258,52 +2258,52 @@ padding-bottom: 2px;
  <div class='files-container-phone'>
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~6o0G3" class="file-name">Кампусы</a>
+        <a href="" id="phone-Кампусы" class="file-name">Кампусы</a>
     </div>
    
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~0FkYS" class="file-name">Приборная база</a>
+        <a href="" id="phone-Приборная база" class="file-name">Приборная база</a>
     </div>
     
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">ЦКП и УНУ</a>
+        <a href="" id="phone-ЦКП и УНУ" class="file-name">ЦКП и УНУ</a>
     </div>
     
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Мегасайенс</a>
+        <a href="" id="phone-Мегасайенс" class="file-name">Мегасайенс</a>
     </div>
     
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Научный флот</a>
+        <a href="" id="phone-Научный флот" class="file-name">Научный флот</a>
     </div>
     
     <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">НИКС и суперкомпьютеры</a>
+        <a href="" id="phone-НИКС и суперкомпьютеры" class="file-name">НИКС и суперкомпьютеры</a>
     </div>
    
     <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Домен «Наука и инновации»</a>
+        <a href="" id="phone-Домен «Наука и инновации»" class="file-name">Домен «Наука и инновации»</a>
     </div>
     
     <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Домен «Образование»</a>
+        <a href="" id="phone-Домен «Образование»" class="file-name">Домен «Образование»</a>
     </div>
     
     <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Суперсервис</a>
+        <a href="" id="phone-Суперсервис" class="file-name">Суперсервис</a>
     </div>
     
     <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Капремонт вузов и научных организаций</a>
+        <a href="" id="phone-Капремонт вузов и научных организаций" class="file-name">Капремонт вузов и научных организаций</a>
     </div>
  
 </div>
@@ -2318,122 +2318,122 @@ padding-bottom: 2px;
  <div class='files-container-phone'>
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~0FkYS" class="file-name">Научно-образовательные центры</a>
+        <a href="" id="phone-Научно-образовательные центры" class="file-name">Научно-образовательные центры</a>
     </div>
     
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Приоритет-2030</a>
+        <a href="" id="phone-Приоритет-2030" class="file-name">Приоритет-2030</a>
     </div>
     
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Приоритет-2030 для научных организаций</a>
+        <a href="" id="phone-Приоритет-2030 для научных организаций" class="file-name">Приоритет-2030 для научных организаций</a>
     </div>
     
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Инжиниринговые центры</a>
+        <a href="" id="phone-Инжиниринговые центры" class="file-name">Инжиниринговые центры</a>
     </div>
     
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">ФНТП Генетика</a>
+        <a href="" id="phone-ФНТП Генетика" class="file-name">ФНТП Генетика</a>
     </div>
     
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Комплексная научно-техническая программа</a>
+        <a href="" id="phone-Комплексная научно-техническая программа" class="file-name">Комплексная научно-техническая программа</a>
     </div>
     
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">ВИП ГЗ Климат</a>
+        <a href="" id="phone-ВИП ГЗ Климат" class="file-name">ВИП ГЗ Климат</a>
     </div>
     
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">ВИП ГЗ Новая энергетика</a>
+        <a href="" id="phone-ВИП ГЗ Новая энергетика" class="file-name">ВИП ГЗ Новая энергетика</a>
     </div>
     
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">ВИП ГЗ технологическая платформа оперативного реагирования на инфекционные заболевания</a>
+        <a href="" id="phone-ВИП ГЗ технологическая платформа оперативного реагирования на инфекционные заболевания" class="file-name">ВИП ГЗ технологическая платформа оперативного реагирования на инфекционные заболевания</a>
     </div>
     
      <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Региональные научные фонды</a>
+        <a href="" id="phone-Региональные научные фонды" class="file-name">Региональные научные фонды</a>
     </div>
     
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Институты инновационного развития</a>
+        <a href="" id="phone-Институты инновационного развития" class="file-name">Институты инновационного развития</a>
     </div>
     
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Университетское технопредпринимательство</a>
+        <a href="" id="phone-Университетское технопредпринимательство" class="file-name">Университетское технопредпринимательство</a>
     </div>
     
     <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">НЦМУ математика</a>
+        <a href="" id="phone-НЦМУ математика" class="file-name">НЦМУ математика</a>
     </div>
    
     <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">НЦМУ приоритеты СНТР</a>
+        <a href="" id="phone-НЦМУ приоритеты СНТР" class="file-name">НЦМУ приоритеты СНТР</a>
     </div>
     
     <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">НЦМУ геномные</a>
+        <a href="" id="phone-НЦМУ геномные" class="file-name">НЦМУ геномные</a>
     </div>
     
     <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">ФНТП Климат</a>
+        <a href="" id="phone-ФНТП Климат" class="file-name">ФНТП Климат</a>
     </div>
     
     <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">ФНТП Сельское хозяйство</a>
+        <a href="" id="phone-ФНТП Сельское хозяйство" class="file-name">ФНТП Сельское хозяйство</a>
     </div>
     
      <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Интеграция бизнеса и науки в рамках АПК</a>
+        <a href="" id="phone-Интеграция бизнеса и науки в рамках АПК" class="file-name">Интеграция бизнеса и науки в рамках АПК</a>
     </div>
     
     <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Национальная технологическая инициатива (НТИ)</a>
+        <a href="" id="phone-Национальная технологическая инициатива (НТИ)" class="file-name">Национальная технологическая инициатива (НТИ)</a>
     </div>
     
     <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">218-ПП (интеграция производства и науки)</a>
+        <a href="" id="phone-218-ПП (интеграция производства и науки)" class="file-name">218-ПП (интеграция производства и науки)</a>
     </div>
     
     <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Научные лаборатории (в т.ч. Молодежные)</a>
+        <a href="" id="phone-Научные лаборатории (в т.ч. Молодежные)" class="file-name">Научные лаборатории (в т.ч. Молодежные)</a>
     </div>
     
      <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Отечественное научное приборостроение</a>
+        <a href="" id="phone-Отечественное научное приборостроение" class="file-name">Отечественное научное приборостроение</a>
     </div>
     
     <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Центры трансфера технологий</a>
+        <a href="" id="phone-Центры трансфера технологий" class="file-name">Центры трансфера технологий</a>
     </div>
     
     <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">НЦФМ</a>
+        <a href="" id="phone-НЦФМ" class="file-name">НЦФМ</a>
     </div>
     
   
@@ -2449,77 +2449,77 @@ padding-bottom: 2px;
  <div class='files-container-phone'>
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~6o0G3" class="file-name">Российская Дарпа</a>
+        <a href="" id="phone-Российская Дарпа" class="file-name">Российская Дарпа</a>
     </div>
    
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~0FkYS" class="file-name">СИРИУС</a>
+        <a href="" id="phone-СИРИУС" class="file-name">СИРИУС</a>
     </div>
     
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Водородная энергетика (совместно с Минэнерго)</a>
+        <a href="" id="phone-Водородная энергетика (совместно с Минэнерго)" class="file-name">Водородная энергетика (совместно с Минэнерго)</a>
     </div>
     
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Цифровые двойники (в т.ч. научных установок)</a>
+        <a href="" id="phone-Цифровые двойники (в т.ч. научных установок)" class="file-name">Цифровые двойники (в т.ч. научных установок)</a>
     </div>
     
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Бор-нейтронно захватная терапия</a>
+        <a href="" id="phone-Бор-нейтронно захватная терапия" class="file-name">Бор-нейтронно захватная терапия</a>
     </div>
     
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Химпрепарат и вакцины</a>
+        <a href="" id="phone-Химпрепарат и вакцины" class="file-name">Химпрепарат и вакцины</a>
     </div>
     
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Ботанический сад Газпрома</a>
+        <a href="" id="phone-Ботанический сад Газпрома" class="file-name">Ботанический сад Газпрома</a>
     </div>
     
     <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~DhVq4" class="file-name">Ботанический сад Газпрома</a>
+        <a href="" id="phone-Ботанический сад Газпрома" class="file-name">Ботанический сад Газпрома</a>
     </div>
     
     <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Лицей в Крыму</a>
+        <a href="" id="phone-Лицей в Крыму" class="file-name">Лицей в Крыму</a>
     </div>
    
     <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">ИТ кадры и инструменты крипты</a>
+        <a href="" id="phone-ИТ кадры и инструменты крипты" class="file-name">ИТ кадры и инструменты крипты</a>
     </div>
     
     <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Микроэлектроника</a>
+        <a href="" id="phone-Микроэлектроника" class="file-name">Микроэлектроника</a>
     </div>
     
     <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Станкин и станкостроение</a>
+        <a href="" id="phone-Станкин и станкостроение" class="file-name">Станкин и станкостроение</a>
     </div>
     
     <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Передовые инженерные школы</a>
+        <a href="" id="phone-Передовые инженерные школы" class="file-name">Передовые инженерные школы</a>
     </div>
     
      <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Российский центр научной информации</a>
+        <a href="" id="phone-Российский центр научной информации" class="file-name">Российский центр научной информации</a>
     </div>
     
     <div class="file-container-right">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~pHLab" class="file-name">Авиастроение</a>
+        <a href="" id="phone-Авиастроение" class="file-name">Авиастроение</a>
     </div>
    
   
@@ -2538,7 +2538,7 @@ padding-bottom: 2px;
   
   <div class="file-container">
         <img class = "img" src="https://raw.githubusercontent.com/OliaPopova/filesistem/e443f34144c5286e1234309c75d5081c1a6e8e95/frontend/Property%201%3DPDF.svg" alt="">
-        <a href="https://proektnyyofis-ru.bitrix24.ru/~6o0G3" class="file-name">Международные научные и образовательные проекты</a>
+        <a href="" id="phone-Международные научные и образовательные проекты" class="file-name">Международные научные и образовательные проекты</a>
     </div>  
   
 </div>
