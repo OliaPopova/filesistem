@@ -173,9 +173,3 @@
             btn6.classList.toggle('btn-down6');
         })
     }
-
-
-    document.querySelector('.file-name').addEventListener('click', function(e){
-        var id = e.target.id; //
-        console.log(id);
-    });
