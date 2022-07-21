@@ -5,7 +5,7 @@
     zoom: 1
 }
 
-    pdfjsLib.getDocument('2022.pdf').then((pdf) => {
+    pdfjsLib.getDocument('filesistem/frontend/2022.pdf').then((pdf) => {
 
     myState.pdf = pdf;
     render();
