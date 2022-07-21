@@ -2,7 +2,7 @@ import AbstractView from "./AbstractView.js";
 export default class extends AbstractView {
     constructor(params) {
         super(params);
-        this.setTitle("Main");
+        this.setTitle("Scientific_expertise");
     }
 
     async getHtml() {
@@ -680,7 +680,7 @@ display: block;
 
 
 </style>
-         <h1> Главная </h1>
+         <h1> Научная экспертиза </h1>
          <div class='demo-container'>
       <div class='carousel'>
         <input checked='checked' class='carousel__activator' id='carousel-slide-activator-1' name='carousel' type='radio'>
@@ -763,12 +763,6 @@ display: block;
         </div>
       </div>
     </div>
-    
-    <p>
-                <a href="/projects" data-link>View recent posts</a>.
-     </p>
-    
-    
     
 <p style="font-style: normal; font-weight: 700; font-size: 24px; line-height: 29px; color: #000000;">Файлы</p>
 

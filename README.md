@@ -5,3 +5,4 @@
    - `npm i express` (to install Express)
    - `node server.js` (to run the server)
 3. Open `localhost` in a web browser, using the port specified in `server.js` e.g.
+3. Open `localhost` in a web browser, using the port specified in `server.js` e.g. http://localhost:3000/
