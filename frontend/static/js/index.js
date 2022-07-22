@@ -27,12 +27,47 @@ import NIKS_and_supercomputers from "./views/NIKS_and_supercomputers";
 import Domain_Science_and_innovation from "./views/Domain_Science_and_innovation";
 import Domain_Education from "./views/Domain_Education";
 import Super_service from "./views/Super_service";
-import  from "./views/";
-import  from "./views/";
-import  from "./views/";
-import  from "./views/";
-import  from "./views/";
-import  from "./views/";
+import Scientific_fleet from "./views/Scientific_fleet";
+import Overhaul_of_universities_and_scientific_organizations from "./views/Overhaul_of_universities_and_scientific_organizations";
+import Scientific_and_educational_centers from "./views/Scientific_and_educational_centers";
+import Priority_2030 from "./views/Priority_2030";
+import Priority_2030_for_scientific_organizations from "./views/Priority_2030_for_scientific_organizations";
+import Engineering_centers from "./views/Engineering_centers";
+import NCMU_mathematics from "./views/NCMU_mathematics";
+import NCMU_SNTR_priorities from "./views/NCMU_SNTR_priorities";
+import NCMU_genomic from "./views/NCMU_genomic";
+import FNTP_Climate from "./views/FNTP_Climate";
+import FNTP_Agriculture from "./views/FNTP_Agriculture";
+import FNTP_Genetics from "./views/FNTP_Genetics";
+import Integrated_scientific_and_technical_program from "./views/Integrated_scientific_and_technical_program";
+import VIP_GZ_Climate from "./views/VIP_GZ_Climate";
+import VIP_GZ_New_Energy from "./views/VIP_GZ_New_Energy";
+import VIP_GZ_technological_platform_for_rapid_response_to_infectious_diseases from "./views/VIP_GZ_technological_platform_for_rapid_response_to_infectious_diseases";
+import Integration_of_business_and_science_within_the_agro_industrial_complex from "./views/Integration_of_business_and_science_within_the_agro_industrial_complex";
+import National_Technology_Initiative from "./views/National_Technology_Initiative";
+import _218_PP from "./views/_218_PP";
+import Scientific_laboratories from "./views/Scientific_laboratories";
+import Regional_Science_Foundations from "./views/Regional_Science_Foundations";
+import Innovative_Development_Institutes from "./views/Innovative_Development_Institutes";
+import University_techno_entrepreneurship from "./views/University_techno_entrepreneurship";
+import Domestic_scientific_instrumentation from "./views/Domestic_scientific_instrumentation";
+import Technology_Transfer_Centers from "./views/Technology_Transfer_Centers";
+import NCFM from "./views/NCFM";
+import Russian_Darpa from "./views/Russian_Darpa";
+import SIRIUS from "./views/SIRIUS";
+import Hydrogen_energy from "./views/Hydrogen_energy";
+import Digital_twins from "./views/Digital_twins";
+import Boron_neutron_capture_therapy from "./views/Boron_neutron_capture_therapy";
+import Chemicals_and_vaccines from "./views/Chemicals_and_vaccines";
+import Gazprom_Botanical_Garden from "./views/Gazprom_Botanical_Garden";
+import Lyceum_in_Crimea from "./views/Lyceum_in_Crimea";
+import IT_staff_and_crypto_tools from "./views/IT_staff_and_crypto_tools";
+import Microelectronics from "./views/Microelectronics";
+import Stankin_and_machine_tool_building from "./views/Stankin_and_machine_tool_building";
+import Advanced_engineering_schools from "./views/Advanced_engineering_schools";
+import Russian_Center_for_Scientific_Information from "./views/Russian_Center_for_Scientific_Information";
+import Aircraft_industry from "./views/Aircraft_industry";
+import International_scientific_and_educational_projects from "./views/International_scientific_and_educational_projects";
 
 
 
@@ -86,11 +121,47 @@ const router = async () => {
         { path: "/domain_Science_and_innovation", view: Domain_Science_and_innovation},
         { path: "/domain_Education", view: Domain_Education},
         { path: "/super_service", view: Super_service},
-        { path: "/", view: },
-        { path: "/", view: },
-        { path: "/", view: },
-        { path: "/", view: },
-
+        { path: "/scientific_fleet", view: Scientific_fleet},
+        { path: "/dverhaul_of_universities_and_scientific_organizations", view: Overhaul_of_universities_and_scientific_organizations },
+        { path: "/scientific_and_educational_centers", view: Scientific_and_educational_centers},
+        { path: "/priority_2030", view: Priority_2030},
+        { path: "/priority_2030_for_scientific_organizations", view: Priority_2030_for_scientific_organizations},
+        { path: "/engineering_centers", view: Engineering_centers},
+        { path: "/NCMU_mathematics", view: NCMU_mathematics},
+        { path: "/NCMU_SNTR_priorities", view: NCMU_SNTR_priorities},
+        { path: "/NCMU_genomic", view: NCMU_genomic},
+        { path: "/FNTP_Climate", view: FNTP_Climate},
+        { path: "/FNTP_Agriculture", view: FNTP_Agriculture},
+        { path: "/FNTP_Genetics", view: FNTP_Genetics},
+        { path: "/integrated_scientific_and_technical_program", view: Integrated_scientific_and_technical_program},
+        { path: "/VIP_GZ_Climate", view: VIP_GZ_Climate},
+        { path: "/VIP_GZ_New_Energy", view: VIP_GZ_New_Energy},
+        { path: "/VIP_GZ_technological_platform_for_rapid_response_to_infectious_diseases", view: VIP_GZ_technological_platform_for_rapid_response_to_infectious_diseases},
+        { path: "/integration_of_business_and_science_within_the_agro_industrial_complex", view: Integration_of_business_and_science_within_the_agro_industrial_complex},
+        { path: "/National_Technology_Initiative", view: National_Technology_Initiative},
+        { path: "/_218_PP", view: _218_PP},
+        { path: "/scientific_laboratories", view: Scientific_laboratories},
+        { path: "/regional_Science_Foundations", view: Regional_Science_Foundations},
+        { path: "/innovative_Development_Institutes", view: Innovative_Development_Institutes},
+        { path: "/university_techno_entrepreneurship", view: University_techno_entrepreneurship},
+        { path: "/domestic_scientific_instrumentation", view: Domestic_scientific_instrumentation},
+        { path: "/technology_Transfer_Centers", view: Technology_Transfer_Centers},
+        { path: "/NCFM", view: NCFM},
+        { path: "/Russian_Darpa", view: Russian_Darpa},
+        { path: "/SIRIUS", view: SIRIUS},
+        { path: "/hydrogen_energy", view: Hydrogen_energy},
+        { path: "/digital_twins", view: Digital_twins},
+        { path: "/boron_neutron_capture_therapy", view: Boron_neutron_capture_therapy},
+        { path: "/chemicals_and_vaccines", view: Chemicals_and_vaccines},
+        { path: "/gazprom_Botanical_Garden", view: Gazprom_Botanical_Garden},
+        { path: "/lyceum_in_Crimea", view: Lyceum_in_Crimea},
+        { path: "/IT_staff_and_crypto_tools", view: IT_staff_and_crypto_tools},
+        { path: "/microelectronics", view: Microelectronics},
+        { path: "/Stankin_and_machine_tool_building", view: Stankin_and_machine_tool_building},
+        { path: "/advanced_engineering_schools", view: Advanced_engineering_schools},
+        { path: "/Russian_Center_for_Scientific_Information", view: Russian_Center_for_Scientific_Information},
+        { path: "/aircraft_industry", view: Aircraft_industry},
+        { path: "/international_scientific_and_educational_projects", view: International_scientific_and_educational_projects}
 
 
 
